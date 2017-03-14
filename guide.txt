@@ -1,0 +1,40 @@
+修改最新的提交说明
+git commit --amend
+
+修改某个历史提交的提交说明
+git rebase -i <commit-id>^
+
+删除最新提交中不该提交的文件
+git rm --cached <file>
+git commit --amend
+
+将所有修改过得文件加入暂存
+git add -u
+将本地删除文件和新增文件都登记到提交暂存区
+git add -A
+对一个文件内的修改进行有选择性的增加
+git add -p
+
+逐字比较
+git diff --word-diff
+
+查看暂存区中的文件所作出的修改
+git diff --cached
+
+分页器操作
+q ：退出分页器
+h ：显示分页器帮助
+空格/b : 下翻一页/上翻一页
+d/u ：下翻半页/上翻半页
+j/k : 上翻一行/下翻一行
+如果行太长被截断，可以用左箭头和右箭头使窗口内容左右滚动
+输入/pattern : 向下寻找和pattern匹配的内容
+输入?pattern : 向上寻找和pattern匹配的内容
+n/N ：向前/向后继续寻找
+g ：调到第一行
+G : 跳到最后一行
+输入数字再加字母g ：跳转到对应的行
+输入!<commond> ：执行shell命令
+
+配置分页器自动换行
+git config --global core.pager 'less -+$LESS -FRX'

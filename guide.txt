@@ -1,25 +1,9 @@
-﻿修改最新的提交说明
-git commit --amend
-
-修改某个历史提交的提交说明
+﻿修改某个历史提交的提交说明
 git rebase -i <commit-id>^
 
 删除最新提交中不该提交的文件
 git rm --cached <file>
 git commit --amend
-
-将所有修改过得文件加入暂存
-git add -u
-将本地删除文件和新增文件都登记到提交暂存区
-git add -A
-对一个文件内的修改进行有选择性的增加
-git add -p
-
-逐字比较
-git diff --word-diff
-
-查看暂存区中的文件所作出的修改
-git diff --cached
 
 分页器操作
 q ：退出分页器
@@ -52,19 +36,6 @@ git config --global alias.ci "commit -s"
 在Git命令输出中开启颜色显示
 git config --global color.ui true
 
-#显示包括隐藏目录在内的所有目录
-ls -aF
-
-搜索工作区的文件内容
-git grep "工作区文件内容搜索"
-
-显示版本库.git的位置
-git rev-parse --git-dir
-显示工作区根目录
-git rev-parse --show-toplevel
-相对于工作区根目录的相对目录
-git rev-parse --show-prefix
-
 编辑配置文件
 版本库级
 git config -e
@@ -80,4 +51,98 @@ GIT_CONFIG=test.ini git config a.b.c.d
 
 删除配置中的设置
 git config --unset --global <section>.<key>
+
+#显示包括隐藏目录在内的所有目录
+ls -aF
+
+搜索工作区的文件内容
+git grep "工作区文件内容搜索"
+
+显示版本库.git的位置
+git rev-parse --git-dir
+显示工作区根目录
+git rev-parse --show-toplevel
+相对于工作区根目录的相对目录
+git rev-parse --show-prefix
+
+
+
+ git reset HEAD
+ 暂存区的目录树会被重写，会被master分支直线的目录树所替代，但是工作区不收影响
+
+ git rm --cached <file>
+ 直接从暂存区删除文件，工作区则不作出改变
+
+ git checkout ./git checkout -- <file>
+ 用暂存区全部的文件或指定的文件替换工作区的文件
+
+ git checkout HEAD ./git checkout HEAD <file>
+ 用HEAD指向的master分支中的全部或部分文件替换暂存区和工作区中的文件
+
+
+
+ 清除当前工作区没有加入版本库的文件和目录(非跟踪文件和目录)
+ git clean -fd
+
+将所有修改过的文件加入暂存
+git add -u
+将本地删除文件和新增文件都登记到提交暂存区
+git add -A
+对一个文件内的修改进行有选择性的增加
+git add -p
+
+查看提交日志
+精简显示
+git log --pretty=oneline -s
+查看提交日志的文件变更统计
+git log --stat
+显示更短小的分支
+git log --oneline(Git1.6.3及以后版本才有)
+git log --pretty=oneline --abbrev-commit(旧版本)
+
+查看文件状态
+精简状态输出
+git status -s
+
+查看差异
+工作区与提交暂存区比较
+git diff
+工作区与HEAD比较
+git diff HEAD
+暂存区和HEAD比较
+git diff --cached
+
+逐字比较
+git diff --word-diff
+
+不重置引用，不改变工作区(包含路径<paths>的用法)
+git reset [-q] [<commit>] [--] <paths>...
+用指定提交状态(<commit>)下的文件(<paths>)替换掉暂存区中的文件
+
+重置引用(不使用路径<paths>的用法)
+git reset [--soft | --mixed | --hard | --merge | --keep] [-q] [<commit>]
+
+git reset --hard
+替换引用的指向。引用指向新的提交ID
+替换暂存区。替换后，暂存区的内容和引用指向的目录树一致
+替换工作区。替换后，工作区的内容变得和暂存区一致，也和HEAD所指向的目录树内容相同
+
+git reset --soft
+只更改引用的指向，不改变暂存区和工作区。
+
+git reset --mixed(默认)/git reset <commit>
+更改引用的指向。
+重置暂存区。
+不改变工作区。
+
+修改最新的提交说明
+git commit --amend
+用于对最新的提交进行重新提交以修补错误的提交说明或错误的提交文件
+git reset --soft HEAD^
+git commit -e -F .git/COMMIT_EDITMSG
+
+
+
+
+
 

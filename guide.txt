@@ -1,10 +1,6 @@
 ﻿修改某个历史提交的提交说明
 git rebase -i <commit-id>^
 
-删除最新提交中不该提交的文件
-git rm --cached <file>
-git commit --amend
-
 分页器操作
 q ：退出分页器
 h ：显示分页器帮助
@@ -66,18 +62,9 @@ git rev-parse --show-toplevel
 git rev-parse --show-prefix
 
 
-
- git reset HEAD
- 暂存区的目录树会被重写，会被master分支直线的目录树所替代，但是工作区不收影响
-
  git rm --cached <file>
  直接从暂存区删除文件，工作区则不作出改变
 
- git checkout ./git checkout -- <file>
- 用暂存区全部的文件或指定的文件替换工作区的文件
-
- git checkout HEAD ./git checkout HEAD <file>
- 用HEAD指向的master分支中的全部或部分文件替换暂存区和工作区中的文件
 
 
 
@@ -90,6 +77,14 @@ git add -u
 git add -A
 对一个文件内的修改进行有选择性的增加
 git add -p
+将本地有改动（包括修改和删除）的文件标记到暂存区
+git add -u
+将工作区所有改动及新增文件添加到暂存区
+git add -A
+交互模式
+git add -i
+强制添加
+git add -f
 
 查看提交日志
 精简显示
@@ -99,20 +94,38 @@ git log --stat
 显示更短小的分支
 git log --oneline(Git1.6.3及以后版本才有)
 git log --pretty=oneline --abbrev-commit(旧版本)
-
+分支表示
+git log --graph
+显示最近的几条日志
+git log -<n>
+显示每次提交的具体改动
+git log -p
+定制输出
+git log --pretty==[raw/fuller/oneline]
 查看文件状态
 精简状态输出
 git status -s
+在状态显示中看到被忽略的文件
+git status --ignored
 
 查看差异
+比较里程碑B和里程碑A
+git diff B A
+比较工作区和里程碑A
+git diff A
+比较暂存区和里程碑A
+git diff --cached A
 工作区与提交暂存区比较
 git diff
-工作区与HEAD比较
-git diff HEAD
 暂存区和HEAD比较
 git diff --cached
-
-逐字比较
+工作区与HEAD比较
+git diff HEAD
+文件不同版本的差异比较
+git diff <commit1> <commit2> -- <paths>
+非Git目录/文件的差异比较
+git diff <path1> <path2>
+逐词比较
 git diff --word-diff
 
 不重置引用，不改变工作区(包含路径<paths>的用法)
@@ -135,14 +148,87 @@ git reset --mixed(默认)/git reset <commit>
 重置暂存区。
 不改变工作区。
 
-修改最新的提交说明
+检出(包含了路径<paths>)
+git checkout [-q] [<commit>] [--] <paths>...
+不会改变HEAD头指针，主要用于指定版本的文件覆盖工作区中对应的文件。
+如果省略<commit>，则会用暂存区的文件覆盖工作区的文件。
+
+检出(不适用路径<paths>)
+git checkout [<branch>]
+会改变HEAD头指针。
+如果省略<branch>则相当于对工作区进行状态检查
+
+创建和切换到新的分支
+git checkout [-m] [[-b]--orphan] <new_branch> [<start_point>]
+新的分支从<start_point>指定的提交开始创建。
+
+汇总显示工作区、暂存区和HEAD的差异
+git checkout
+
+维持HEAD的指向不变。用branch所指向的提交中的filename替换暂存区和工作区中相应的文件
+git checkout branch -- filename
+
+用暂存区全部的文件或指定的文件替换工作区的文件
+git checkout ./git checkout -- <file>
+用HEAD指向的master分支中的全部或部分文件替换暂存区和工作区中的文件
+git checkout HEAD ./git checkout HEAD <file>
+
+查看暂存区(版本库)中的文件
+git ls-files
+查看历史版本的文件列表
+git ls-files --with-tree=HEAD^
+
+移动文件
+改名
+git mv welcome.txt README
+ 
+
+修改最新的提交（提交内容，提交注释）
 git commit --amend
 用于对最新的提交进行重新提交以修补错误的提交说明或错误的提交文件
 git reset --soft HEAD^
 git commit -e -F .git/COMMIT_EDITMSG
+直接在工作区删除，对暂存区和版本库没有任何影响
+删除文件
+git rm
+git commit
+删除最新提交中不该提交的文件
+git rm --cached <file>
+重用提交说明
+git commit -C commitId
+
+恢复删除的文件恢复到本地
+git checkout HEAD~1 -- filename
+
+移动文件（改名）
+git mv <file1> <file2>
+
+文件.gitignore的作用范围是其所处的目录及其子目录
+
+文件归档，对任意提交对应的目录树建立归档
+git archive
+基于最新提交建立归档文件latest.zip
+git archive -o latest.zip HEAD
+只将目录src和doc建立到归档partial.tar中
+git archive -o partial.tar HEAD src doc
+基于里程碑v1.0建立归档，并且为归档中的文件添加目录前缀1.0
+git archive --format=tar --prefix=1.0/ v1.0 | gzip > foo-1.0.tar.gz
 
 
+一个提交Id实际上就可以代表一个版本列表，含义是该版本开始的所有历史提交
+git rev-list --oneline B
+两个或多个版本，相当于每个版本单独使用时指代的列表的并集
+git rev-list --oneline B C
+在一个版本前面加上符号（^）含义是取反，即排除这个版本及其历史版本
+git rev-list --oneline ^B C
+点点表示法,前后的版本顺序很重要（作用同取反）
+git rev-list --oneline B..C
+三点表示法的含义是两个版本共同能访问到的除外
+git rev-list --oneline B...C
+某提交的历史提交，自身除外，用语法r1^@
+git rev-list --oneline B^@
+提交本身不包括其历史提交，用语法r1^!
 
-
-
-
+挑拣指令,从众多的提交中挑选出一个提交应用在当前的工作分支中。
+该指令需提供一个提交Id作为参数，相当于将该提交导出为补丁文件，然后在当前HEAD上重放，形成无论内容还是提交说明都一致的提交。
+git cherry-pick

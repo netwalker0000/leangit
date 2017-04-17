@@ -1,5 +1,4 @@
-﻿修改某个历史提交的提交说明
-git rebase -i <commit-id>^
+﻿
 
 分页器操作
 q ：退出分页器
@@ -231,4 +230,14 @@ git rev-list --oneline B^@
 
 挑拣指令,从众多的提交中挑选出一个提交应用在当前的工作分支中。
 该指令需提供一个提交Id作为参数，相当于将该提交导出为补丁文件，然后在当前HEAD上重放，形成无论内容还是提交说明都一致的提交。
-git cherry-pick
+git cherry-pick commitId
+
+对提交变基操作，可以实现将指定范围的提交“嫁接”到另外一个提交之上
+git rebase --onto <newbasee> <since> <till>
+交互式变基
+会将<since>..<till>的提交悉数罗列在一个文件中，然后自动打开一个编辑器来编辑这个文件。
+可以通过修改文件的内容设定编辑操作，实现删除提交、将多个提交压缩为一个提交、更改提交的顺序，以及更改历史提交说明等
+git rebase -i --onto <newbase> <since> <till>
+
+删除里程碑
+git tag -d <name>

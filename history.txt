@@ -1,0 +1,1876 @@
+    1  disklist
+    2  diskutil list
+    3  sudo mkdir /Volumes/EFI
+    4  sudo mount -t msdos /dev/disk0s1 /Volumes/EFI
+    5  ls -la /Volumes/EFI
+    6  ls -la /Volumes/EFI/EFI
+    7  rm -rf /Volumes/EFI/EFI
+    8  ls -la /Volumes/EFI/EFI
+    9  ls -la /Volumes/EFI
+   10  cp -r /Volumes/Data/Hackintosh/EFI /Volumes/EFI
+   11  ls -la /Volumes/EFI
+   12  ls -la /Volumes/EFI/EFI
+   13  rm -rf /Volumes/EFI/EFI
+   14  cp -r /Volumes/Data/Hackintosh/EFI/system /Volumes/EFI
+   15  ls -la /Volumes/EFI
+   16  ls -la
+   17  rm -rf /Volumes/EFI/EFI
+   18  cp -r /Volumes/Data/Hackintosh/efi/EFI /Volumes/EFI
+   19  ls -la /Volumes/EFI
+   20  ls -la /Volumes/EFI/EFI
+   21  ls -la /Volumes/EFI/system/
+   22  rm -rf /Volumes/EFI/system/
+   23  ls -la /Volumes/EFI/system/
+   24  ls -la /Volumes/EFI
+   25  jj
+   26  /Volumes/Data/Hackintosh/audio_cloverALC-110_v1.0f.command 
+   27  /Volumes/Data/Hackintosh/audio_cloverALC-110_v1.0f.command 
+   28  /Volumes/Data/Hackintosh/kexts/audio/audio_codecdetect_v2.0.command 
+   29  /Volumes/Data/Hackintosh/kexts/audio/audio_cloverALC-120_v1.0b0.command 
+   30  sudo /Volumes/Data/Hackintosh/kexts/audio/audio_cloverALC-120_v1.0b0.command 
+   31  ls -la
+   32  cd /Volumes/Data/
+   33  ls -la
+   34  mkdir Archives
+   35  ls -la
+   36  cd Archives/
+   37  mkdir mac
+   38  ls -la
+   39  ls -la mac/
+   40  ls -la
+   41  ls -la mac/
+   42  cd ..
+   43  ls -la
+   44  cd -
+   45  mkdir xcode
+   46  ls -la mac
+   47  rm mac/Monokai.terminal 
+   48  ls -la mac
+   49  git --version
+   50  ls -la
+   51  cd ~
+   52  ls -la
+   53  git clone git://106.185.35.84/hank/profiles.git .files
+   54  cd .files/
+   55  ls -la
+   56  git branches
+   57  git branch -a
+   58  ls -la
+   59  cd ..
+   60  ls -la
+   61  ls -la .files/.tmux.conf 
+   62  ls -la
+   63  ln -s .files/.tmux.conf 
+   64  ls -la
+   65  ln -s .files/.dircolors 
+   66  ln -s .files/.gitconfig 
+   67  ln -s .files/.profile 
+   68  ln -s .files/.vim
+   69  mkdir .config
+   70  cd .config/
+   71  ln -s ../.files/.config/git
+   72  ls -la
+   73  cd -
+   74  ls -la
+   75  ln -s ../.files/.config/git
+   76  cd -
+   77  ls -la
+   78  vim .profile 
+   79  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   80  B%
+   81  ls /Applications/
+   82  ls /Applications/QQ
+   83  rm /Applications/QQ
+   84  cd ..
+   85  ls -la .files/.tmux.conf 
+   86  ln -s .files/.tmux.conf 
+   87  ln -s .files/.dircolors 
+   88  ln -s .files/.gitconfig 
+   89  ln -s .files/.profile 
+   90  ln -s .files/.vim
+   91  mkdir .config
+   92  cd .config/
+   93  ln -s ../.files/.config/git
+   94  cd -
+   95  ln -s ../.files/.config/git
+   96  cd -
+   97  mkdir /Volumes/Backup/VM
+   98  which brew
+   99  brew --cache
+  100  mkdir /Volumes/Data/brew
+  101  ls -la /Volumes/Data/brew/
+  102  ls -la /Volumes/Data/brew/brew/
+  103  cp -r /Volumes/Data/brew/brew/ $(brew --cache)
+  104  ls -la $(brew --cache)
+  105  brew install bash bash-completion coreutils git tmux unrar vim 
+  106  ls -la
+  107  vim .profile 
+  108  vim .profile 
+  109  ls -la
+  110  man ssh
+  111  mkdir .ssh
+  112  touch ~/.ssh/authorized_keys
+  113  vim ~/.ssh/authorized_keys
+  114  touch ~/.ssh/authorized_keys
+  115  vim ~/.ssh/authorized_keys
+  116  cd ~/Documents/project/sanguo/dev/trunk/
+  117  ls -la
+  118  git remote add origin git://192.168.0.48/sanguo.git
+  119  git fetch origin 
+  120  ln -s .files/.dircolors 
+  121  ln -s .files/.gitconfig 
+  122  ln -s .files/.profile 
+  123  ln -s .files/.vim
+  124  mkdir .config
+  125  cd .config/
+  126  ln -s ../.files/.config/git
+  127  cd -
+  128  ln -s ../.files/.config/git
+  129  cd -
+  130  vim .profile 
+  131  tmux
+  132  cd Documents/
+  133  mkdir
+  134  mkdir project
+  135  cd project/
+  136  mkdir sanguo
+  137  cd sanguo/
+  138  mkdir trunk
+  139  cd trunk/u
+  140  cd trunk/
+  141  git 
+  142  git svn clone https://192.168.0.201:8443/svn/sanguo/trunk/client HEAD .
+  143  ping www.baidu.com
+  144  top
+  145  pwsd
+  146  cd ..
+  147  rm -rf trunk/
+  148  mkdir dev
+  149  cd dev
+  150  ls -la 
+  151  ls -la
+  152  rm -rf trunk
+  153  git svn clone https://192.168.0.201:8443/svn/sanguo/trunk/client -r HEAD trunk
+  154  mkdir dev
+  155  cd dev
+  156  ls -la 
+  157  rm -rf trunk
+  158  git svn clone https://192.168.0.201:8443/svn/sanguo/trunk/client -r HEAD trunk
+  159  ls -la
+  160  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  161  cd .config/
+  162  ln -s ../.files/.config/git
+  163  cd -
+  164  ln -s ../.files/.config/git
+  165  cd -
+  166  vim .profile 
+  167  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  168  B%
+  169  ls /Applications/
+  170  ls /Applications/QQ
+  171  rm /Applications/QQ
+  172  cd ..
+  173  ls -la .files/.tmux.conf 
+  174  ln -s .files/.tmux.conf 
+  175  ln -s .files/.dircolors 
+  176  ln -s .files/.gitconfig 
+  177  ln -s .files/.profile 
+  178  ln -s .files/.vim
+  179  mkdir .config
+  180  cd .config/
+  181  ln -s ../.files/.config/git
+  182  cd -
+  183  ln -s ../.files/.config/git
+  184  cd -
+  185  mkdir /Volumes/Backup/VM
+  186  which brew
+  187  brew --cache
+  188  mkdir /Volumes/Data/brew
+  189  ls -la /Volumes/Data/brew/
+  190  ls -la /Volumes/Data/brew/brew/
+  191  cp -r /Volumes/Data/brew/brew/ $(brew --cache)
+  192  ls -la $(brew --cache)
+  193  brew install bash bash-completion coreutils git tmux unrar vim 
+  194  vim .profile 
+  195  vim .profile 
+  196  man ssh
+  197  mkdir .ssh
+  198  touch ~/.ssh/authorized_keys
+  199  vim ~/.ssh/authorized_keys
+  200  touch ~/.ssh/authorized_keys
+  201  vim ~/.ssh/authorized_keys
+  202  git remote add origin git://192.168.0.48/sanguo.git
+  203  cd ~/Documents/project/sanguo/dev/trunk/
+  204  git remote -v
+  205  git br -u origin/master 
+  206  git fetch origin 
+  207  vim /Users/xx/.config/git/
+  208  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resource
+  209  fg
+  210  vim ./bin/update-externals 
+  211  brew list
+  212  brew install reattach-to-user-namespace
+  213  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  214  git fetch
+  215  git reset --hard origin/master 
+  216  ./bin/init-externals trunk
+  217  ls -la ./MHXJ/configure/ItemConfigure.h
+  218  ./bin/init-externals trunk fanti
+  219  ls -la
+  220  open sanguo.mac/sanguo.xcodeproj
+  221  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  222  vim /Users/xx/.config/git/
+  223  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resource
+  224  fg
+  225  vim ./bin/update-externals 
+  226  brew list
+  227  brew install reattach-to-user-namespace
+  228  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  229  git fetch
+  230  git reset --hard origin/master 
+  231  ./bin/init-externals trunk
+  232  ls -la ./MHXJ/configure/ItemConfigure.h
+  233  ./bin/init-externals trunk fanti
+  234  open sanguo.mac/sanguo.xcodeproj
+  235  cd ./Documents/
+  236  cd ./project/sanguo/dev/
+  237  mkdir project
+  238  git svn clone http://192.168.0.201:8443/svn/sanguo/project
+  239  rm -rf project/
+  240  git svn clone http://192.168.0.201:8443/svn/sanguo/project HEAD project
+  241  rm -rf HEAD/ project/
+  242  cd trunk/
+  243  git stash 
+  244  git svn clone http://192.168.0.201:8443/svn/sanguo/project -r HEAD project
+  245  ls -la
+  246  cd -
+  247  cd
+  248  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  249  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  250  cd ./Downloads/
+  251  cd ~
+  252  ./bin/switch-externals fanti
+  253  /Users/xx/Documents/docs/tutor ; exit;
+  254  ./bin/switch-externals fanti
+  255  cd ./Documents/project/sanguo/dev/
+  256  rm -rf project/
+  257  cd ./trunk/MHXJ/Resources/res
+  258  cd ./cfg/
+  259  cp gameConfigTemplate.lua gameConfig.lua
+  260  vim gameConfig.lua
+  261  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+  262  cd ./cfg/
+  263  cp gameConfigTemplate.lua gameConfig.lua
+  264  vim gameConfig.lua
+  265  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+  266  ls -la
+  267  ls -lah /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/
+  268  ls -la /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/
+  269  ls -la /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/
+  270  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  271  git fetch
+  272  git reset --hard origin/master 
+  273  ./bin/init-externals trunk
+  274  ls -la ./MHXJ/configure/ItemConfigure.h
+  275  ./bin/init-externals trunk fanti
+  276  open sanguo.mac/sanguo.xcodeproj
+  277  cd ./Documents/
+  278  cd ./project/sanguo/dev/
+  279  mkdir project
+  280  git svn clone http://192.168.0.201:8443/svn/sanguo/project
+  281  rm -rf project/
+  282  git svn clone http://192.168.0.201:8443/svn/sanguo/project HEAD project
+  283  rm -rf HEAD/ project/
+  284  cd trunk/
+  285  git stash 
+  286  git svn clone http://192.168.0.201:8443/svn/sanguo/project -r HEAD project
+  287  cd
+  288  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  289  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  290  cd ./Downloads/
+  291  cd ~
+  292  ./bin/switch-externals fanti
+  293  /Users/xx/Documents/docs/tutor ; exit;
+  294  ./bin/switch-externals fanti
+  295  cd ./Documents/project/sanguo/dev/
+  296  rm -rf project/
+  297  cd ./trunk/MHXJ/Resources/res
+  298  cd ./cfg/
+  299  cp gameConfigTemplate.lua gameConfig.lua
+  300  vim gameConfig.lua
+  301  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+  302  ls -la VM
+  303  cd -
+  304  cd /Volumes/Data/
+  305  ls -la /Volumes/Data/
+  306  ls -la /Volumes/Data/Virtual\ Machines.localized/.localized/
+  307  cd Virtual\ Machines.localized/
+  308  cd /Volumes/Backup/
+  309  cd VM
+  310  unzip Windows\ 7\ x64.zip 
+  311  rm -rf __MACOSX/
+  312  ls -la Windows\ 7\ x64.
+  313  ls -la Windows\ 7\ x64.vmwarevm/
+  314  mv Windows\ 7\ x64.vmwarevm/ /Volumes/Data/Virtual\ Machines.localized/
+  315  ls -la /Volumes/Data/Virtual\ Machines.localized/
+  316  cp Virtual\ Disk.vmdk /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/
+  317  ls -la /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/
+  318  md5 /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/Virtual\ Disk.vmdk 
+  319  md5 /Volumes/Backup/VM/Virtual\ Disk.vmdk 
+  320  chflags
+  321  chflags hidden /Volumes/Backup
+  322  sudo chflags hidden /Volumes/Backup
+  323  ls -la /Volumes/Backup
+  324  ls -la /Volumes
+  325  cd ..
+  326  ls -la /Volumes/Data
+  327  mv VM "VMWare Fusion"
+  328  mv VMWare\ Fusion/ VMware\ Fusion/ 
+  329  mv VMWare\ Fusion/ VMware\ Fusion-x
+  330  mv VMware\ Fusion-x/ VMware\ Fusion
+  331  ls -la /Volumes/Data/Archives/mac/
+  332  cd /Volumes/Data/Virtual\ Machines.localized/
+  333  cd Windows\ 7\ x64.vmwarevm/
+  334  ls -la
+  335  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+  336  ls -la
+  337  ls -lah /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/
+  338  ls -la /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/
+  339  open ./sanguo.mac/sanguo.xcodeproj/
+  340  vim /Users/xx/Documents/docs/账号.txt 
+  341  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/GeneralCommonConfig.lua 
+  342  git diff
+  343  git checkout -- MHXJ/ui/ArtifactBagPanel.cpp MHXJ/view/ArtifactView.cpp
+  344  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactConfig.lua 
+  345  ./bin/switch-externals fanti
+  346  vim /Users/xx/Downloads/protocol_record.hrl 
+  347  vim /Users/xx/Documents/docs/tutor 
+  348  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resource
+  349  fg
+  350  vim ./bin/update-externals 
+  351  brew list
+  352  brew install reattach-to-user-namespace
+  353  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  354  ./bin/init-externals trunk
+  355  ls -la ./MHXJ/configure/ItemConfigure.h
+  356  ./bin/init-externals trunk fanti
+  357  ls -la
+  358  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  359  git fetch
+  360  git reset --hard
+  361  git reset --hard origin/master 
+  362  git log\
+  363  open sanguo.mac/sanguo.xcodeproj
+  364  git co -B artifact
+  365  git svn rebase
+  366  git di
+  367  git co .
+  368  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  369  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  370  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  371  cd MHXJ/Resources/
+  372  cd MHXJ/Resources/res
+  373  cd -
+  374  ./bin/init-externals trunk korea
+  375  ./bin/switch-externals fanti
+  376  ./bin/switch-externals korea
+  377  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resource
+  378  fg
+  379  vim ./bin/update-externals 
+  380  brew list
+  381  brew install reattach-to-user-namespace
+  382  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  383  ./bin/init-externals trunk
+  384  ls -la ./MHXJ/configure/ItemConfigure.h
+  385  ./bin/init-externals trunk fanti
+  386  ls -la
+  387  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  388  git fetch
+  389  git reset --hard
+  390  git reset --hard origin/master 
+  391  git log\
+  392  open sanguo.mac/sanguo.xcodeproj
+  393  git co -B artifact
+  394  git svn rebase
+  395  git di
+  396  git co .
+  397  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  398  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  399  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  400  cd MHXJ/Resources/
+  401  cd MHXJ/Resources/res
+  402  cd -
+  403  ./bin/init-externals trunk korea
+  404  ./bin/switch-externals fanti
+  405  ./bin/switch-externals korea
+  406  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resource
+  407  fg
+  408  vim ./bin/update-externals 
+  409  brew list
+  410  brew install reattach-to-user-namespace
+  411  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  412  ./bin/init-externals trunk
+  413  ls -la ./MHXJ/configure/ItemConfigure.h
+  414  ./bin/init-externals trunk fanti
+  415  ls -la
+  416  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  417  git fetch
+  418  git reset --hard
+  419  git reset --hard origin/master 
+  420  git log\
+  421  open sanguo.mac/sanguo.xcodeproj
+  422  git co -B artifact
+  423  git svn rebase
+  424  git di
+  425  git co .
+  426  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  427  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  428  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  429  cd MHXJ/Resources/
+  430  cd MHXJ/Resources/res
+  431  cd -
+  432  ./bin/init-externals trunk korea
+  433  ./bin/switch-externals fanti
+  434  ./bin/switch-externals korea
+  435  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resource
+  436  fg
+  437  vim ./bin/update-externals 
+  438  brew list
+  439  brew install reattach-to-user-namespace
+  440  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  441  ./bin/init-externals trunk
+  442  ls -la ./MHXJ/configure/ItemConfigure.h
+  443  ./bin/init-externals trunk fanti
+  444  ls -la
+  445  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  446  git fetch
+  447  git reset --hard
+  448  git reset --hard origin/master 
+  449  git log\
+  450  open sanguo.mac/sanguo.xcodeproj
+  451  git co -B artifact
+  452  git svn rebase
+  453  git di
+  454  git co .
+  455  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  456  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  457  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  458  cd MHXJ/Resources/
+  459  cd MHXJ/Resources/res
+  460  cd -
+  461  ./bin/init-externals trunk korea
+  462  ./bin/switch-externals fanti
+  463  ./bin/switch-externals korea
+  464  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resource
+  465  fg
+  466  vim ./bin/update-externals 
+  467  brew list
+  468  brew install reattach-to-user-namespace
+  469  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  470  ./bin/init-externals trunk
+  471  ls -la ./MHXJ/configure/ItemConfigure.h
+  472  ./bin/init-externals trunk fanti
+  473  ls -la
+  474  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  475  git fetch
+  476  git reset --hard
+  477  git reset --hard origin/master 
+  478  git log\
+  479  open sanguo.mac/sanguo.xcodeproj
+  480  git co -B artifact
+  481  git svn rebase
+  482  git di
+  483  git co .
+  484  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  485  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  486  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  487  cd MHXJ/Resources/
+  488  cd MHXJ/Resources/res
+  489  cd -
+  490  ./bin/init-externals trunk korea
+  491  ./bin/switch-externals fanti
+  492  ./bin/switch-externals korea
+  493  ./bin/switch-externals korea
+  494  vim /Users/xx/Documents/docs/git.txt 
+  495  vim /Users/xx/Documents/docs/账号.txt 
+  496  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  497  ./bin/init-externals trunk
+  498  ls -la ./MHXJ/configure/ItemConfigure.h
+  499  ./bin/init-externals trunk fanti
+  500  ls -la
+  501  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  502  git fetch
+  503  git reset --hard
+  504  git reset --hard origin/master 
+  505  git log\
+  506  open sanguo.mac/sanguo.xcodeproj
+  507  git co -B artifact
+  508  git svn rebase
+  509  git co .
+  510  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  511  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  512  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  513  cd MHXJ/Resources/res
+  514  ./bin/init-externals trunk korea
+  515  ./bin/switch-externals korea
+  516  open ./sanguo.mac/sanguo.xcodeproj/
+  517  ./bin/update-externals fanti
+  518  ./bin/switch-externals fanti
+  519  ./bin/update-externals -help
+  520  cd MHXJ/Resources/
+  521  git wt
+  522  git di
+  523  git ci -m "[debug] account: a005"
+  524  git stash
+  525  ./bin/update-externals
+  526  cd -
+  527  git stash pop
+  528  vim /Users/xx/.gitconfig 
+  529  git reset HEAD~
+  530  git ci -m "[debug] account: a005" -a
+  531  vim /Users/xx/Documents/docs/账号.txt 
+  532  brew list
+  533  brew install reattach-to-user-namespace
+  534  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  535  ./bin/init-externals trunk
+  536  ls -la ./MHXJ/configure/ItemConfigure.h
+  537  ./bin/init-externals trunk fanti
+  538  ls -la
+  539  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  540  git fetch
+  541  git reset --hard
+  542  git reset --hard origin/master 
+  543  git log\
+  544  open sanguo.mac/sanguo.xcodeproj
+  545  git co -B artifact
+  546  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  547  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  548  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  549  cd MHXJ/Resources/
+  550  cd MHXJ/Resources/res
+  551  ./bin/init-externals trunk korea
+  552  ./bin/switch-externals fanti
+  553  ./bin/switch-externals korea
+  554  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resource
+  555  fg
+  556  vim ./bin/update-externals 
+  557  brew list
+  558  brew install reattach-to-user-namespace
+  559  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  560  ./bin/init-externals trunk
+  561  ls -la ./MHXJ/configure/ItemConfigure.h
+  562  ./bin/init-externals trunk fanti
+  563  ls -la
+  564  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  565  git fetch
+  566  git reset --hard
+  567  git reset --hard origin/master 
+  568  git log\
+  569  open sanguo.mac/sanguo.xcodeproj
+  570  git co -B artifact
+  571  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  572  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  573  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  574  cd MHXJ/Resources/
+  575  cd MHXJ/Resources/res
+  576  ./bin/init-externals trunk korea
+  577  ./bin/switch-externals fanti
+  578  ./bin/switch-externals korea
+  579  ./bin/switch-externals korea
+  580  vim /Users/xx/Documents/docs/git.txt 
+  581  vim /Users/xx/Documents/docs/账号.txt 
+  582  rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+  583  ./bin/init-externals trunk
+  584  ls -la ./MHXJ/configure/ItemConfigure.h
+  585  ./bin/init-externals trunk fanti
+  586  ls -la
+  587  tmux new -c ~/Documents/project/sanguo/dev/trunk
+  588  git fetch
+  589  git reset --hard
+  590  git reset --hard origin/master 
+  591  git log\
+  592  open sanguo.mac/sanguo.xcodeproj
+  593  git co -B artifact
+  594  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  595  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  596  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  597  cd MHXJ/Resources/res
+  598  ./bin/init-externals trunk korea
+  599  ./bin/switch-externals korea
+  600  open ./sanguo.mac/sanguo.xcodeproj/
+  601  ./bin/update-externals fanti
+  602  ./bin/switch-externals fanti
+  603  ./bin/update-externals -help
+  604  cd MHXJ/Resources/
+  605  git wt
+  606  git ci -m "[debug] account: a005"
+  607  ./bin/update-externals
+  608  vim /Users/xx/.gitconfig 
+  609  git reset HEAD~
+  610  git ci -m "[debug] account: a005" -a
+  611  cd ./MHXJ/Resources/res/
+  612  cd ./config
+  613  git checkout -- ArtifactCommonConfig.lua ArtifactlveffectConfig.lua
+  614  git checkout -- ./ArtifactCommonConfig.lua ./ArtifactlveffectConfig.lua
+  615  git checkout -- MHXJ/Resources/res/config/ArtifactCommonConfig.lua MHXJ/Resources/res/config/ArtifactlveffectConfig.lua
+  616  git checkout -- /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactCommonConfig.lua /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactlveffectConfig.lua
+  617  clear
+  618  git checkout -- /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactCommonConfig.lua
+  619  git co .
+  620  git clean -f
+  621  cd ./../../
+  622  vim /Users/xx/Downloads/learngit-master/summary.txt 
+  623  git stash
+  624  git worktree add ../debug
+  625  cd ../debug/
+  626  git worktree add ../../git/trunk
+  627  pw
+  628  cd ../../git/trunk/
+  629  git log master 
+  630  git co master 
+  631  git br a
+  632  git br -D a
+  633  git br -D trunk 
+  634  git br --no-track 
+  635  git help br
+  636  git help branch
+  637  git br --unset-upstream 
+  638  git svn rebase
+  639  git di
+  640  git ci -am "套装特效计算修改"
+  641  git log artifact 
+  642  git cherry-pick 9b31b6
+  643  git svn dcommit
+  644  cd -
+  645  git cherry-pick --abort
+  646  git br -u origin/master 
+  647  git swt
+  648  git reset --hard HEAD~
+  649  git stash pop
+  650  git br log
+  651  git br -D log
+  652  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+  653  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+  654  vim /Users/xx/Downloads/learngit-master/summary.txt 
+  655  git reset --hard origin/master 
+  656  git log\
+  657  open sanguo.mac/sanguo.xcodeproj
+  658  git co -B artifact
+  659  ln -s ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  660  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res
+  661  ls -la /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-gabfvenlojdhjsbtyexlzbieefiq/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+  662  cd MHXJ/Resources/res
+  663  ./bin/init-externals trunk korea
+  664  ./bin/switch-externals korea
+  665  open ./sanguo.mac/sanguo.xcodeproj/
+  666  ./bin/update-externals fanti
+  667  ./bin/switch-externals fanti
+  668  ./bin/update-externals -help
+  669  cd MHXJ/Resources/
+  670  git wt
+  671  git ci -m "[debug] account: a005"
+  672  ./bin/update-externals
+  673  vim /Users/xx/.gitconfig 
+  674  git ci -m "[debug] account: a005" -a
+  675  cd ./MHXJ/Resources/res/
+  676  cd ./config
+  677  git checkout -- ArtifactCommonConfig.lua ArtifactlveffectConfig.lua
+  678  git checkout -- ./ArtifactCommonConfig.lua ./ArtifactlveffectConfig.lua
+  679  git checkout -- MHXJ/Resources/res/config/ArtifactCommonConfig.lua MHXJ/Resources/res/config/ArtifactlveffectConfig.lua
+  680  git checkout -- /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactCommonConfig.lua /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactlveffectConfig.lua
+  681  git checkout -- /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactCommonConfig.lua
+  682  git co .
+  683  git clean -f
+  684  cd ./../../
+  685  git stash
+  686  git worktree add ../debug
+  687  cd ../debug/
+  688  git worktree add ../../git/trunk
+  689  pw
+  690  cd ../../git/trunk/
+  691  git log master 
+  692  git br a
+  693  git br -D a
+  694  git br -D trunk 
+  695  git br --no-track 
+  696  git help br
+  697  git help branch
+  698  git br --unset-upstream 
+  699  git svn rebase
+  700  git di
+  701  git ci -am "套装特效计算修改"
+  702  git cherry-pick 9b31b6
+  703  git svn dcommit
+  704  git cherry-pick --abort
+  705  git br -u origin/master 
+  706  git swt
+  707  git stash pop
+  708  git br log
+  709  git br -D log
+  710  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+  711  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+  712  vim /Users/xx/Downloads/learngit-master/summary.txt 
+  713  git switch mas
+  714  git co master 
+  715  git reflog
+  716  git co -B 15v15
+  717  git reset HEAD~
+  718  git reset --soft HEAD~
+  719  git co artifact 
+  720  git log -n 5
+  721  git log artifact -n 5
+  722  clear
+  723  git log origin/master -n 5
+  724  git log origin/trunk -n 3
+  725  git co master
+  726  git co trunk
+  727  git reset -hared
+  728  git reset -hard
+  729  git reset -hard HEAD
+  730  git reset --hard
+  731  git log artifact 
+  732  git br -D 15v15 
+  733  vim MHXJ/Classes/LoginInfoManager.h 
+  734  git ts
+  735  git ci -m  test
+  736  git ci -m  test -a
+  737  git br 15vs15
+  738  git log 15vs15 
+  739  git reset --hard HEAD~
+  740  git di 15vs15 --stat
+  741  git di 15vs15
+  742  git co origin/master 
+  743  cd -
+  744  git co -
+  745  git br -
+  746  git co artifact -b xxxx
+  747  git br -=a
+  748  git co trunk 
+  749  git br -D 15vs15 
+  750  git br -D xxxx
+  751  git help checkout
+  752  git log -n 3
+  753  git checkout -- /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactCommonConfig.lua /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactlveffectConfig.lua
+  754  clear
+  755  git checkout -- /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactCommonConfig.lua
+  756  git co .
+  757  git clean -f
+  758  cd ./../../
+  759  vim /Users/xx/Downloads/learngit-master/summary.txt 
+  760  git worktree add ../debug
+  761  cd ../debug/
+  762  git worktree add ../../git/trunk
+  763  pw
+  764  cd ../../git/trunk/
+  765  git log master 
+  766  git co master 
+  767  git br a
+  768  git br -D a
+  769  git br -D trunk 
+  770  git br --no-track 
+  771  git help br
+  772  git help branch
+  773  git br --unset-upstream 
+  774  git svn rebase
+  775  git di
+  776  git ci -am "套装特效计算修改"
+  777  git log artifact 
+  778  git cherry-pick 9b31b6
+  779  git svn dcommit
+  780  cd -
+  781  git cherry-pick --abort
+  782  git br -u origin/master 
+  783  git swt
+  784  git reset --hard HEAD~
+  785  git br log
+  786  git br -D log
+  787  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+  788  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+  789  git stash
+  790  git branch 15v15
+  791  git stash pop
+  792  git stash list
+  793  gti checkout 15v15
+  794  git checkout 15v15 
+  795  git branch -d 15v15 
+  796  git checkout artifact 
+  797  git br -d 15v15 
+  798  git reset HEAD~
+  799  git reset --soft HEAD~
+  800  git ci -m "cached"
+  801  git ci -am "modified"
+  802  git co -B trunk master 
+  803  git co -b trunk origin/master 
+  804  git co -B trunk origin/master 
+  805  git reset HEAD~
+  806  git reset --soft HEAD~
+  807  git ci -m "cached"
+  808  git ci -am "modified"
+  809  git co -B trunk master 
+  810  git co -b trunk origin/master 
+  811  git co -B trunk origin/master 
+  812  git fetch
+  813  git rebase 
+  814  git diff
+  815  git show
+  816  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/SystemConfig.lua 
+  817  vim /Users/xx/Downloads/protocol_record.hrl 
+  818  git difftool
+  819  git di
+  820  git diff MHXJ/ui/PassInfoPanel.cpp
+  821  git ci --am "战斗1"
+  822  git ci -am "战斗1"
+  823  git ci -am "modified"
+  824  git co -B trunk master 
+  825  git co -b trunk origin/master 
+  826  git co -B trunk origin/master 
+  827  git reset HEAD~
+  828  git reset --soft HEAD~
+  829  git ci -m "cached"
+  830  git ci -am "modified"
+  831  git co -B trunk master 
+  832  git co -b trunk origin/master 
+  833  git co -B trunk origin/master 
+  834  git show
+  835  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/SystemConfig.lua 
+  836  vim /Users/xx/Downloads/protocol_record.hrl 
+  837  git difftool
+  838  git diff MHXJ/ui/PassInfoPanel.cpp
+  839  git ci --am "战斗1"
+  840  git ci -am "战斗1"
+  841  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+  842  git ci -am "战斗2"
+  843  git diff MHXJ/view/BattleSceneView.cpp
+  844  git diff MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  845  git checkout --hard MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  846  git checkout -- MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  847  git ci -am "战斗3"
+  848  vim /Users/xx/Downloads/learngit-master/summary.txt 
+  849  git fetch 
+  850  git log origin/master
+  851  git fetch
+  852  gti rebase
+  853  git mergetool
+  854  git di
+  855  git di --cached -- *MainScene*
+  856  git rebase --abort 
+  857  git rebase 
+  858  git mergetool 
+  859  git clean -f
+  860  git rebase --continue 
+  861  git diff
+  862  git show ec832e
+  863  git show 74f1df
+  864  git log -3
+  865  git show 63080
+  866  git diff *BattleAutoBattle.cpp
+  867  git diff /MHXJ/battle/BattleStatistics.cpp
+  868  clear
+  869  git ci --am "战斗1"
+  870  git ci -am "战斗1"
+  871  git ci -am "modified"
+  872  git co -B trunk master 
+  873  git co -b trunk origin/master 
+  874  git co -B trunk origin/master 
+  875  git reset HEAD~
+  876  git reset --soft HEAD~
+  877  git ci -m "cached"
+  878  git ci -am "modified"
+  879  git co -B trunk master 
+  880  git co -b trunk origin/master 
+  881  git co -B trunk origin/master 
+  882  git show
+  883  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/SystemConfig.lua 
+  884  vim /Users/xx/Downloads/protocol_record.hrl 
+  885  git difftool
+  886  git diff MHXJ/ui/PassInfoPanel.cpp
+  887  git ci --am "战斗1"
+  888  git ci -am "战斗1"
+  889  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+  890  git ci -am "战斗2"
+  891  git diff MHXJ/view/BattleSceneView.cpp
+  892  git diff MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  893  git checkout --hard MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  894  git checkout -- MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  895  git ci -am "战斗3"
+  896  git log origin/master
+  897  gti rebase
+  898  git di
+  899  git di --cached -- *MainScene*
+  900  git show ec832e
+  901  git diff *BattleAutoBattle.cpp
+  902  git diff /MHXJ/battle/BattleStatistics.cpp
+  903  git log -3
+  904  git show 63080
+  905  git show 74f1df
+  906  git log -1
+  907  git show ec832ec
+  908  git blame -- BattleAuto*
+  909  git blame -- *BattleAuto*
+  910  git blame -- MHXJ/battle/BattleAuto*
+  911  git blame  MHXJ/battle/BattleAuto*
+  912  git blame  MHXJ/battle/BattleAutoBattle.cpp
+  913  :q
+  914  clear
+  915  git diff
+  916  git ci -am "战斗4"
+  917  git fetch
+  918  git mergetool
+  919  git reset sanguo.mac/sanguo.xcodeproj/project.pbxproj
+  920  git co sanguo.mac/sanguo.xcodeproj/project.pbxproj
+  921  git clean -f
+  922  git dt
+  923  git rebase --abort 
+  924  git 
+  925  git fetch 
+  926  git rebase 
+  927  git mergetool 
+  928  git add -u
+  929  git rebase --continue 
+  930  git rebase --abort
+  931  vim /Users/xx/Downloads/learngit-master/summary.txt 
+  932  git show 74f1df
+  933  git log -3
+  934  git show 63080
+  935  git diff *BattleAutoBattle.cpp
+  936  git diff /MHXJ/battle/BattleStatistics.cpp
+  937  git ci --am "战斗1"
+  938  git ci -am "战斗1"
+  939  git ci -am "modified"
+  940  git co -B trunk master 
+  941  git co -b trunk origin/master 
+  942  git co -B trunk origin/master 
+  943  git reset HEAD~
+  944  git reset --soft HEAD~
+  945  git ci -m "cached"
+  946  git ci -am "modified"
+  947  git co -B trunk master 
+  948  git co -b trunk origin/master 
+  949  git co -B trunk origin/master 
+  950  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/SystemConfig.lua 
+  951  vim /Users/xx/Downloads/protocol_record.hrl 
+  952  git difftool
+  953  git diff MHXJ/ui/PassInfoPanel.cpp
+  954  git ci --am "战斗1"
+  955  git ci -am "战斗1"
+  956  git ci -am "战斗2"
+  957  git diff MHXJ/view/BattleSceneView.cpp
+  958  git diff MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  959  git checkout --hard MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  960  git checkout -- MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+  961  git ci -am "战斗3"
+  962  gti rebase
+  963  git di
+  964  git di --cached -- *MainScene*
+  965  git show ec832e
+  966  git diff *BattleAutoBattle.cpp
+  967  git diff /MHXJ/battle/BattleStatistics.cpp
+  968  git log -3
+  969  git show 63080
+  970  git show 74f1df
+  971  git log -1
+  972  git show ec832ec
+  973  git blame -- BattleAuto*
+  974  git blame -- *BattleAuto*
+  975  git blame -- MHXJ/battle/BattleAuto*
+  976  git blame  MHXJ/battle/BattleAuto*
+  977  git blame  MHXJ/battle/BattleAutoBattle.cpp
+  978  :q
+  979  git ci -am "战斗4"
+  980  git reset sanguo.mac/sanguo.xcodeproj/project.pbxproj
+  981  git co sanguo.mac/sanguo.xcodeproj/project.pbxproj
+  982  git dt
+  983  git 
+  984  git fetch 
+  985  git mergetool 
+  986  git add -u
+  987  git rebase --continue 
+  988  git rebase --abort
+  989  git reset *.pbxproj
+  990  git co .
+  991  git rebase -i HEAD~5
+  992  git reset --soft HEAD^1
+  993  git logh
+  994  git ci -m "zhan dou 4"
+  995  git rebase 
+  996  git mergetool
+  997  git rebase --abort 
+  998  vim /Users/xx/Downloads/learngit-master/summary.txt 
+  999  git reset --soft HEAD^
+ 1000  git reset *project.pbxproj
+ 1001  git co -- *project.pbxproj
+ 1002  git clean -f
+ 1003  git diff
+ 1004  git diff --cached
+ 1005  git ci -am "战斗战斗"
+ 1006  git fetch
+ 1007  git rebase
+ 1008  git push origin/master
+ 1009  git push
+ 1010  git push origin HEAD:master
+ 1011  git log origin/master
+ 1012  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+ 1013  git stash list
+ 1014  git stash -help
+ 1015  git stash list -help
+ 1016  git stash list --help
+ 1017  git stash
+ 1018  git co artifact 
+ 1019  git show
+ 1020  clear
+ 1021  git ci -am "神器3"
+ 1022  git co trunk 
+ 1023  git log -3
+ 1024  git show 63080
+ 1025  git diff *BattleAutoBattle.cpp
+ 1026  git diff /MHXJ/battle/BattleStatistics.cpp
+ 1027  git ci --am "战斗1"
+ 1028  git ci -am "战斗1"
+ 1029  git ci -am "modified"
+ 1030  git co -B trunk master 
+ 1031  git co -b trunk origin/master 
+ 1032  git co -B trunk origin/master 
+ 1033  git reset HEAD~
+ 1034  git reset --soft HEAD~
+ 1035  git ci -m "cached"
+ 1036  git ci -am "modified"
+ 1037  git co -B trunk master 
+ 1038  git co -b trunk origin/master 
+ 1039  git co -B trunk origin/master 
+ 1040  git show
+ 1041  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/SystemConfig.lua 
+ 1042  vim /Users/xx/Downloads/protocol_record.hrl 
+ 1043  git difftool
+ 1044  git diff MHXJ/ui/PassInfoPanel.cpp
+ 1045  git ci --am "战斗1"
+ 1046  git ci -am "战斗1"
+ 1047  git ci -am "战斗2"
+ 1048  git diff MHXJ/view/BattleSceneView.cpp
+ 1049  git diff MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1050  git checkout --hard MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1051  git checkout -- MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1052  git ci -am "战斗3"
+ 1053  gti rebase
+ 1054  git di
+ 1055  git di --cached -- *MainScene*
+ 1056  git show ec832e
+ 1057  git diff *BattleAutoBattle.cpp
+ 1058  git diff /MHXJ/battle/BattleStatistics.cpp
+ 1059  git log -3
+ 1060  git show 63080
+ 1061  git show 74f1df
+ 1062  git show ec832ec
+ 1063  git blame -- BattleAuto*
+ 1064  git blame -- *BattleAuto*
+ 1065  git blame -- MHXJ/battle/BattleAuto*
+ 1066  git blame  MHXJ/battle/BattleAuto*
+ 1067  git blame  MHXJ/battle/BattleAutoBattle.cpp
+ 1068  :q
+ 1069  git ci -am "战斗4"
+ 1070  git reset sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1071  git co sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1072  git dt
+ 1073  git rebase --abort 
+ 1074  git 
+ 1075  git fetch 
+ 1076  git mergetool 
+ 1077  git add -u
+ 1078  git rebase --continue 
+ 1079  vim /Users/xx/Downloads/learngit-master/summary.txt 
+ 1080  git show 74f1df
+ 1081  git log -3
+ 1082  git show 63080
+ 1083  git diff *BattleAutoBattle.cpp
+ 1084  git diff /MHXJ/battle/BattleStatistics.cpp
+ 1085  git ci --am "战斗1"
+ 1086  git ci -am "战斗1"
+ 1087  git ci -am "modified"
+ 1088  git co -B trunk master 
+ 1089  git co -b trunk origin/master 
+ 1090  git co -B trunk origin/master 
+ 1091  git reset HEAD~
+ 1092  git reset --soft HEAD~
+ 1093  git ci -m "cached"
+ 1094  git ci -am "modified"
+ 1095  git co -B trunk master 
+ 1096  git co -b trunk origin/master 
+ 1097  git co -B trunk origin/master 
+ 1098  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/SystemConfig.lua 
+ 1099  vim /Users/xx/Downloads/protocol_record.hrl 
+ 1100  git difftool
+ 1101  git diff MHXJ/ui/PassInfoPanel.cpp
+ 1102  git ci --am "战斗1"
+ 1103  git ci -am "战斗1"
+ 1104  git ci -am "战斗2"
+ 1105  git diff MHXJ/view/BattleSceneView.cpp
+ 1106  git diff MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1107  git checkout --hard MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1108  git checkout -- MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1109  git ci -am "战斗3"
+ 1110  gti rebase
+ 1111  git di
+ 1112  git di --cached -- *MainScene*
+ 1113  git show ec832e
+ 1114  git diff *BattleAutoBattle.cpp
+ 1115  git diff /MHXJ/battle/BattleStatistics.cpp
+ 1116  git log -3
+ 1117  git show 63080
+ 1118  git show 74f1df
+ 1119  git show ec832ec
+ 1120  git blame -- BattleAuto*
+ 1121  git blame -- *BattleAuto*
+ 1122  git blame -- MHXJ/battle/BattleAuto*
+ 1123  git blame  MHXJ/battle/BattleAuto*
+ 1124  git blame  MHXJ/battle/BattleAutoBattle.cpp
+ 1125  :q
+ 1126  git ci -am "战斗4"
+ 1127  git reset sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1128  git co sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1129  git dt
+ 1130  git 
+ 1131  git fetch 
+ 1132  git mergetool 
+ 1133  git add -u
+ 1134  git rebase --continue 
+ 1135  git reset *.pbxproj
+ 1136  git co .
+ 1137  git rebase -i HEAD~5
+ 1138  git reset --soft HEAD^1
+ 1139  git logh
+ 1140  git ci -m "zhan dou 4"
+ 1141  git rebase --abort 
+ 1142  vim /Users/xx/Downloads/learngit-master/summary.txt 
+ 1143  git reset --soft HEAD^
+ 1144  git reset *project.pbxproj
+ 1145  git co -- *project.pbxproj
+ 1146  git diff --cached
+ 1147  git ci -am "战斗战斗"
+ 1148  git push origin/master
+ 1149  git stash -help
+ 1150  git stash list -help
+ 1151  git stash list --help
+ 1152  git stash
+ 1153  git co artifact 
+ 1154  git show
+ 1155  git ci -am "神器3"
+ 1156  git co trunk 
+ 1157  clear
+ 1158  git checkout -- MHXJ/ui/PassFormationList.cpp
+ 1159  git log -1
+ 1160  git log orgin/master
+ 1161  git stash list
+ 1162  git log 87cccc
+ 1163  git log trunk
+ 1164  git rebase --abort
+ 1165  rm .git/MERGE_RR.lock 
+ 1166  git svn rebase
+ 1167  git ts
+ 1168  git rebase --continue
+ 1169  git s
+ 1170  git clean -f
+ 1171  git reset --head HEAD~
+ 1172  git reset --hard HEAD~
+ 1173  git mergetool
+ 1174  git help worktree
+ 1175  rm -rf MHXJ/protocol/
+ 1176  git worktree add MHXJ/protocol origin/protocol
+ 1177  ls -la
+ 1178  git co -B protocol
+ 1179  git fetch origin
+ 1180  git cherry-pick origin/master~ origin/master
+ 1181  git rebase -i HEAD~4
+ 1182  git push -f
+ 1183  git push -f origin HEAD:master
+ 1184  cd MHXJ/protocol/
+ 1185  git br -u origin/protocol
+ 1186  git pull
+ 1187  cd -
+ 1188  git ci -m "处理战斗标签的冲突"
+ 1189  git add *.cpp 去掉测试代码
+ 1190  git add *.cpp 
+ 1191  git ci -m "去掉测试代码"
+ 1192  git log 
+ 1193  git log origin/master
+ 1194  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+ 1195  git ci -m "战斗修改1"
+ 1196  git rebase
+ 1197  git add MHXJ/view/BattleMenu.cpp
+ 1198  git ci -m "修正武将图标间距"
+ 1199  git fetch
+ 1200  git rebase 
+ 1201  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+ 1202  git diff
+ 1203  git add MHXJ/view/BattleMenu.cpp MHXJ/view/MainScene.cpp
+ 1204  git ci -m "修正武将图标位置"
+ 1205  git push
+ 1206  git push origin HEAD:master
+ 1207  git fetch
+ 1208  git rebase 
+ 1209  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+ 1210  git add MHXJ/view/BattleMenu.cpp MHXJ/view/MainScene.cpp
+ 1211  git ci -m "修正武将图标位置"
+ 1212  git push
+ 1213  git push origin HEAD:master
+ 1214  git diff MHXJ/model/CrossLadderManager.cpp
+ 1215  git diff
+ 1216  git diff MHXJ/view/BattleSceneView.cpp
+ 1217  git ci -a MHXJ/view/BattleSceneView.cpp -m "存活武将数量修正"
+ 1218  git add MHXJ/view/BattleSceneView.cpp
+ 1219  git ci -m "存活武将数量修正"
+ 1220  git cl
+ 1221  git clear
+ 1222  clear
+ 1223  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+ 1224  git log --pretty=oneline
+ 1225  git ci --am "战斗1"
+ 1226  git ci -am "战斗1"
+ 1227  git ci -am "modified"
+ 1228  git co -B trunk master 
+ 1229  git co -b trunk origin/master 
+ 1230  git co -B trunk origin/master 
+ 1231  git ci -m "cached"
+ 1232  git ci -am "modified"
+ 1233  git co -B trunk master 
+ 1234  git co -b trunk origin/master 
+ 1235  git co -B trunk origin/master 
+ 1236  vim /Users/xx/Downloads/protocol_record.hrl 
+ 1237  git difftool
+ 1238  git diff MHXJ/ui/PassInfoPanel.cpp
+ 1239  git ci --am "战斗1"
+ 1240  git ci -am "战斗1"
+ 1241  git ci -am "战斗2"
+ 1242  git diff MHXJ/view/BattleSceneView.cpp
+ 1243  git diff MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1244  git checkout --hard MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1245  git checkout -- MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1246  git ci -am "战斗3"
+ 1247  gti rebase
+ 1248  git di
+ 1249  git di --cached -- *MainScene*
+ 1250  git show ec832e
+ 1251  git diff *BattleAutoBattle.cpp
+ 1252  git diff /MHXJ/battle/BattleStatistics.cpp
+ 1253  git log -3
+ 1254  git show 63080
+ 1255  git show 74f1df
+ 1256  git show ec832ec
+ 1257  git blame -- BattleAuto*
+ 1258  git blame -- *BattleAuto*
+ 1259  git blame -- MHXJ/battle/BattleAuto*
+ 1260  git blame  MHXJ/battle/BattleAuto*
+ 1261  git blame  MHXJ/battle/BattleAutoBattle.cpp
+ 1262  :q
+ 1263  git ci -am "战斗4"
+ 1264  git reset sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1265  git co sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1266  git dt
+ 1267  git rebase --abort 
+ 1268  git 
+ 1269  git fetch 
+ 1270  git mergetool 
+ 1271  git add -u
+ 1272  git rebase --continue 
+ 1273  git show 74f1df
+ 1274  git log -3
+ 1275  git show 63080
+ 1276  git diff *BattleAutoBattle.cpp
+ 1277  git diff /MHXJ/battle/BattleStatistics.cpp
+ 1278  git ci --am "战斗1"
+ 1279  git ci -am "战斗1"
+ 1280  git ci -am "modified"
+ 1281  git co -B trunk master 
+ 1282  git co -b trunk origin/master 
+ 1283  git co -B trunk origin/master 
+ 1284  git ci -m "cached"
+ 1285  git ci -am "modified"
+ 1286  git co -B trunk master 
+ 1287  git co -b trunk origin/master 
+ 1288  git co -B trunk origin/master 
+ 1289  vim /Users/xx/Downloads/protocol_record.hrl 
+ 1290  git difftool
+ 1291  git diff MHXJ/ui/PassInfoPanel.cpp
+ 1292  git ci --am "战斗1"
+ 1293  git ci -am "战斗1"
+ 1294  git ci -am "战斗2"
+ 1295  git diff MHXJ/view/BattleSceneView.cpp
+ 1296  git diff MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1297  git checkout --hard MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1298  git checkout -- MHXJ/ui/BattleResultPanel/BattleVictoryBasePanel.h
+ 1299  git ci -am "战斗3"
+ 1300  gti rebase
+ 1301  git di
+ 1302  git di --cached -- *MainScene*
+ 1303  git show ec832e
+ 1304  git diff *BattleAutoBattle.cpp
+ 1305  git diff /MHXJ/battle/BattleStatistics.cpp
+ 1306  git log -3
+ 1307  git show 63080
+ 1308  git show 74f1df
+ 1309  git show ec832ec
+ 1310  git blame -- BattleAuto*
+ 1311  git blame -- *BattleAuto*
+ 1312  git blame -- MHXJ/battle/BattleAuto*
+ 1313  git blame  MHXJ/battle/BattleAuto*
+ 1314  git blame  MHXJ/battle/BattleAutoBattle.cpp
+ 1315  :q
+ 1316  git ci -am "战斗4"
+ 1317  git reset sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1318  git co sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1319  git dt
+ 1320  git 
+ 1321  git fetch 
+ 1322  git mergetool 
+ 1323  git add -u
+ 1324  git rebase --continue 
+ 1325  git reset *.pbxproj
+ 1326  git co .
+ 1327  git rebase -i HEAD~5
+ 1328  git reset --soft HEAD^1
+ 1329  git logh
+ 1330  git ci -m "zhan dou 4"
+ 1331  git rebase --abort 
+ 1332  git reset --soft HEAD^
+ 1333  git reset *project.pbxproj
+ 1334  git co -- *project.pbxproj
+ 1335  git ci -am "战斗战斗"
+ 1336  git push origin/master
+ 1337  git stash -help
+ 1338  git stash list -help
+ 1339  git stash list --help
+ 1340  git stash
+ 1341  git ci -am "神器3"
+ 1342  git checkout -- MHXJ/ui/PassFormationList.cpp
+ 1343  git log -1
+ 1344  git log orgin/master
+ 1345  git stash list
+ 1346  git log 87cccc
+ 1347  git log trunk
+ 1348  git rebase --abort
+ 1349  rm .git/MERGE_RR.lock 
+ 1350  git svn rebase
+ 1351  git ts
+ 1352  git s
+ 1353  git reset --head HEAD~
+ 1354  git help worktree
+ 1355  rm -rf MHXJ/protocol/
+ 1356  git worktree add MHXJ/protocol origin/protocol
+ 1357  ls -la
+ 1358  git co -B protocol
+ 1359  git fetch origin
+ 1360  git cherry-pick origin/master~ origin/master
+ 1361  git rebase -i HEAD~4
+ 1362  git push -f
+ 1363  git push -f origin HEAD:master
+ 1364  cd MHXJ/protocol/
+ 1365  git br -u origin/protocol
+ 1366  git pull
+ 1367  git ci -m "处理战斗标签的冲突"
+ 1368  git add *.cpp 去掉测试代码
+ 1369  git add *.cpp 
+ 1370  git ci -m "去掉测试代码"
+ 1371  git log 
+ 1372  git ci -m "战斗修改1"
+ 1373  git add MHXJ/view/BattleMenu.cpp
+ 1374  git ci -m "修正武将图标间距"
+ 1375  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+ 1376  git add MHXJ/view/BattleMenu.cpp MHXJ/view/MainScene.cpp
+ 1377  git ci -m "修正武将图标位置"
+ 1378  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+ 1379  git add MHXJ/view/BattleMenu.cpp MHXJ/view/MainScene.cpp
+ 1380  git ci -m "修正武将图标位置"
+ 1381  git diff MHXJ/model/CrossLadderManager.cpp
+ 1382  git diff MHXJ/view/BattleSceneView.cpp
+ 1383  git ci -a MHXJ/view/BattleSceneView.cpp -m "存活武将数量修正"
+ 1384  git add MHXJ/view/BattleSceneView.cpp
+ 1385  git ci -m "存活武将数量修正"
+ 1386  git cl
+ 1387  git clear
+ 1388  git log --pretty=oneline
+ 1389  git cd ./Documents/project/sanguo/git/trunk/
+ 1390  cd ./Documents/project/sanguo/git/trunk/
+ 1391  log
+ 1392  cd ./../../dev/
+ 1393  git mertool
+ 1394  git mergetool
+ 1395  git rebase --continue
+ 1396  git push origin master:HEAD 
+ 1397  git diff --cache
+ 1398  git diff -cache
+ 1399  git show --cache
+ 1400  git add *.cpp *.h
+ 1401  git ci -m "战斗结算界面修改"
+ 1402  git archive -o patch.zip HEAD $(git diff --name-only  2da54a..HEAD)
+ 1403  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/SystemConfig.lua 
+ 1404  git rebase 
+ 1405  git add MHXJ/model/CrossLadderManager.cpp MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1406  git ci -m "修正战斗不出武将"
+ 1407  git diff --cached
+ 1408  git diff head
+ 1409  git clean -f
+ 1410  git push origin HEAD:master
+ 1411  cd ./../
+ 1412  cd ./debug/
+ 1413  git co debug
+ 1414  cd ../../git/trunk/
+ 1415  git cherry-pick debug 
+ 1416  git reset --hard HEAD~
+ 1417  cd -
+ 1418  git co artifact 
+ 1419   git st
+ 1420  git co tr
+ 1421  git checkout -- MHXJ/util/FormationUtil.cpp  MHXJ/util/FormationUtil.h
+ 1422  git ci -am "神器4"
+ 1423  git co trunk 
+ 1424  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+ 1425  git reset --hard b8334b
+ 1426  vim /Users/xx/Downloads/learngit-master/summary.txt 
+ 1427  vim /Users/xx/Documents/docs/git.txt 
+ 1428  git revert b8334b85
+ 1429  git co art
+ 1430  git co master 
+ 1431  git log artifact 
+ 1432  git reset HEAD 
+ 1433  git reset HEAD!
+ 1434  git reset HEAD~
+ 1435  git reset --soft HEAD
+ 1436  git reset
+ 1437  git reflot
+ 1438  git reflog
+ 1439  git reset b83a1ebe
+ 1440  git show
+ 1441  git reset --soft HEAD~
+ 1442  clear
+ 1443  git fetch
+ 1444  git rebase
+ 1445  git checkout
+ 1446  q
+ 1447  git checkout --
+ 1448  git diff
+ 1449  git co -- MHXJ/model/CrossLadderManager.cpp  MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1450  git log origin/master
+ 1451  git add  MHXJ/ui/BattlePausePanel.cpp
+ 1452  git ci -m "处理战斗中途退出"
+ 1453  git push
+ 1454  git reset HEAD!
+ 1455  git reset HEAD~
+ 1456  git reset --soft HEAD
+ 1457  git reset
+ 1458  git reflot
+ 1459  git reflog
+ 1460  git reset b83a1ebe
+ 1461  git show
+ 1462  git reset --soft HEAD~
+ 1463  git checkout
+ 1464  git checkout --
+ 1465  git co -- MHXJ/model/CrossLadderManager.cpp  MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1466  git add  MHXJ/ui/BattlePausePanel.cpp
+ 1467  git ci -m "处理战斗中途退出"
+ 1468  git petch
+ 1469  clear
+ 1470  git rebase
+ 1471  git diff
+ 1472  git diff MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1473  git add MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1474  git ci -m "处理保存防守队伍"
+ 1475  git push
+ 1476  git push origin HEAD:master
+ 1477  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+ 1478  git diff MHXJ/model/CrossLadderManager.cpp
+ 1479  q
+ 1480  git diff  MHXJ/model/CrossLadderManager.cpp
+ 1481  git rebase 
+ 1482  git fetch
+ 1483  git add *.cpp *.h
+ 1484  git ci -m "处理未报名退出设置防守队伍界面"
+ 1485  git log origin/master
+ 1486  git archive -o patch.zip HEAD $(git diff --name-only  2da54a..HEAD
+ 1487  git add MHXJ/view/BattleMenu.cpp MHXJ/view/MainScene.cpp
+ 1488  git ci -m "修正武将图标位置"
+ 1489  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+ 1490  git add MHXJ/view/BattleMenu.cpp MHXJ/view/MainScene.cpp
+ 1491  git ci -m "修正武将图标位置"
+ 1492  git diff MHXJ/model/CrossLadderManager.cpp
+ 1493  git diff MHXJ/view/BattleSceneView.cpp
+ 1494  git ci -a MHXJ/view/BattleSceneView.cpp -m "存活武将数量修正"
+ 1495  git add MHXJ/view/BattleSceneView.cpp
+ 1496  git ci -m "存活武将数量修正"
+ 1497  git cl
+ 1498  git clear
+ 1499  git log --pretty=oneline
+ 1500  git cd ./Documents/project/sanguo/git/trunk/
+ 1501  cd ./Documents/project/sanguo/git/trunk/
+ 1502  log
+ 1503  cd ./../../dev/
+ 1504  git mertool
+ 1505  git push origin master:HEAD 
+ 1506  git diff --cache
+ 1507  git diff -cache
+ 1508  git show --cache
+ 1509  git add *.cpp *.h
+ 1510  git ci -m "战斗结算界面修改"
+ 1511  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/SystemConfig.lua 
+ 1512  git rebase 
+ 1513  git add MHXJ/model/CrossLadderManager.cpp MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1514  git ci -m "修正战斗不出武将"
+ 1515  git diff head
+ 1516  cd ./../
+ 1517  cd ./debug/
+ 1518  git co debug
+ 1519  cd ../../git/trunk/
+ 1520  git cherry-pick debug 
+ 1521  git reset --hard HEAD~
+ 1522  cd -
+ 1523   git st
+ 1524  git co tr
+ 1525  git checkout -- MHXJ/util/FormationUtil.cpp  MHXJ/util/FormationUtil.h
+ 1526  git ci -am "神器4"
+ 1527  git reset --hard b8334b
+ 1528  vim /Users/xx/Downloads/learngit-master/summary.txt 
+ 1529  vim /Users/xx/Documents/docs/git.txt 
+ 1530  git revert b8334b85
+ 1531  git co art
+ 1532  git co master 
+ 1533  git log artifact 
+ 1534  git reset HEAD 
+ 1535  git reset HEAD!
+ 1536  git reset --soft HEAD
+ 1537  git reflot
+ 1538  git reflog
+ 1539  git reset b83a1ebe
+ 1540  git reset --soft HEAD~
+ 1541  clear
+ 1542  git checkout
+ 1543  q
+ 1544  git checkout --
+ 1545  git co -- MHXJ/model/CrossLadderManager.cpp  MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1546  git add  MHXJ/ui/BattlePausePanel.cpp
+ 1547  git ci -m "处理战斗中途退出"
+ 1548  git reset HEAD!
+ 1549  git reset --soft HEAD
+ 1550  git reflot
+ 1551  git reflog
+ 1552  git reset b83a1ebe
+ 1553  git reset --soft HEAD~
+ 1554  git checkout
+ 1555  git checkout --
+ 1556  git co -- MHXJ/model/CrossLadderManager.cpp  MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1557  git add  MHXJ/ui/BattlePausePanel.cpp
+ 1558  git ci -m "处理战斗中途退出"
+ 1559  git petch
+ 1560  clear
+ 1561  git add MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1562  git ci -m "处理保存防守队伍"
+ 1563  git diff MHXJ/model/CrossLadderManager.cpp
+ 1564  q
+ 1565  git rebase 
+ 1566  git add *.cpp *.h
+ 1567  git ci -m "处理未报名退出设置防守队伍界面"
+ 1568  git archive -o patch.zip HEAD $(git diff --name-only  2da54a..HEAD
+ 1569  git archive -o patch.zip HEAD $(git diff --name-only  2da54a..HEAD)
+ 1570  git diff 
+ 1571  git 
+ 1572  git diff --cached
+ 1573  git rebase --abort
+ 1574  git show
+ 1575  git ci -m "处理布阵界面返回键"
+ 1576  git rebase --continue
+ 1577  git clean -f
+ 1578  git blame *CrossPassFormationPanel.cpp
+ 1579  git blame MHXJ/ui/cross/CrossPassFormationPanel.cpp
+ 1580  git diff  MHXJ/model/CrossLadderManager.cpp
+ 1581  git add  MHXJ/model/CrossLadderManager.cpp
+ 1582  git ci -m "初赛结算后返回主界面才刷新挑战对象信息"
+ 1583  git log origin/master
+ 1584  git ci -am "神器代码优化"
+ 1585  git diff 9e9f78 --stat
+ 1586  git diff 380d75a --stat
+ 1587  git diff 0d14f0a --stat
+ 1588  git diff a751c286 --stat
+ 1589  git show --stat
+ 1590  vim /Users/xx/Downloads/protocol_record\(1\).hrl 
+ 1591  git ci -am "神器6"
+ 1592  git co trunk 
+ 1593  git blame MHXJ/util/BattleCapacityUtil.cpp
+ 1594  git log 31f31d --stat
+ 1595  git show 31f31d --stat
+ 1596  git show 31f31d7
+ 1597  git blame MHXJ/battle/BattleAutoBattle.cpp
+ 1598  git diff
+ 1599  git ci -am "去掉BattleCapacityUtil里面的工会战相关代码"
+ 1600  git reset HEAD~
+ 1601  git ci -m "撤销BattleCapacityUtil里的工会战相关代码"
+ 1602  git stash
+ 1603  git push
+ 1604  git fetch
+ 1605  git rebase
+ 1606  git mergetool
+ 1607  git push origin HEAD:master
+ 1608  git co -- 
+ 1609  git add sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1610  git reset
+ 1611  git co artifact 
+ 1612  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1613  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1614  mkdir -p /Volumes/EFI
+ 1615  sudo mkdir -p /Volumes/EFI
+ 1616  diskutil list
+ 1617  mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1618  sudo mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1619  mkdir -p /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1620  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/10.11/
+ 1621  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1622  ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1623  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext/
+ 1624  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1625  ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1626  mkdir -p /Volumes/EFI
+ 1627  sudo mkdir -p /Volumes/EFI
+ 1628  diskutil list
+ 1629  mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1630  sudo mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1631  mkdir -p /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1632  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/10.11/
+ 1633  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1634  ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1635  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext/
+ 1636  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1637  ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1638  diskutil unmount /Volumes/EFI
+ 1639  git ci -am "暂存战斗修改和工程文件"
+ 1640  git reset HEAD~
+ 1641  git add
+ 1642  git add -u
+ 1643  git add -a
+ 1644  git add -A
+ 1645  git ci -m "暂存战斗修改和工程文件"
+ 1646  git co trunk 
+ 1647  git fetch
+ 1648  git rebase
+ 1649  cd ./MHXJ/protocol/
+ 1650  git pull
+ 1651  cd ./../../
+ 1652  git log origin/master
+ 1653  cl
+ 1654  clear
+ 1655  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1656  git push origin HEAD:master
+ 1657  git co -- 
+ 1658  git add sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1659  git reset
+ 1660  git co artifact 
+ 1661  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1662  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1663  mkdir -p /Volumes/EFI
+ 1664  sudo mkdir -p /Volumes/EFI
+ 1665  diskutil list
+ 1666  mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1667  sudo mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1668  mkdir -p /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1669  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/10.11/
+ 1670  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1671  ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1672  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext/
+ 1673  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1674  ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1675  mkdir -p /Volumes/EFI
+ 1676  sudo mkdir -p /Volumes/EFI
+ 1677  diskutil list
+ 1678  mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1679  sudo mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1680  mkdir -p /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1681  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/10.11/
+ 1682  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1683  ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1684  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext/
+ 1685  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1686  ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1687  diskutil unmount /Volumes/EFI
+ 1688  git ci -am "暂存战斗修改和工程文件"
+ 1689  git add
+ 1690  git add -u
+ 1691  git add -a
+ 1692  git add -A
+ 1693  git ci -m "暂存战斗修改和工程文件"
+ 1694  git co trunk 
+ 1695  git fetch
+ 1696  git rebase
+ 1697  git log origin/master
+ 1698  cl
+ 1699  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1700  git svn rebase
+ 1701  cd ./MHXJ/Resources/res
+ 1702  cd ./config
+ 1703  git cd ./lua/
+ 1704  cd ./lua
+ 1705  clean
+ 1706  clear
+ 1707  cd ./../../../
+ 1708  cd ./../
+ 1709  cd ./MHXJ/protocol/
+ 1710  git pull
+ 1711  git cd ./../../
+ 1712  cd ./../../
+ 1713  ls -la
+ 1714  git log origin/master 
+ 1715  vim ./bin/update-externals 
+ 1716  rm -rf MHXJ/protocol/
+ 1717  vim ./bin/init-externals 
+ 1718  ./bin/init-externals trunk 
+ 1719  git co -p
+ 1720  git di
+ 1721  open ./sanguo.mac/sanguo.xcodeproj/
+ 1722  git reset HEAD~
+ 1723  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/artifact/effects/level/lv1_effect.offset.data 
+ 1724  git log origin/master 
+ 1725  vim ./bin/update-externals 
+ 1726  rm -rf MHXJ/protocol/
+ 1727  vim ./bin/init-externals 
+ 1728  ./bin/init-externals trunk 
+ 1729  git co -p
+ 1730  git di
+ 1731  open ./sanguo.mac/sanguo.xcodeproj/
+ 1732  git reset HEAD~
+ 1733  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/artifact/effects/level/lv1_effect.offset.data 
+ 1734  git diff
+ 1735  git add *.cpp *.h
+ 1736  git ci -m ""
+ 1737  git ci -m "神器战斗2"
+ 1738  git stash
+ 1739  cd ./../
+ 1740  cd ./../git/trunk/
+ 1741  git log artifact 
+ 1742  tmux
+ 1743  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/10.11/
+ 1744  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1745  ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1746  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext/
+ 1747  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1748  ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1749  diskutil unmount /Volumes/EFI
+ 1750  git ci -am "暂存战斗修改和工程文件"
+ 1751  git add
+ 1752  git add -u
+ 1753  git add -a
+ 1754  git add -A
+ 1755  git ci -m "暂存战斗修改和工程文件"
+ 1756  git co trunk 
+ 1757  git fetch
+ 1758  git rebase
+ 1759  cd ./MHXJ/protocol/
+ 1760  git pull
+ 1761  cl
+ 1762  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1763  git push origin HEAD:master
+ 1764  git co -- 
+ 1765  git add sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1766  git reset
+ 1767  git co artifact 
+ 1768  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1769  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1770  mkdir -p /Volumes/EFI
+ 1771  sudo mkdir -p /Volumes/EFI
+ 1772  diskutil list
+ 1773  mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1774  sudo mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1775  mkdir -p /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1776  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/10.11/
+ 1777  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1778  ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1779  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext/
+ 1780  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1781  ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1782  mkdir -p /Volumes/EFI
+ 1783  sudo mkdir -p /Volumes/EFI
+ 1784  diskutil list
+ 1785  mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1786  sudo mount -t msdos /dev/disk2s1 /Volumes/EFI
+ 1787  mkdir -p /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1788  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/10.11/
+ 1789  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1790  ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+ 1791  rm -rf /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext/
+ 1792  cp -r /Volumes/Teclast/temp/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1793  ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ 1794  diskutil unmount /Volumes/EFI
+ 1795  git ci -am "暂存战斗修改和工程文件"
+ 1796  git add
+ 1797  git add -u
+ 1798  git add -a
+ 1799  git add -A
+ 1800  git ci -m "暂存战斗修改和工程文件"
+ 1801  git co trunk 
+ 1802  git fetch
+ 1803  git rebase
+ 1804  cl
+ 1805  vim /Users/xx/Downloads/protocol_record\(2\).hrl 
+ 1806  git svn rebase
+ 1807  cd ./MHXJ/Resources/res
+ 1808  cd ./config
+ 1809  git cd ./lua/
+ 1810  cd ./lua
+ 1811  clean
+ 1812  cd ./../../../
+ 1813  cd ./../
+ 1814  cd ./MHXJ/protocol/
+ 1815  git pull
+ 1816  git cd ./../../
+ 1817  ls -la
+ 1818  git log origin/master 
+ 1819  vim ./bin/update-externals 
+ 1820  rm -rf MHXJ/protocol/
+ 1821  ./bin/init-externals trunk 
+ 1822  git co -p
+ 1823  git di
+ 1824  open ./sanguo.mac/sanguo.xcodeproj/
+ 1825  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/artifact/effects/level/lv1_effect.offset.data 
+ 1826  git log origin/master 
+ 1827  vim ./bin/update-externals 
+ 1828  rm -rf MHXJ/protocol/
+ 1829  ./bin/init-externals trunk 
+ 1830  git co -p
+ 1831  git di
+ 1832  open ./sanguo.mac/sanguo.xcodeproj/
+ 1833  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/artifact/effects/level/lv1_effect.offset.data 
+ 1834  git diff
+ 1835  git add *.cpp *.h
+ 1836  git ci -m ""
+ 1837  git ci -m "神器战斗2"
+ 1838  git stash
+ 1839  cd ./../
+ 1840  cd ./../git/trunk/
+ 1841  tmux
+ 1842   pwd
+ 1843   cd ./MHXJ
+ 1844  vim ./bin/init-externals 
+ 1845  git co .
+ 1846  ./bin/init-externals trunk
+ 1847  ./bin/init-externals trunk fanti
+ 1848  cd bin./
+ 1849  rm -rf bin./
+ 1850  cd MHXJ/Resources/
+ 1851  cd ..
+ 1852  cd ./../../
+ 1853  cd ./debug/
+ 1854  git co --  MHXJ/model/GuildWarManager.cpp
+ 1855  git stash list
+ 1856  git co -- sanguo.mac/sanguo.xcodeproj/project.pbxproj
+ 1857  git stash pop
+ 1858  cd ./../debug/
+ 1859  git log 
+ 1860  vim /Users/xx/Documents/project/sanguo/dev/debug/MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+ 1861  cd /Users/xx/Library/Developer/Xcode/DerivedData/sanguo-eopjpcdzzjlisyefgzdffxgfxgkz/Build/Products/Debug/
+ 1862  cd -
+ 1863  ls -s /Users/xx/Documents/project/sanguo/dev/debug/MHXJ/Resources/res ./
+ 1864  ls -s /Users/xx/Documents/project/sanguo/dev/debug/MHXJ/Resources/res .
+ 1865  ln -s /Users/xx/Documents/project/sanguo/dev/debug/MHXJ/Resources/res ./
+ 1868  cd ./Documents/project/sanguo/dev/debug/
+
+ 1889  ls -a
+ 1890  rm *.cpp
+ 1891  rm *.h
+ 1892  svn checkout https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/configure
+ 1893  vim /Users/xx/Documents/project/sanguo/dev/trunk/MHXJ/Resources/res/config/ArtifactCommonConfig.lua 
+
+ 1987  ls -a
+ 1898  rm *.lua
+ 1899  svn checkout https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config/

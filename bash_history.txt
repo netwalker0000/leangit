@@ -1,0 +1,2797 @@
+
+ git st
+#cat ~/Documents/misc/sanguo/crash/cocos2d::BitmapDC::getBitmapFromJavaShadowStroke.txt | ndk-stack -sym obj/local/armeabi-v7a
+#cd -r ~/Documents/project/sanguo/misc/build/fanti-en/fanti-en/android/res 
+#cp -r ~/Documents/project/sanguo/misc/build/fanti-en/fanti-en/android/* .
+#curl http://mbzj.ufile.ucloud.com.cn/cpadmin/ios/
+#git ci --fixup=bdebf4
+#sh ~/Downloads/buglySymboliOS2.4.4/buglySymboliOS.sh 
+#svn merge -c 85366 ^/trunk/client
+#unzip /Users/xcj/Desktop/fanti-online-release-1.1.3-20170104101302-clientr82705-resr82695-configr82683-luar82687.apk
+. -x ~/Documents/project/tool/bugly/ios/gen 20170117162210
+./analyse 
+./bin/external/init-externals 
+./bin/get-all-history 
+./bin/init-externals branches/0111 yingzheng
+./bin/init-externals branches/20170111
+./bin/init-externals branches/20170111 fanti
+./bin/init-externals branches/20170111 main
+./bin/init-externals branches/20170111 southease_asia
+./bin/init-externals branches/20170111 southease_asia_english
+./bin/init-externals branches/20170111 southease_english
+./bin/init-externals branches/20170111 yingzheng
+./bin/init-externals branches/20170302
+./bin/init-externals branches/20170302 fanti
+./bin/init-externals branches/20170302 fanti_en
+./bin/init-externals branches/20170408
+./bin/init-externals branches/20170408 fanti
+./bin/init-externals trunk
+./bin/init-externals trunk 
+./bin/init-externals trunk fanti
+./bin/init-externals trunk fanti_en
+./bin/init-externals trunk korea
+./bin/init-externals trunk sifu_9377
+./bin/init-externals trunk snzzt
+./bin/init-externals trunk southease_asia
+./bin/init-externals trunk southease_asia_english
+./bin/init-externals trunk southease_yingzheng
+./bin/init-externals trunk yingzheng
+./bin/split 
+./bin/switch-externals fanti
+./bin/switch-externals fanti_en
+./bin/switch-externals korea
+./bin/switch-externals main
+./bin/switch-externals sifu_9377
+./bin/switch-externals snzzt
+./bin/switch-externals southease_asia
+./bin/switch-externals southease_asia_english
+./bin/switch-externals yingzheng
+./bin/update 
+./bin/update-externals 
+./bin/win32/build
+./build_native.sh
+./build_native.sh 
+./build_native.sh -n
+./calc
+./calc 
+./calc > 1.txt
+./calc > 2.txt
+./calc > 3.txt
+./calc > log.txt
+./calc > log.txt 
+./calc > sh600079.log
+./calc > sh600633.log
+./calc > sz000963.txt
+./calc > sz002241.log
+./calc > sz002353.log
+./calc > xxx.log
+./calc | grep 600031
+./calc | grep sh600157
+./calc | pbcopy
+./calc | sort
+./calc | tee
+./calc | tee log.txt
+./calc | tee log.txt | sort
+./calc | tee log2.txt
+./calc | tee log3.txt
+./decode 
+./get-all-history 
+./get-history 
+./get-history a b c d e
+./get-history sh600000 2010
+./get-history sh600000 2010 > test.txt
+./get-history sh600000 > test.txt
+./logReceiver 
+./patch
+./project-update 
+./server 
+./split
+./split 
+./test
+./version-diff 
+00450ba5
+004512bf
+00451947
+00451cd9
+005c2cff
+005c6edd
+0070b3d5
+0071e6c7
+0071e74d
+0073ba1b
+2 #01 pc 000e7faa /system/lib/libskia.so
+3 #02 pc 00435336 /data/data/com.hydragame.sgmhzz/files/res/so/libgame.so
+4 #03 pc 0048bbd2 /data/data/com.hydragame.sgmhzz/files/res/so/libgame.so
+:noh
+\b
+\wd
+adb
+adb 
+adb devices
+adb devices[C
+adb help 
+adb help logcat
+adb install -r ./bin/blcx-release.apk 
+adb install ./bin/blcx-release.apk 
+adb install ~/Desktop/fanti-1-online-release-1.1.1-20161229175247-clientr82460-resr82441-configr82409-luar81857.apk 
+adb install ~/Desktop/fanti-en-fanti-en-release-1.0.0-20170322151135-clientr86374-resr86163-configr86409-luar86181.apk 
+adb install ~/Desktop/hydra.apk 
+adb install ~/Desktop/sea.apk 
+adb install ~/Desktop/southease_asia_english-online-release-1.2.0-20170118142311-clientr83844-resr83848-configr83834-luar83683.apk 
+adb kill-ser
+adb kill-server
+adb logcat
+adb logcat 
+adb logcat --help
+adb logcat -?
+adb logcat -c
+adb logcat -f dump.txt
+adb logcat -h
+adb logcat -help
+adb logcat > dump.txt
+adb logcat > log.txt
+adb logcat help
+adb logcat | grep 14187
+adb logcat | grep 18482
+adb logcat | grep cocos
+adb logcat | grep sgmhzz
+adb logcat | tee log.txt
+adb logcat | tee log.txt | grep cocos
+adb pull /etc/hosts .
+adb pull /sdcard/app_bugly .
+adb push MHXJ/Resources/res/config/StringConfig.lua /data/data/com.hydragame.sgmhzz/files/res/config/StringConfig.lua
+adb push hosts /etc/hosts
+adb rinstall ./bin/blcx-release.apk 
+adb root
+adb shell
+adb shell am force-stop com.hydragame.sgmhzz
+adb shell am start com.hydragame.sgmhzz/com.xuanyi.mbzj.GameActivity
+adb uninstall com.hydra.wb
+adb uninstall com.hydragame.sgmhzz
+adb uninstall com.shinezone.mbzj.enxmandroid
+adb uninstall com.xuanyi.southease.mb
+adb uninstall com.xuanyi.southease.mbzj
+android update
+android update lib-project
+android update lib-project -p ../android-fanti-1-libs/GoogleGameLogin/
+android update lib-project -p ../android-fanti-1-libs/appcompat/
+android update lib-project -p ../android-fanti-1-libs/cardview/
+android update lib-project -p ../android-fanti-1-libs/design/
+android update lib-project -p ../android-fanti-1-libs/facebook-android-sdk-4.14.1/
+android update lib-project -p ../android-fanti-1-libs/helpshift-android-sdk/
+android update lib-project -p ../android-fanti-1-libs/recyclerview
+android update lib-project -p ../android-fanti-1-libs/recyclerview/
+android update lib-project ../android-fanti-1-libs/recyclerview
+android update project --path ../android_vietnam_libs/google-play-services_lib --target android-23
+ant clean
+ant release
+ant release 
+bash -v
+bash -x ~/Documents/project/tool/bugly/ios/gen 20170117162210
+bin/get-history sh600100
+bin/get-history sh600100 > x.log
+bin/get-history sh600100 > x.txt
+brew --cache
+brew install coffeescript
+brew install lua
+brew install luajit
+brew install mysql
+brew install nodejs
+brew list
+brew search erlang
+brew search luajit
+brew search nodejs
+brew uninstall lua
+c d-
+cal
+cal -m
+cal -m 1
+cal -m 11
+cat ../../log.txt | ndk-stack -sym obj/local/armeabi-v7a
+cat ../../log.txt | ndk-stack -sym obj/local/armeabi-v7a > stack.txt
+cat ../../log.txt | ndk-stack obj/local/armeabi-v7a
+cat Win10_1607_English_x64.iso
+cat hs/sanguo.git/config 
+cat ios_7395AC21-834B7E6B_timestamp
+cat ios_7395AC21-834B7E6B_timestamp.9 
+cat log.txt
+cat log.txt 
+cat log.txt | grep 4992
+cat log.txt | grep cocos
+cat log.txt | ndk-stack -sym .
+cat log.txt | ndk-stack -sym ~/Desktop
+cat log.txt | sort
+cat log.txt | sort -r
+cat qxd/sanguo.git/config 
+cat src/version-diff.rb 
+cat team/env.git/HEAD
+cat team/env.git/config 
+cat x | ./decode 
+cat x | echo
+cat x | node
+cat x* > 16.4.1-server-cloudimg-amd64-root.tar.gz
+cat x.log 
+cat xcj/sanguo.git/config 
+cat xx/sanguo.git/config 
+cat ~/Documents/misc/note.txt 
+cat ~/Documents/misc/sanguo/guild-war-issues.txt
+cat ~/Documents/project/sanguo/dev/trunk/MHXJ/MHXJ.win32.vcxproj
+cd
+cd 
+cd -
+cd -=
+cd -\
+cd -r ~/Documents/project/sanguo/misc/build/fanti-en/fanti-en/android/res/* res/
+cd ..
+cd ../..
+cd ../../..
+cd ../../../..
+cd ../../../../
+cd ../../../../../../svn/branches/
+cd ../../../svn/branches/1209/
+cd ../../debug/
+cd ../../dev
+cd ../../dev/debug/
+cd ../../dev/trunk/
+cd ../../git
+cd ../../git/branches/1104/
+cd ../../git/dev
+cd ../../git/trunk/
+cd ../../misc/
+cd ../../misc/build
+cd ../../misc/cdn/
+cd ../../misc/pro
+cd ../../misc/project
+cd ../../misc/project/
+cd ../../misc/protocol
+cd ../../misc/protocol/
+cd ../../svn/branches/
+cd ../../svn/branches/0111
+cd ../../svn/branches/0111/
+cd ../../svn/branches/0302/
+cd ../../svn/trunk/
+cd ../../svn/trunk/MHXJ/Resources/res/config
+cd ../../trunk/
+cd ../0111/
+cd ../android-fanti-1
+cd ../branches/
+cd ../branches/0111/
+cd ../branches/0302/
+cd ../branches/0408/
+cd ../branches/1125/
+cd ../branches/1209/
+cd ../debug/
+cd ../dev/trunk/
+cd ../env
+cd ../lastest/
+cd ../misc/
+cd ../team
+cd ../team/
+cd ../trunk/
+cd ../xx
+cd .files/
+cd /Volumes/Data/Archives/mac/
+cd /Volumes/Data/Archives/xcode/
+cd /Volumes/Data/Hackintosh/clover/efi/EFI
+cd /Volumes/Data/Hackintosh/macOS/
+cd /Volumes/Data/archives/
+cd /Volumes/Data/archives/mac/
+cd /Volumes/Data/repositories
+cd /Volumes/Data/repositories/
+cd /Volumes/Data/repositories/sanguo.git
+cd /Volumes/Data/repositories/sanguo.git/
+cd /Volumes/Data/repositories/sanguo.guild.git
+cd 0302
+cd 0408
+cd Desktop/
+cd Do
+cd Downloads/
+cd MHXJ/Res
+cd MHXJ/Resources
+cd MHXJ/Resources/
+cd MHXJ/Resources/`
+cd MHXJ/Resources/res
+cd MHXJ/Resources/res/
+cd MHXJ/Resources/res/cfg
+cd MHXJ/Resources/res/cfg/
+cd MHXJ/Resources/res/config
+cd MHXJ/Resources/res/config/
+cd MHXJ/Resources/res/lua
+cd MHXJ/Resources/res/lua/
+cd MHXJ/android
+cd MHXJ/android-fanti
+cd MHXJ/android-fanti-1
+cd MHXJ/android-fanti-1/
+cd MHXJ/configure/
+cd MHXJ/protocol/
+cd MHXJ/res
+cd MXHJ/Re
+cd Resources_fanti/
+cd app_bugly/
+cd bi
+cd bin
+cd bin/
+cd bugly/
+cd co
+cd config
+cd config/
+cd crash/
+cd dev
+cd documents/
+cd efi
+cd env-master/
+cd hs
+cd hs/sanguo.git/
+cd kext/
+cd lastest/
+cd protocol/
+cd qxd
+cd qxd/sanguo.git/
+cd res/cfg
+cd res/lua/
+cd sanguo.
+cd sanguo.git/
+cd team/env.git/
+cd trunk/
+cd ubuntu/
+cd win10/
+cd x
+cd x/
+cd xcode/
+cd xx/sanguo.git/
+cd ~/Desktop/
+cd ~/Desktop/archive/test/hydra/log/
+cd ~/Desktop/patch/
+cd ~/Desktop/test
+cd ~/Desktop/test/
+cd ~/Desktop/test/config/
+cd ~/Documents/misc/note/
+cd ~/Documents/project/archive/
+cd ~/Documents/project/mruby/
+cd ~/Documents/project/project-update
+cd ~/Documents/project/sanguo/dev/debug #cd-dev-debug
+cd ~/Documents/project/sanguo/dev/debug/
+cd ~/Documents/project/sanguo/dev/trunk/
+cd ~/Documents/project/snippets/
+cd ~/Documents/project/spark-
+cd ~/Documents/project/spark-js/
+cd ~/Documents/project/version-diff
+cd ~/Downloads/
+cd ~/Downloads/config/
+chmod +x .
+chmod +x ./bin/update
+chmod +x ./build_native.sh 
+chmod +x analyse 
+chmod +x build_native.sh 
+chmod +x calc 
+chmod +x decode 
+chmod +x efi
+chmod +x get-all-history 
+chmod +x get-history 
+chmod +x logReceiver 
+chmod +x patch 
+chmod +x server 
+chmod +x split 
+chmod +x test.sh 
+chmod +x ~/Documents/project/tool/bugly/ios/buglySymboliOS.sh 
+chmod -R 644
+chmod -R 644 *
+chmod -R 644 *.icns
+chmod -R 644 .
+chmod -R 644 EFI/**/*.icns
+chmod -R 644 EFI/*.icns
+chmod -R 755 *
+chmod -R 777 *
+chmod -R 777 .
+chmod -x EFI/CLOVER/kexts/Other/FakeSMC.kext/Contents/MacOS/FakeSMC
+chmod 644 -R .
+chmod 644 /Volumes/Data/swap/文档/估时.txt 
+chmod a+x ./bin/build.win32 
+chmod a+x ./bin/external/init 
+chmod a+x ./bin/external/switch 
+chmod a+x ./bin/external/update 
+chmod a+x ./bin/win32/build
+chmod a+x project-update 
+chmod a+x version-diff 
+chmod a-x src/version-diff 
+cp *.lua temp
+cp -r ../trunk/bin .
+cp -r ./bin ~/Desktop/test
+cp -r ./bin ~/Desktop/test/bin
+cp -r /Library/Extensions/FakeSMC.kext /Volumes/EFI/EFI/CLOVER/kexts/Other
+cp -r /Library/Extensions/FakeSMC.kext extensions/
+cp -r /Library/Extensions/RealtekRTL8111.kext extensions/
+cp -r /Library/Extensions/realtekALC.kext extensions/
+cp -r /Volumes/Data/Hackintosh/clover/efi/EFI /Volumes/efi/
+cp -r /Volumes/Data/archives/windows/FlashGet/ /Volumes/Data/swap/
+cp -r /Volumes/Data/archives/windows/VisualStudio2010/ /Volumes/Data/swap/
+cp -r /Volumes/EFI/EFI/ .
+cp -r /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext /Library/Extensions/FakeSMC.kext
+cp -r /Volumes/EFI/EFI/CLOVER/kexts/Other/RealtekRTL8111.kext /Library/Extensions
+cp -r /Volumes/EFI/EFI/CLOVER/kexts/Other/realtekALC.kext /Library/Extensions
+cp -r /Volumes/samba/sym_libs/ios/fanti-online-release-1.1.0-20170113172322-clientr83645-resr83615-configr83648-luar83465.app.dSYM/ ~/Desktop/
+cp -r /Volumes/samba/sym_libs/ios/fanti-online-release-1.1.0-20170113172322-clientr83645-resr83615-configr83648-luar83465.app.dSYM/ ~/Desktop/fanti-online-release-1.1.0-20170113172322-clientr83645-resr83615-configr83648-luar83465.app.dSYM/
+cp -r /Volumes/samba/sym_libs/ios/fanti-online-release-1.1.0-20170116222237-clientr83728-resr83710-configr83715-luar83683.app.dSYM/ ~/Desktop/hydra.dSYM
+cp -r lastest/ dev
+cp -r ubuntu/ /Volumes/Data/swap/
+cp -r win10/ /Volumes/Teclast/
+cp -r ~/Documents/project/sanguo/misc/build/fanti-en/fanti-en/android/* .
+cp -r ~/Documents/project/sanguo/misc/build/fanti-en/fanti-en/android/res/* res/
+cp -r ~/Downloads/Bugly-v2.4.6/Bugly.framework MHXJ_IOS/MHXJ_IOS
+cp ../trunk/MHXJ/MHXJ.win32.vcxproj MHXJ/
+cp /Volumes/Data/swap/其它/install.wim .
+cp /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext/Contents/MacOS/FakeSMC EFI/CLOVER/kexts/Other/FakeSMC.kext/Contents/MacOS/FakeSMC 
+cp /Volumes/samba/apk/fanti-1-inline-release-1.1.3-20170104141854-clientr82729-resr82695-configr82722-luar82687.apk .
+cp /Volumes/samba/apk/fanti-1-online-release-1.1.3-20170104150704-clientr82729-resr82695-configr82722-luar82687.apk .
+cp /Volumes/samba/apk/fanti-online-release-1.1.3-20170104101302-clientr82705-resr82695-configr82683-luar82687.apk ~/Desktop/
+cp /Volumes/samba/apk/korea-online-release-1.1.1-20170104151034-clientr82729-resr82696-configr82728-luar82687.apk .
+cp /Volumes/samba/apk/southease_asia-online-release-1.3.1-20170104151436-clientr82729-resr82699-configr82692-luar82687.apk .
+cp /Volumes/samba/sym_libs/android/*20161222214409* ~/Desktop/
+cp /Volumes/samba2/sanguo_autobuild/symlibs/android_symbs/*20170322144826* .
+cp MHXJ/Resources/res/config/StringConfig.lua ~/Desktop/patch/res/config/StringConfig.lua
+cp MHXJ/Resources/res/configure/*name.xml ~/Desktop/patch/res/configure/
+cp MHXJ/Resources/res/configure/*names.xml ~/Desktop/patch/res/configure/
+cp MHXJ/Resources/res/configure/Xings.xml ~/Desktop/patch/res/configure/
+cp Resource_part_20170323172749.zip /Volumes/samba2/
+cp bash/* ~/Desktop/
+cp bin/klc_kl/ bin/
+cp bin/klc_kl/* bin/
+cp database-bak/sh600008.json database/
+cp database-bak/sh600009.json database/
+cp database-bak/sh600010.json database/
+cp database-bak/sh600011.json database/
+cp history.txt ~/Desktop/
+cp libgame.patch ~/Desktop/patch/res/so/libgame.patch 
+cp libs/armeabi-v7a/libgame.so libgame.1.so 
+cp libs/armeabi-v7a/libgame.so libs/armeabi-v7a/libgame.1.so 
+cp patch.zip ~/Documents/project/sanguo/misc/cdn/android/default/patch.korea.zip 
+cp patch.zip ~/Documents/project/sanguo/misc/cdn/android/default/patch.sea.zip 
+cp patch.zip ~/Documents/project/sanguo/misc/cdn/android/default/patch.zip 
+cp programming/Lua\ vs\ C++.txt .
+cp src/version-diff.rb .
+cp temp/*.lua .
+cp x* 16.4.1-server-cloudimg-amd64-root.tar.gz
+cp ~/.ssh/id_rsa.pub /Volumes/samba2/
+cp ~/Desktop/apk/assets/res/cfg/gameConfigTemplate.lua MHXJ/Resources/res/cfg/gameConfigTemplate.lua 
+cp ~/Desktop/patch/patch.zip ../../../../misc/cdn/android/default/patch.zip 
+cp ~/Desktop/patch/patch.zip ../../../../misc/cdn/ios/default/patch.zip 
+cp ~/Desktop/patch/patch.zip ../../misc/cdn/android/default/patch.zip
+cp ~/Desktop/patch/patch.zip ../../misc/cdn/ios/default/patch.zip 
+cp ~/Documents/project/sanguo/dev/debug/MHXJ/android-fanti-1/res/values/config.xml res/values/
+cp ~/Documents/project/sanguo/dev/team/MHXJ/protocol/mh_protocol-.h lastest/
+cp ~/Documents/project/sanguo/dev/team/MHXJ/protocol/split ./bin/
+cp ~/Downloads/*.png .
+cp ~/Downloads/commonUtil.lua .
+cp ~/Downloads/mh_* .
+cp 程序版本计划.xlsx 程序版本计划+.xlsx 
+curl  http://cdn.hydragamez.com/cpadmin/ios_fanti_serverlists?t=1487213662
+curl -L --retry 999 --retry-max-time 0 --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Firefox/52.0' -C -o Win10_1607_English_x64.iso - https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=c8ac5355-e6ce-45ac-9002-97711ee956d7&e=1490254876&h=91883ffc809d78d433e9c278d34e5e9e
+curl -L -O --retry 999 --retry-max-time 0 -C - https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=530ee11c-5671-43e5-99e9-bd37a0a3ee84&e=1490088847&h=48d0e4f79460a7419d163e526c80717a
+curl -L -o  --retry 999 --retry-max-time 0 -C - https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=530ee11c-5671-43e5-99e9-bd37a0a3ee84&e=1490088847&h=48d0e4f79460a7419d163e526c80717a
+curl -L -o Win10_1607_English_x64.iso --retry 999 --retry-max-time 0  --user-agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Firefox/52.0" -C - https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=c8ac5355-e6ce-45ac-9002-97711ee956d7&e=1490254876&h=91883ffc809d78d433e9c278d34e5e9e
+curl -L -o Win10_1607_English_x64.iso --retry 999 --retry-max-time 0  --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Firefox/52.0' -C - https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=c8ac5355-e6ce-45ac-9002-97711ee956d7&e=1490254876&h=91883ffc809d78d433e9c278d34e5e9e
+curl -L -o Win10_1607_English_x64.iso --retry 999 --retry-max-time 0 -C - https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=530ee11c-5671-43e5-99e9-bd37a0a3ee84&e=1490088847&h=48d0e4f79460a7419d163e526c80717a
+curl -L -o Win10_1607_English_x64.iso --retry 999 --retry-max-time 0 -C - https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=c8ac5355-e6ce-45ac-9002-97711ee956d7&e=1490254876&h=91883ffc809d78d433e9c278d34e5e9e --user-agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Firefox/52.0"
+curl -L -o Win10_1607_English_x64.iso --retry 999 --retry-max-time 0 -C - https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=c8ac5355-e6ce-45ac-9002-97711ee956d7&e=1490254876&h=91883ffc809d78d433e9c278d34e5e9e -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Firefox/52.0"
+curl http://106.75.70.154/cpadmin/android_southease_en_serverlists_111111
+curl http://106.75.70.154/cpadmin/android_southease_en_serverlists_111112
+curl http://106.75.70.154/cpadmin/android_southease_en_timestamp
+curl http://106.75.70.167/cpadmin/android_jituo_timestamp
+curl http://106.75.70.167/cpadmin/ios_jituo_timestamp
+curl http://192.168.0.203//cpadmin/ios_fanti_serverlists
+curl http://192.168.0.203/cpadmin/android_fanti1_serverlists
+curl http://192.168.0.203/cpadmin/android_fanti_1_serverlists
+curl http://192.168.0.203/cpadmin/android_fanti_serverlists
+curl http://192.168.0.203/cpadmin/android_master_serverlists
+curl http://192.168.0.203/cpadmin/android_southease_en_serverlists
+curl http://192.168.0.203/cpadmin/android_southease_en_serverlists_1487673241
+curl http://192.168.0.203/cpadmin/android_southease_en_timestamp
+curl http://192.168.0.203/cpadmin/android_southease_serverlists
+curl http://192.168.0.203/cpadmin/android_southease_serverlists_1490860388
+curl http://192.168.0.203/cpadmin/ios_fanti_serverlists
+curl http://cdn.hydragamez.com/cpadmin/android_fanti2_serverlists?t=1482982781
+curl http://cdn.hydragamez.com/cpadmin/android_fanti2_serverlists?t=1483065899
+curl http://cdn.hydragamez.com/cpadmin/android_fanti2_serverlists?t=1484621860
+curl http://cdn.hydragamez.com/cpadmin/android_fantien_serverlists?t=1489504198
+curl http://cdn.hydragamez.com/cpadmin/ios_fanti_serverlists
+curl http://cdn.hydragamez.com/cpadmin/ios_fanti_serverlists?t=1484621860
+curl http://cdn.mbzj.9377.cn/cpadmin/ios_7395AC21-834B7E6B_timestamp
+curl http://cdn.mbzj.9377.cn/cpadmin/ios_7395AC21-834B7E6B_timestamp -vos
+curl http://mbzj.ufile.ucloud.com.cn/cpadmin/ios_941C8962-A3C1EE1D_serverlists
+curl http://mbzj.ufile.ucloud.com.cn/cpadmin/ios_941C8962-A3C1EE1D_serverlists?t=1
+curl http://static.avocado-inc.com/mbzj/files/cpadmin/ios_Korea_serverlists?t=1487923861
+curl http://static.avocado-inc.com/mbzj/files/cpadmin/ios_Korea_serverlists?t=148792386xxx
+curl https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=c8ac5355-e6ce-45ac-9002-97711ee956d7&e=1490254876&h=91883ffc809d78d433e9c278d34e5e9e
+date
+dgit st
+diff -r /Volumes/EFI/EFI /Volumes/Data/Hackintosh/clover/efi/EFI
+diff -r /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext /Library/Extensions/FakeSMC.kext
+diff -r /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext /Library/Extensions/FakeSMC.kext | less
+diff -r /Volumes/EFI/EFI/CLOVER/kexts/Other/RealtekRTL8111.kext /Library/Extensions
+diff -r /Volumes/EFI/EFI/CLOVER/kexts/Other/RealtekRTL8111.kext /Library/Extensions/RealtekRTL8111.kext
+diff -r /Volumes/EFI/EFI/CLOVER/kexts/Other/realtekALC.kext /Library/Extensions/realtekALC.kext
+diff -r /Volumes/Teclast/hackintosh/Clover\ Configurator.app/ /Volumes/Teclast/new/clover/Clover\ Configurator.app/
+diff -r /Volumes/Teclast/hackintosh/clover/efi .
+diff -r /Volumes/Teclast/hackintosh/clover/efi/EFI EFI
+diff -r EFI /Volumes/EFI/EFI
+diff -r extensions/FakeSMC.kext /Library/Extensions/FakeSMC.kext
+diff -r extensions/RealtekRTL8111.kext /Library/Extensions/RealtekRTL8111.kext
+diff -r extensions/realtekALC.kext /Library/Extensions/realtekALC.kext
+diff -r ~/Downloads/Bugly-v2.4.6/Bugly.framework MHXJ_IOS/MHXJ_IOS/Bugly.framework
+diff 0.txt 1.txt 
+diff mh_protocol.h mh_protocol.h.bak 
+diff mh_protocol.h mh_protocol.h.bak > diff.txt
+diff mh_protocol.h mh_protocol.h.bak > patch.txt
+diff mh_protocol.h mh_protocol.h.bak | less
+diff mh_protocol.h mh_protocol.new.h > patch.txt
+diff mh_protocol.old.h mh_protocol.h > patch.txt 
+diff mh_protocol.old.h output.txt 
+diff patch.txt 
+diskutil lisgt
+diskutil list
+diskutil unmount /Volumes/efi
+du -sh
+du -sh /Volumes/Cache/project/sanguo
+du -sh /Volumes/Cache/project/sanguo/
+du -sh /Volumes/Cache/project/sanguo/0111
+du -sh /Volumes/Cache/project/sanguo/dev/
+du -sh /Volumes/Cache/project/sanguo/dev/branches/0111
+du -sh /Volumes/Cache/project/sanguo/dev/branches/0111/
+du -sh /Volumes/Cache/project/sanguo/dev/branches/0302
+du -sh /Volumes/Cache/project/sanguo/dev/branches/0302/
+du -sh /Volumes/Cache/project/sanguo/dev/debug/
+du -sh /Volumes/Cache/project/sanguo/dev/trunk/
+du -sh /Volumes/Cache/project/sanguo/git/
+du -sh /Volumes/Cache/project/sanguo/git/branches/1104/
+du -sh /Volumes/Cache/project/sanguo/git/trunk/
+du -sh /Volumes/Cache/project/sanguo/misc/
+du -sh /Volumes/Cache/project/sanguo/svn
+du -sh /Volumes/Data/project/sanguo/svn/
+du -sh /Volumes/Data/project/sanguo/svn/branches/0111/
+du -sh /Volumes/Data/project/sanguo/svn/branches/1104/
+du -sh /Volumes/Data/project/sanguo/svn/branches/1209/
+du -sh /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/
+du -sh database/
+du -sh ubuntu
+echo $ROOT
+echo $root
+erwrw
+fg
+fg 
+fg 1
+fg 12
+fg 2
+fg 3
+find . -name *Battle*.cpp
+find . -name *Bugly*
+find . -name *Bugly* | grep .so
+find . -name *Crash*
+find . -name *Crash* | grep .so
+find . -name *Crash* | grep so
+find . -name *battle*
+find . -name *battle*.cpp
+find . -name *battle*.h
+find . -name *bugyly*
+find . -name *southease_*
+find . -name *southease_* | grep -v asia
+find . -name *southease_asia_english*
+find . -name *southease_english*
+find . -name .DS_Store
+find . -name BattleArtifactViewMgr.cpp
+find . -name BattleArtifiactViewMgr.cpp
+find . -name DungeonReward*
+find . -name DungeonReward*.cpp
+find . -name bugyly
+find . -name lib
+find . -name southease_english
+find . | grep *bugly*
+find /Volumes/Teclast/hackintosh/clover -name .DS_Store
+find /Volumes/Teclast/hackintosh/clover/ -name .DS_Store
+find bin
+find bin -type f
+find res
+find res -f
+find res -type f
+free
+ftp 192.168.1.181:2121
+g
+g git st
+gi st
+gi tdi
+gi tlog
+gi ts
+gi tst
+gi tt
+git
+git 
+git --version
+git add *.lua
+git add *.pbx*
+git add *View
+git add *View*
+git add -- *.cpp
+git add -- *Battle*
+git add -- *FakeSMC*
+git add -- *View.h
+git add -- *battle*
+git add -- *external*
+git add -- *local.property
+git add -- *logger*
+git add -- *pbx*
+git add -;
+git add -A
+git add -a
+git add -i
+git add -j
+git add -p
+git add -p 
+git add -p -- *Recur*
+git add -p -- activity/RightUI/ActivityRecruitView.lua
+git add -u
+git add -u 
+git add -u -- bin
+git add ../Classes/
+git add ./bin/external/
+git add .gitignore
+git add MHXJ
+git add MHXJ/Classes/Log*
+git add MHXJ/Classes/LogManager*
+git add MHXJ/xy
+git add bin
+git add bin/
+git add bin/external/
+git add bin/win32/
+git add calc
+git add database/
+git add decode
+git add get-all-history
+git add get-history
+git add list.txt
+git add mh_protocol.dev.h
+git add mh_protocol.old.h
+git add patch
+git add project-update
+git add sanguo.mac/
+git add solarized_dark_patched.png
+git add split
+git add todo.txt
+git add violet_dark.png
+git aee4a3 yingzheng -- gameConfigTemplate.lua
+git archive -o patch.zip HEAD $(git diff --name-only  2da54a..HEAD)
+git archive -o patch.zip HEAD $(git diff --name-only  HEAD~..HEAD)
+git blame HEAD -- MHXJ/model/GameSuitEquipmentManager.cpp
+git blame MHXJ/model/GameSuitEquipmentManager.cpp
+git blame MonsterGeneralConfig.lua
+git blame a33b49 -- MHXJ/model/GameSuitEquipmentManager.cpp
+git blame a33b49~ -- MHXJ/model/GameSuitEquipmentManager.cpp
+git br
+git br 
+git br "debug-network"
+git br -
+git br -=a
+git br -B debug-battle
+git br -D backup
+git br -D config 
+git br -D debug-battle 
+git br -D debug-file-utils 
+git br -D debug-network 
+git br -D env
+git br -D env-team 
+git br -D env-windows 
+git br -D guild 
+git br -D guild-qxd 
+git br -D guild-war 
+git br -D log-manager
+git br -D log-manager-bak 
+git br -D master
+git br -D ref
+git br -D sifu_moli
+git br -D sifu_oefsy
+git br -D suit 
+git br -D test
+git br -D xxx
+git br -a
+git br -a\
+git br -b debug-battle -f
+git br -f "debug-network"
+git br -f debug-battle
+git br -f guild-war
+git br -f log-manager-bak
+git br -m env
+git br -m master
+git br -m xxx
+git br -u dev/env
+git br -u origin/env
+git br -u origin/protocol 
+git br -u origin/team
+git br -u origin/team 
+git br -u team/backup
+git br -u team/master
+git br -u team/master 
+git br -u team/protocol 
+git br -v
+git br backup
+git br config
+git br debug-battle
+git br debug-file-utils
+git br log-manager-bak
+git br ref team/master
+git br test
+git br ui
+git br x master
+git bst
+git cherry-pick  origin/trunk 
+git cherry-pick -- debug-file-utils 
+git cherry-pick --abort
+git cherry-pick --continue 
+git cherry-pick 075da9
+git cherry-pick 2755ae 0bba40
+git cherry-pick 528e61 4a0421 4e0189
+git cherry-pick 5952a5
+git cherry-pick 60a625 b41645
+git cherry-pick 6cc54...log-manager
+git cherry-pick 6cc54...trunk
+git cherry-pick 6cc54..trunk
+git cherry-pick 6cc540
+git cherry-pick 75dff5
+git cherry-pick 82088a
+git cherry-pick 82088a 9e635d
+git cherry-pick 92d1b2
+git cherry-pick 9426
+git cherry-pick aec8a3
+git cherry-pick af9295
+git cherry-pick b28424
+git cherry-pick b2b345
+git cherry-pick bfaf26
+git cherry-pick cb004b
+git cherry-pick cherry-pick --abort 
+git cherry-pick de
+git cherry-pick debug
+git cherry-pick debug 
+git cherry-pick debug-battle 
+git cherry-pick debug-battle~
+git cherry-pick e922c 6d9a48
+git cherry-pick env/master 
+git cherry-pick env/team
+git cherry-pick env/windows 
+git cherry-pick f53a23
+git cherry-pick team/backup...backup
+git cherry-pick trunk
+git cherry-pick trunk 
+git ci
+git ci 
+git ci --amend
+git ci --amend -a
+git ci --fixup 953e
+git ci --fixup 953e -a
+git ci --fixup dd7dd1
+git ci --fixup=7162
+git ci --fixup=79ce
+git ci --fixup=85f394
+git ci --fixup=85fe94
+git ci --fixup=98a034
+git ci --fixup=98a034 -a
+git ci --fixup=bdebf4
+git ci --fixup=ea1579 -a
+git ci --fixup=f6d557
+git ci -a --amend
+git ci -a --fixup 24d4d4
+git ci -a --fixup 757d87
+git ci -a --fixup=7162
+git ci -a --fixup=d4aa
+git ci -a --fixup=e6b511
+git ci -a --fixup=f5acd8
+git ci -a -f 7162
+git ci -am "[debug] account -> xcj"
+git ci -am "[debug] account"
+git ci -am "[debug] crash"
+git ci -am "[debug] demo - 1"
+git ci -am "[debug] fix error"
+git ci -am "[debug] log"
+git ci -am "[debug] sanguo.mac"
+git ci -am "[debug] split mh_protocol.h"
+git ci -am "[debug] temp"
+git ci -am "[debug] test"
+git ci -am "b-"
+git ci -am "config"
+git ci -am "debug-battle"
+git ci -am "fix typo"
+git ci -am "initial" --allow-empty
+git ci -am "modified"
+git ci -am "update config.plist - inject audio"
+git ci -am "version-diff"
+git ci -am "整理CCActionPanel"
+git ci -am "修改内网cdn及platform"
+git ci -am "修改：签到，1号2点之前显示月份错误"
+git ci -am "修改：屏蔽不必要的战斗log"
+git ci -am "修正：读取文件非线程安全"
+git ci -am 2
+git ci -am 3
+git ci -am a
+git ci -am a3
+git ci -am b
+git ci -am debug
+git ci -am log
+git ci -am x
+git ci -m "1"
+git ci -m "1" -a
+git ci -m "3"
+git ci -m "Bug #15614 【签到】签到奖励显示与实际获得不同"
+git ci -m "Bug #15614 【签到】签到奖励显示与实际获得不同" -a
+git ci -m "INFO_MSG -> VERBOSE_MSG"
+git ci -m "TEST_MSG -> INFO_MSG"
+git ci -m "[?] kexts - realtekALC"
+git ci -m "[debug] account -> xcj"
+git ci -m "[debug] account -> xcj" -a
+git ci -m "[debug] account"
+git ci -m "[debug] account" -a
+git ci -m "[debug] add log"
+git ci -m "[debug] analyse"
+git ci -m "[debug] analyse" -a
+git ci -m "[debug] android"
+git ci -m "[debug] android" -a
+git ci -m "[debug] demo - test"
+git ci -m "[debug] demo"
+git ci -m "[debug] disable bugly"
+git ci -m "[debug] embattle"
+git ci -m "[debug] fix compile error of android"
+git ci -m "[debug] fix compiling error"
+git ci -m "[debug] fix error"
+git ci -m "[debug] guild-war"
+git ci -m "[debug] iOS"
+git ci -m "[debug] log level"
+git ci -m "[debug] log level" -a
+git ci -m "[debug] log"
+git ci -m "[debug] log" -a
+git ci -m "[debug] network"
+git ci -m "[debug] network" -a
+git ci -m "[debug] quicken debug speed"
+git ci -m "[debug] sanguo.mac"
+git ci -m "[debug] sanguo.mac" -a
+git ci -m "[debug] simplify to edit"
+git ci -m "[debug] split mh_protocol.h"
+git ci -m "[debug] team - external"
+git ci -m "[debug] team - external" -a
+git ci -m "[debug] test - data"
+git ci -m "[debug] test patch"
+git ci -m "[debug] test"
+git ci -m "[debug] test" -a
+git ci -m "[debug] update android version"
+git ci -m "[debug] windows"
+git ci -m "[debug]"
+git ci -m "[debug]" -a
+git ci -m "[git] ignore .DS_Store"
+git ci -m "[test]"
+git ci -m "[vim] set exrc"
+git ci -m "a"
+git ci -m "a" -a
+git ci -m "a1"
+git ci -m "a1" -a
+git ci -m "compiling error: battle"
+git ci -m "compiling error: misc"
+git ci -m "decode"
+git ci -m "get-all-history"
+git ci -m "initial" --allow-empty
+git ci -m "initial" --allow-empy
+git ci -m "kext-dev-mode"
+git ci -m "kexts - fakesmc"
+git ci -m "log"
+git ci -m "log" -a
+git ci -m "logger: compiling error"
+git ci -m "modify"
+git ci -m "ref - windows"
+git ci -m "test"
+git ci -m "todo: update"
+git ci -m "todo: update" -a
+git ci -m "x"
+git ci -m "x" -a
+git ci -m "xx"
+git ci -m "修正N个布阵Bug"
+git ci -m "修正Windows下编译错误"
+git ci -m "修正Windows下编译错误" -a
+git ci -m "修正delete[]/free错用代码"
+git ci -m "整理gameConfig"
+git ci -m "整理gameConfigTemplate.lua"
+git ci -m "升级iOS的Bugly"
+git ci -m "整理log输出"
+git ci -m "新增：xy/ui/View"
+git ci -m "修改：整理CCActionPanel"
+git ci -m "修改：增加Network收发log"
+git ci -m "修改：增加Network收发log" -a
+git ci -m "去掉登录时loading的10秒限制"
+git ci -m "修改：整理log输出"
+git ci -m "修改：整理log输出" -a
+git ci -m "修改默认渠道"
+git ci -m "更新工作进度"
+git ci -m "配置表分目录"
+git ci -m "修改默认渠道" -a
+git ci -m "配置文件分目录"
+git ci -m "修正参数类型错误"
+git ci -m "修正：副本布阵崩溃"
+git ci -m "修改：忽略序号错误的网络消息包"
+git ci -m "修正：公会战排行榜列表不能显示"
+git ci -m "修改：忽略序号错误的网络消息包" -a
+git ci -m "修正：公会战排行榜列表不能显示" -a
+git ci -m "修正：运送军资战斗中退出后端报错"
+git ci -m 1
+git ci -m 1 -a
+git ci -m 2
+git ci -m 3
+git ci -m 4
+git ci -m 5
+git ci -m a
+git ci -m a -a
+git ci -m a2
+git ci -m a2 -a
+git ci -m b
+git ci -m c
+git ci -m c -a
+git ci -m d
+git ci -m d -a
+git ci -m database
+git ci -m initial --allow-empty
+git ci -m logger
+git ci -m ref
+git ci -m solarized_dark_patched
+git ci -m startup
+git ci -m test
+git ci -m test -a
+git ci -m todo.txt
+git ci -m violet_dark
+git ci -m x
+git ci -m x -a
+git ci -m xxx
+git ci -m y
+git ci -m y -a
+git ci -m y -a\
+git ci -m 修改：整理log代码
+git clean 
+git clean -- *.swp
+git clean -f
+git clean -f -- bin/external/*externals
+git clean -fd
+git clean -fdn
+git clean -fdx
+git clean -fdx -- *.swn
+git clean -fdx -- *.swo
+git clean -fdx -- *.swp
+git clean -fdxn
+git clean -fdxn -- *.swp
+git clean -fn -- *.swp
+git clean -fn -- *externals
+git clean -fn -- bin/external/*externals
+git clean -fnx -- *.swp
+git clean -fx
+git clean -fx -- *.swp
+git clean -fxn
+git clean -fxn -- *.swp
+git co
+git co 
+git co -
+git co -- *.json
+git co -- *.pbxproj
+git co -- *pbxproj
+git co --orphan 
+git co --orphan env
+git co --orphan env-x
+git co --ours MHXJ/ui/RewardsTips.cpp
+git co --ours MHXJ/ui/RewardsTips.h
+git co --ours MHXJ/util/PanelUtil.*
+git co -B color-scheme f60f98
+git co -B guild
+git co -B guild-qxd guild/qxd 
+git co -B guild-war
+git co -B log-manager
+git co -B protocol
+git co -B southease_asia remotes/southease_asia-git-svn
+git co -B suit team/master 
+git co -B test backup
+git co -B xxx team/master
+git co -b test
+git co -p
+git co -p 
+git co .
+git co ..
+git co 03a6
+git co 1b5b63
+git co 1d7ed9 -- list.txt
+git co 1d7ed9~ -- list.txt
+git co 31f31d~ -- MHXJ/util/BattleCapacityUtil.cpp
+git co 930e36
+git co HEAD
+git co HEAD~
+git co HEAD~ -- MHXJ/ui/GuildTabPanel.cpp
+git co HEAD~ -- list.txt
+git co HEAD~ MHXJ/ui/GuildTabPanel.cpp
+git co HEAD~3
+git co MHXJ/battle/
+git co MHXJ_IOS/MHXJIOS.xcodeproj/project.pbxproj
+git co d307f
+git co de
+git co debug
+git co debug --
+git co debug-file-utils 
+git co env
+git co env-team
+git co env-windows 
+git co fa9c09
+git co fae4
+git co fae48e
+git co fanti
+git co fanti_en
+git co git 
+git co guild
+git co guild-qxd
+git co guild-war 
+git co guild/master -b guild
+git co log-manager
+git co master 
+git co ref
+git co suit
+git co team
+git co team/
+git co team/master
+git co test
+git co test 
+git co trunk
+git co trunk 
+git co trunk/master -- mh_protocol.h
+git co.
+git config daemon.receivepack true
+git d
+git daemon --verbose --reuseaddr --base-path=`pwd` `pwd`
+git daemon --verbose --reuseaddr --base-path=`pwd`/.. `pwd`/..
+git di
+git di 
+git di -- *Army*
+git di --cached
+git di --cached -- *logger*
+git di --cached --stat
+git di --cached --stat | pbcopy
+git di --cached --stat | sort -k 3
+git di --left-right team/master
+git di --left-right test...ref
+git di --stat
+git di --stat --cached
+git di --stat 2da54a -- *ArmyManager*
+git di --stat fanti fanti_en -- | sort -k 3
+git di --stat fanti fanti_en | sort -k 3
+git di --stat fanti korea
+git di --stat fanti korea | sort -k 3
+git di --stat fanti korea | sort -k 3 | pbcopy
+git di --stat korea fanti
+git di --stat korea fanti 
+git di --stat korea fanti -- 
+git di --stat korea fanti -- ActionConfig.lua
+git di --stat korea fanti -- ActivityConfig.lua ActivityChargeDoubleConfig.lua ActivityCoinConfig.lua ActivityCornucopiaConfig.lua ActivityDailyRechargeConfig.lua ActivityDailyRecharge2Config.lua ActivityDayRechargeConfig.lua ActivityDayRecharge2Config.lua ActivityDiscountGoodsConfig.lua ActivityDiscountGoods2Config.lua ActivityDisSoldierConfig.lua ActivityExchangeConfig.lua ActivityForeverRechargeAwardConfig.lua ActivityLevelRankRewardConfig.lua ActivityLimitTimeGeneralBoxConfig.lua ActivityLimitTimeGeneralRankRewardConfig.lua ActivityRandomBoxConfig.lua ActivitySevenDayWelfareConfig.lua ActivityShareConfig.lua ActivitySingleRechargeAwardConfig.lua ActivityStrengthRankRewardConfig.lua ActivitySuperPartnerConfig.lua ActivityTargetConfig.lua ActivityTargetSonConfig.lua ActivityTargetTypeConfig.lua ActivityTurntableConfig.lua ActivityTurntableBoxConfig.lua ActivityTurntableCostConfig.lua ActivityTurntableRankRewardConfig.lua ArenaShopConfig.lua BoxConfig.lua BoxTypeBagConfig.lua ConsumeAwardConfig.lua ConsumeAward2Config.lua CrossShopConfig.lua DungeonEquipmentDungeonRefreshConfig.lua DungeonRandomRewardConfig.lua ElitePassConfig.lua ErorCode.xlsm FunctionButtonConfig.lua GameNameConfig.lua GeneralConfig.lua GeneralCommonConfig.lua GeneralGroupvConfig.lua GrowthPlanConfig.lua GrowthPlanVipConfig.lua GuideActionConfig.lua GuildLevelConfig.lua GuildShopConfig.lua LevelAwardConfig.lua MailConfig.lua MailContentConfig.lua MansionConfig.lua NewRoleMailConfig.lua PassConfig.lua PeakShopConfig.lua PvpRecordConfig.lua RechargeConfig.lua RechargeAwardConfig.lua RechargeAward2Config.lua RechargeRecordConfig.lua RecruitActivityAwardConfig.lua RobotNameConfig.lua RoleConfig.lua SearchConfig.lua SelectItemBagConfig.lua SevenDayAwardConfig.lua ShareConfig.lua ShopActivityConfig.lua ShopCreditConfig.lua ShopCrusadeConfig.lua ShopItemConfig.lua ShopNormalConfig.lua ShopSecretConfig.lua SkillTextConfig.lua StringConfig.lua SystemConfig.lua TextConfig.lua TimeGiftBagConfig.lua TimeLimitBagConfig.lua TimeLimitBag2Config.lua UiTextConfig.lua UiTextFontConfig.lua VideoTimeGiftConfig.lua VipConfig.lua VipGiftBagConfig.lua VipWeekBagConfig.lua MonsterGeneralConfig.lua SkillLogicConfig.lua PvpSkillLevelConfig.lua BattleHaloConfig.lua
+git di --stat korea fanti -- ActivityConfig.lua ActivityChargeDoubleConfig.lua ActivityCoinConfig.lua ActivityCornucopiaConfig.lua ActivityDailyRechargeConfig.lua ActivityDailyRecharge2Config.lua ActivityDayRechargeConfig.lua ActivityDayRecharge2Config.lua ActivityDiscountGoodsConfig.lua ActivityDiscountGoods2Config.lua ActivityDisSoldierConfig.lua ActivityExchangeConfig.lua ActivityForeverRechargeAwardConfig.lua ActivityLevelRankRewardConfig.lua ActivityLimitTimeGeneralBoxConfig.lua ActivityLimitTimeGeneralRankRewardConfig.lua ActivityRandomBoxConfig.lua ActivitySevenDayWelfareConfig.lua ActivityShareConfig.lua ActivitySingleRechargeAwardConfig.lua ActivityStrengthRankRewardConfig.lua ActivitySuperPartnerConfig.lua ActivityTargetConfig.lua ActivityTargetSonConfig.lua ActivityTargetTypeConfig.lua ActivityTurntableConfig.lua ActivityTurntableBoxConfig.lua ActivityTurntableCostConfig.lua ActivityTurntableRankRewardConfig.lua ArenaShopConfig.lua BoxConfig.lua BoxTypeBagConfig.lua ConsumeAwardConfig.lua ConsumeAward2Config.lua CrossShopConfig.lua DungeonEquipmentDungeonRefreshConfig.lua DungeonRandomRewardConfig.lua ElitePassConfig.lua ErorCode.xlsm FunctionButtonConfig.lua GameNameConfig.lua GeneralConfig.lua GeneralCommonConfig.lua GeneralGroupvConfig.lua GrowthPlanConfig.lua GrowthPlanVipConfig.lua GuideActionConfig.lua GuildLevelConfig.lua GuildShopConfig.lua LevelAwardConfig.lua MailConfig.lua MailContentConfig.lua MansionConfig.lua NewRoleMailConfig.lua PassConfig.lua PeakShopConfig.lua PvpRecordConfig.lua RechargeConfig.lua RechargeAwardConfig.lua RechargeAward2Config.lua RechargeRecordConfig.lua RecruitActivityAwardConfig.lua RobotNameConfig.lua RoleConfig.lua SearchConfig.lua SelectItemBagConfig.lua SevenDayAwardConfig.lua ShareConfig.lua ShopActivityConfig.lua ShopCreditConfig.lua ShopCrusadeConfig.lua ShopItemConfig.lua ShopNormalConfig.lua ShopSecretConfig.lua SkillTextConfig.lua StringConfig.lua SystemConfig.lua TextConfig.lua TimeGiftBagConfig.lua TimeLimitBagConfig.lua TimeLimitBag2Config.lua UiTextConfig.lua UiTextFontConfig.lua VideoTimeGiftConfig.lua VipConfig.lua VipGiftBagConfig.lua VipWeekBagConfig.lua MonsterGeneralConfig.lua SkillLogicConfig.lua PvpSkillLevelConfig.lua BattleHaloConfig.lua | pbcopy
+git di --stat korea fanti -- ActivityConfig.lua ActivityChargeDoubleConfig.lua ActivityCoinConfig.lua ActivityCornucopiaConfig.lua ActivityDailyRechargeConfig.lua ActivityDailyRecharge2Config.lua ActivityDayRechargeConfig.lua ActivityDayRecharge2Config.lua ActivityDiscountGoodsConfig.lua ActivityDiscountGoods2Config.lua ActivityDisSoldierConfig.lua ActivityExchangeConfig.lua ActivityForeverRechargeAwardConfig.lua ActivityLevelRankRewardConfig.lua ActivityLimitTimeGeneralBoxConfig.lua ActivityLimitTimeGeneralRankRewardConfig.lua ActivityRandomBoxConfig.lua ActivitySevenDayWelfareConfig.lua ActivityShareConfig.lua ActivitySingleRechargeAwardConfig.lua ActivityStrengthRankRewardConfig.lua ActivitySuperPartnerConfig.lua ActivityTargetConfig.lua ActivityTargetSonConfig.lua ActivityTargetTypeConfig.lua ActivityTurntableConfig.lua ActivityTurntableBoxConfig.lua ActivityTurntableCostConfig.lua ActivityTurntableRankRewardConfig.lua ArenaShopConfig.lua BoxConfig.lua BoxTypeBagConfig.lua ConsumeAwardConfig.lua ConsumeAward2Config.lua CrossShopConfig.lua DungeonEquipmentDungeonRefreshConfig.lua DungeonRandomRewardConfig.lua ElitePassConfig.lua ErorCode.xlsm FunctionButtonConfig.lua GameNameConfig.lua GeneralConfig.lua GeneralCommonConfig.lua GeneralGroupvConfig.lua GrowthPlanConfig.lua GrowthPlanVipConfig.lua GuideActionConfig.lua GuildLevelConfig.lua GuildShopConfig.lua LevelAwardConfig.lua MailConfig.lua MailContentConfig.lua MansionConfig.lua NewRoleMailConfig.lua PassConfig.lua PeakShopConfig.lua PvpRecordConfig.lua RechargeConfig.lua RechargeAwardConfig.lua RechargeAward2Config.lua RechargeRecordConfig.lua RecruitActivityAwardConfig.lua RobotNameConfig.lua RoleConfig.lua SearchConfig.lua SelectItemBagConfig.lua SevenDayAwardConfig.lua ShareConfig.lua ShopActivityConfig.lua ShopCreditConfig.lua ShopCrusadeConfig.lua ShopItemConfig.lua ShopNormalConfig.lua ShopSecretConfig.lua SkillTextConfig.lua StringConfig.lua SystemConfig.lua TextConfig.lua TimeGiftBagConfig.lua TimeLimitBagConfig.lua TimeLimitBag2Config.lua UiTextConfig.lua UiTextFontConfig.lua VideoTimeGiftConfig.lua VipConfig.lua VipGiftBagConfig.lua VipWeekBagConfig.lua MonsterGeneralConfig.lua SkillLogicConfig.lua PvpSkillLevelConfig.lua BattleHaloConfig.lua | sort -k 3
+git di --stat korea fanti -- ActivityConfig.lua ActivityChargeDoubleConfig.lua ActivityCoinConfig.lua ActivityCornucopiaConfig.lua ActivityDailyRechargeConfig.lua ActivityDailyRecharge2Config.lua ActivityDayRechargeConfig.lua ActivityDayRecharge2Config.lua ActivityDiscountGoodsConfig.lua ActivityDiscountGoods2Config.lua ActivityDisSoldierConfig.lua ActivityExchangeConfig.lua ActivityForeverRechargeAwardConfig.lua ActivityLevelRankRewardConfig.lua ActivityLimitTimeGeneralBoxConfig.lua ActivityLimitTimeGeneralRankRewardConfig.lua ActivityRandomBoxConfig.lua ActivitySevenDayWelfareConfig.lua ActivityShareConfig.lua ActivitySingleRechargeAwardConfig.lua ActivityStrengthRankRewardConfig.lua ActivitySuperPartnerConfig.lua ActivityTargetConfig.lua ActivityTargetSonConfig.lua ActivityTargetTypeConfig.lua ActivityTurntableConfig.lua ActivityTurntableBoxConfig.lua ActivityTurntableCostConfig.lua ActivityTurntableRankRewardConfig.lua ArenaShopConfig.lua BoxConfig.lua BoxTypeBagConfig.lua ConsumeAwardConfig.lua ConsumeAward2Config.lua CrossShopConfig.lua DungeonEquipmentDungeonRefreshConfig.lua DungeonRandomRewardConfig.lua ElitePassConfig.lua ErorCode.xlsm FunctionButtonConfig.lua GameNameConfig.lua GeneralConfig.lua GeneralCommonConfig.lua GeneralGroupvConfig.lua GrowthPlanConfig.lua GrowthPlanVipConfig.lua GuideActionConfig.lua GuildLevelConfig.lua GuildShopConfig.lua LevelAwardConfig.lua MailConfig.lua MailContentConfig.lua MansionConfig.lua NewRoleMailConfig.lua PassConfig.lua PeakShopConfig.lua PvpRecordConfig.lua RechargeConfig.lua RechargeAwardConfig.lua RechargeAward2Config.lua RechargeRecordConfig.lua RecruitActivityAwardConfig.lua RobotNameConfig.lua RoleConfig.lua SearchConfig.lua SelectItemBagConfig.lua SevenDayAwardConfig.lua ShareConfig.lua ShopActivityConfig.lua ShopCreditConfig.lua ShopCrusadeConfig.lua ShopItemConfig.lua ShopNormalConfig.lua ShopSecretConfig.lua SkillTextConfig.lua StringConfig.lua SystemConfig.lua TextConfig.lua TimeGiftBagConfig.lua TimeLimitBagConfig.lua TimeLimitBag2Config.lua UiTextConfig.lua UiTextFontConfig.lua VideoTimeGiftConfig.lua VipConfig.lua VipGiftBagConfig.lua VipWeekBagConfig.lua MonsterGeneralConfig.lua SkillLogicConfig.lua PvpSkillLevelConfig.lua BattleHaloConfig.lua | sort -k 3 > 1.txt
+git di --stat korea fanti -- AiTargetSelectConfig.lua
+git di --stat korea fanti | sort -k 3
+git di --stat korea fanti | sort -k 3 > 2.txt
+git di --stat korea fanti | sort -k 3 | pbcopy
+git di --stat main fanti
+git di --stat main fanti -- ConvoyIncome* | sort -k 3
+git di --stat main fanti -- VipConfig.lua
+git di --stat main fanti | sort -k 3
+git di --stat main southease_asia | sort -k 3
+git di --stat trunk/master -- mh_const.h
+git di --stat trunk/master -- mh_protocol.h
+git di --stat | sort -k 3
+git di 0111/master 
+git di 0111/master -- *GuildDepotPanel.cpp
+git di 0111/master -- *battle*
+git di 0111/master --stat
+git di 0111/master --stat -- *.cpp
+git di 0111/master --stat -- *GuildDepotPanel.cpp
+git di 0111/master --stat -- *battle*
+git di 016053
+git di 016053 --stat
+git di 1dda83~ -- MHXJ/ui/PeakArmyPanel.h
+git di 1dda83~ HEAD~ -- MHXJ/ui/GuildTabPanel.cpp
+git di 1dda83~ HEAD~ -- MHXJ/ui/PeakArmyPanel.h
+git di 2da5 HEAD~2 -- *ArmyManager*
+git di 2da5 HEAD~2 -- *ArmyManager*.cpp
+git di 2da5 HEAD~2 -- *ArmyManager*.h
+git di 2da54a -- *Army*
+git di 2da54a -- *ArmyManager*
+git di 2da54a -- *ArmyMgr*
+git di 2da54a -- *FormationUtil*
+git di 2da54a -- *Pass*
+git di 2da54a -- *PassFor*
+git di 2da54a -- *PassFormation*
+git di 2da54a -- MHXJ/model/GameArmyManager.cpp
+git di 2da54a -- MHXJ/ui/PassFor*
+git di 2da54a -- MHXJ/ui/PassInfoPanel.cpp
+git di 2da54a -- MHXJ/util/BattleCapacityUtil.cpp
+git di 2da54a -- MHXJ/util/PanelUtil*
+git di 2da54a -- MHXJ/util/TimeUtil.*
+git di 2da54a -- MHXJ/util/view_util.cpp
+git di 2da54a --author qxd
+git di 2da54a --author qxd --stat
+git di 2da54a --stat
+git di 2da54a --stat -- *ArmyManager*
+git di 2da54a --stat -- *FormationUtil*
+git di 2da54a --stat -- *PassFormation*
+git di 2da54a --stat -- *Util*
+git di 8f14 --stat
+git di 8f146c
+git di 8f146c --stat
+git di aee4a3 -- gameConfigTemplate.lua
+git di aee4a3 HEAD~2 -- gameConfigTemplate.lua
+git di aee4a3 yingzheng -- gameConfigTemplate.lua
+git di dbb924 --stat
+git di dbb924 --stat -- *.cpp *.h
+git di dbb924 --stat -- MHXJ*
+git di dbb924 --stat -- MHXJ* | sort -k 3
+git di debug-network 
+git di env/master 
+git di fanti
+git di fanti -- ConvoyIncomeConfig.lua
+git di fanti --stat
+git di fanti --stat -- ConvoyIncomeConfig.lua
+git di fanti --stat | sort -k 3
+git di fanti korea -- data_recruit_activity_award.erl
+git di fanti korea -- data_vip.erl
+git di guild-war 
+git di korea fanti -- ActionConfig.lua
+git di korea fanti -- AiTargetSelectConfig.lua
+git di korea fanti -- FetterConfig.lua
+git di korea fanti -- PlotActionConfig.lua
+git di main -- gameConfigTemplate.lua
+git di main fanti
+git di main fanti -- BoxConfig.lua
+git di main fanti -- FetterConfig.lua
+git di main fanti -- MonsterGeneralConfig.lua
+git di main fanti -- ShopItemConfig.lua
+git di main fanti -- SkillGroupConfig.lua
+git di main fanti -- TextConfig.lua
+git di main fanti -- VipConfig.lua
+git di main fanti --stat
+git di main fanti --stat | sort -k 3
+git di master origin/master
+git di origin/dev --stat
+git di origin/master
+git di origin/test 
+git di origin/trunk 
+git di ref team/master
+git di stash@{0}
+git di team/backup
+git di team/backup team/master
+git di team/backup team/master --stat
+git di team/master
+git di team/master 
+git di team/xxx
+git di trunk/master
+git di trunk/master 
+git di trunk/master -- mh_const.h
+git di trunk/master -- mh_protocol.h
+git di trunk/master --stat
+git di | pbcopy
+git dif
+git diff
+git diff 3abe96
+git dt
+git dt 03a6a1b~ 03a6a1b -- MHXJ/ui/GuildTabPanel.cpp
+git dt 1dda83~ HEAD~ -- MHXJ/ui/GuildTabPanel.cpp
+git dt HEAD~
+git dt bff16a~ bff16a
+git dt c06354~ c06354
+git dt main fanti -- EquipmentConfig.lua
+git dt main fanti -- VipConfig.lua
+git dt trunk/master -- mh_protocol.h
+git fetch
+git fetch --prune
+git fetch --prune --all
+git fetch --prune env
+git fetch --prune origin
+git fetch --prune team
+git fetch -p
+git fetch 0111 
+git fetch env
+git fetch guild
+git fetch guild 
+git fetch origin
+git fetch origin 
+git fetch origin debug
+git fetch origin dev
+git fetch origin protocol
+git fetch origin trunk
+git fetch team
+git fetch team 
+git fetch team master
+git fetch team/master
+git fetch trunk
+git fetch trunk 
+git git st
+git help ci
+git help commit
+git help rebase
+git help remote
+git help remote 
+git help worktree
+git id
+git init
+git init --bare
+git init --bare .
+git init --bare sanguo.git
+git lg
+git lgo
+git lob
+git log
+git log 
+git log -- *form*
+git log -- *formation*
+git log -- MHXJ
+git log -- MHXJ/Battle
+git log -- MHXJ/battle
+git log -- MHXJ/ui/GuildTabPanel.cpp
+git log -- MHXJ/ui/cross/CrossLadderSignBase.cpp
+git log --all --graph --oneline
+git log --author huangsheng
+git log --author qxd --stat
+git log --author qxd -p
+git log --author qxd -p -- *ArmyMan*
+git log --author skyman
+git log --author skyman -p
+git log --author xcj
+git log --author xcj -p -- *ArmyMan*
+git log --author xiecanjie
+git log --author xuexun
+git log --author xuexun -p
+git log --author xuexun\
+git log --graph --oneline --all
+git log --graph --oneline HEAD team/master
+git log --graph team/master
+git log --graph team/master...HEAD
+git log --left-right --oneline HEAD...team/master
+git log --left-right --oneline HEAD...team/master --graph
+git log --left-right --oneline ref...HEAD
+git log --left-right --oneline team/master
+git log --left-right --oneline team/master...HEAD
+git log --left-right --oneline test...team/backup
+git log --left-right team/master
+git log --left-right team/master...HEAD
+git log --oneline
+git log --oneline HEAD...team/master --graph
+git log --pretty=fuller
+git log --stat
+git log --stat -- ActivityConfig.lua ActivityChargeDoubleConfig.lua ActivityCoinConfig.lua ActivityCornucopiaConfig.lua ActivityDailyRechargeConfig.lua ActivityDailyRecharge2Config.lua ActivityDayRechargeConfig.lua ActivityDayRecharge2Config.lua ActivityDiscountGoodsConfig.lua ActivityDiscountGoods2Config.lua ActivityDisSoldierConfig.lua ActivityExchangeConfig.lua ActivityForeverRechargeAwardConfig.lua ActivityLevelRankRewardConfig.lua ActivityLimitTimeGeneralBoxConfig.lua ActivityLimitTimeGeneralRankRewardConfig.lua ActivityRandomBoxConfig.lua ActivitySevenDayWelfareConfig.lua ActivityShareConfig.lua ActivitySingleRechargeAwardConfig.lua ActivityStrengthRankRewardConfig.lua ActivitySuperPartnerConfig.lua ActivityTargetConfig.lua ActivityTargetSonConfig.lua ActivityTargetTypeConfig.lua ActivityTurntableConfig.lua ActivityTurntableBoxConfig.lua ActivityTurntableCostConfig.lua ActivityTurntableRankRewardConfig.lua ArenaShopConfig.lua BoxConfig.lua BoxTypeBagConfig.lua ConsumeAwardConfig.lua ConsumeAward2Config.lua CrossShopConfig.lua DungeonEquipmentDungeonRefreshConfig.lua DungeonRandomRewardConfig.lua ElitePassConfig.lua ErorCode.xlsm FunctionButtonConfig.lua GameNameConfig.lua GeneralConfig.lua GeneralCommonConfig.lua GeneralGroupvConfig.lua GrowthPlanConfig.lua GrowthPlanVipConfig.lua GuideActionConfig.lua GuildLevelConfig.lua GuildShopConfig.lua LevelAwardConfig.lua MailConfig.lua MailContentConfig.lua MansionConfig.lua NewRoleMailConfig.lua PassConfig.lua PeakShopConfig.lua PvpRecordConfig.lua RechargeConfig.lua RechargeAwardConfig.lua RechargeAward2Config.lua RechargeRecordConfig.lua RecruitActivityAwardConfig.lua RobotNameConfig.lua RoleConfig.lua SearchConfig.lua SelectItemBagConfig.lua SevenDayAwardConfig.lua ShareConfig.lua ShopActivityConfig.lua ShopCreditConfig.lua ShopCrusadeConfig.lua ShopItemConfig.lua ShopNormalConfig.lua ShopSecretConfig.lua SkillTextConfig.lua StringConfig.lua SystemConfig.lua TextConfig.lua TimeGiftBagConfig.lua TimeLimitBagConfig.lua TimeLimitBag2Config.lua UiTextConfig.lua UiTextFontConfig.lua VideoTimeGiftConfig.lua VipConfig.lua VipGiftBagConfig.lua VipWeekBagConfig.lua MonsterGeneralConfig.lua SkillLogicConfig.lua PvpSkillLevelConfig.lua BattleHaloConfig.lua > log2.txt
+git log --stat --author qxd
+git log --stat > log.txt
+git log -g
+git log -g --pretty=fuller
+git log -p
+git log -p *.cpp
+git log -p *.cpp --author xcj
+git log -p -- MHXJ/battle/GenAttackInfo.inl
+git log -p -- MHXJ/ui/GuildTabPanel.cpp
+git log -p --author xcj -- *.cpp
+git log -p -2
+git log -p -5
+git log -p MHXJ/Classes/LogoScene.cpp
+git log -p MHXJ/base/logger.h
+git log -p MHXJ/model/GameSuitEquipmentManager.cpp
+git log -p MHXJ/ui/cross/CrossPassFormationPanel.cpp
+git log -p MHXJ/util/BattleCapacityUtil.cpp
+git log -p b9f460 -- MHXJ/ui/cross/CrossPassFormationPanel.cpp
+git log .gitignore
+git log 03a6a1b
+git log 0ebf67
+git log 2281726
+git log 2281726 --stat
+git log 4e0189
+git log 5680
+git log 6865
+git log 6c329e
+git log 7413f
+git log 76a226
+git log DungeonRewardDropConfigure.cpp
+git log MHXJ/Classes/CfgBackgroundLoader.cpp
+git log MHXJ/Classes/LogoScene.cpp
+git log MHXJ/base/logger.h
+git log MHXJ/battle/GenAttackInfo.inl
+git log MHXJ/model/GameSuitEquipmentManager.cpp
+git log MHXJ/net/NetworkHandler.cpp
+git log MHXJ/ui/ActivityGeneral.cpp
+git log MHXJ/ui/GuildTabPanel.cpp
+git log MHXJ/ui/cross/CrossLadderSignBase.cpp
+git log MHXJ/ui/cross/CrossPassFormationPanel.cpp
+git log MHXJ/util/BattleCapacityUtil.cpp
+git log MonsterGeneralConfig.lua
+git log a33b49
+git log calc
+git log config 
+git log d307f
+git log de
+git log debug
+git log debug --
+git log debug-battle 
+git log debug-file-utils 
+git log dev/env
+git log env/env
+git log env/master 
+git log env/team
+git log f148d5
+git log fae4
+git log fae48e
+git log guild-war 
+git log guild/guild-war 
+git log guild/master 
+git log guild/qxd 
+git log list.txt
+git log log-manager
+git log log-manager --
+git log log-manager-bak 
+git log main
+git log master 
+git log origin/debug 
+git log origin/expansion 
+git log origin/git 
+git log origin/guild-war 
+git log origin/trunk 
+git log ref
+git log res/sound/
+git log team
+git log team/backup
+git log team/backup 
+git log team/master
+git log team/master 
+git log team/windows
+git log trunk 
+git log trunk/korea 
+git log x
+git logwd
+git lopg
+git lost
+git lst
+git mergetoo
+git mergetool
+git mergetool 
+git mergetool MHXJ/ui/cross/CrossPassFormationPanel.cpp
+git pull
+git push
+git push 
+git push -f
+git push -f guild HEAD:master
+git push -f origin 2587c6:trunk
+git push -f origin HEAD:protocol
+git push -f team HEAD:master
+git push -f team HEAD:master 
+git push -f team HEAD~:master 
+git push -f team debug:master
+git push -f team debug:master 
+git push -u origin HEAD:protocol
+git push -u origin guild-war 
+git push -u origin log-manager 
+git push -u origin team
+git push dev HEAD:team
+git push dev HEAD:windows
+git push dev origin/env-team:team
+git push dev origin/env-team:team -f
+git push dev origin/env:env -f
+git push env HEAD:master
+git push env HEAD:master -f
+git push env HEAD:team -f
+git push env HEAD:windows  -f
+git push guild :guild-war 
+git push guild HEAD:qxd
+git push guild HEAD:qxd -f
+git push guild guild-qxd:qxd
+git push guild guild-war
+git push guild guild-war:master
+git push origin :config 
+git push origin :env
+git push origin :env-team
+git push origin :env-windows 
+git push origin :expansion 
+git push origin :guild-war 
+git push origin :log-manager
+git push origin :log-manager-bak 
+git push origin :network 
+git push origin :sdk
+git push origin HEAD:dev
+git push origin HEAD:env-team
+git push origin HEAD:env-windows
+git push origin color-scheme -u
+git push origin config
+git push origin env
+git push origin guild-war 
+git push origin guild-war -f
+git push origin log-manager-bak 
+git push origin master -u
+git push origin test
+git push origin ui
+git push team 719692:master
+git push team :c0348d
+git push team :git/master
+git push team :guild-war 
+git push team :qxd
+git push team :windows 
+git push team :xcj
+git push team :xxx
+git push team HEAD:c0348d
+git push team HEAD:master
+git push team HEAD:master -f
+git push team HEAD:xcj
+git push team HEAD:xxx
+git push team HEAD~2:master
+git push team HEAD~:master
+git push team c0348d:master
+git push team debug:master
+git push team ref:backup
+git pwd
+git rebase
+git rebase --abort
+git rebase --continue
+git rebase --continue 
+git rebase --onto HEAD HEAD guild/master
+git rebase --skip
+git rebase -i 05e095
+git rebase -i 1f02f0
+git rebase -i 5b5a
+git rebase -i 8e6e4e~
+git rebase -i 8f146c
+git rebase -i H
+git rebase -i HEAD e65034
+git rebase -i HEAD~
+git rebase -i HEAD~10
+git rebase -i HEAD~12
+git rebase -i HEAD~16
+git rebase -i HEAD~2
+git rebase -i HEAD~3
+git rebase -i HEAD~4
+git rebase -i HEAD~5
+git rebase -i HEAD~6
+git rebase -i HEAD~7
+git rebase -i HEAD~8
+git rebase -i HEAD~8f146c
+git rebase -i ca48dc~
+git rebase -i e65034
+git rebase -i e65034b
+git rebase HEAD~2
+git rebase team/master
+git reet
+git ref
+git reflog
+git remote -v
+git remote add 0111 ~/Documents/project/sanguo/dev/branches/0111
+git remote add env /Volumes/Data/repositories/team/sanguo.env.git
+git remote add guild /Volumes/Data/repositories/sanguo.guild.git
+git remote add origin /Volumes/Data/repositories/sanguo.git
+git remote add origin /Volumes/Data/repositories/sanguo.xcj.git
+git remote add origin git://106.185.35.84/hank/stock.git
+git remote add origin git://192.168.0.48/sanguo.git
+git remote add trunk ~/Documents/project/sanguo/dev/trunk/MHXJ/Resources
+git remote add trunk ~/Documents/project/sanguo/dev/trunk/MHXJ/protocol
+git remote remove env
+git remote rename dev env
+git remote rename guild team
+git remote set-head env master
+git remote set-url env /Volumes/Data/repositories/team/env.git
+git remote set-url origin /Volumes/Data/repositories/sanguo.xcj.git
+git remote set-url origin /Volumes/Data/repositories/xcj/sanguo.git
+git remote set-url origin git://192.168.0.48/sanguo.git
+git remote set-url team /Volumes/Data/repositories/sanguo.git
+git remote set-url team /Volumes/Data/repositories/team/sanguo.git
+git reset
+git reset *Battle*
+git reset *battle*
+git reset -- *.h
+git reset -- *Battle*
+git reset -- *Test\.*
+git reset -- *battle*
+git reset -- MHXJ/ui
+git reset -- MHXJ/ui/GuildTabPanel.cpp
+git reset -- cocos2dx/
+git reset --hard
+git reset --hard 0e67f2
+git reset --hard 1f02
+git reset --hard 2cd21
+git reset --hard 6d0703
+git reset --hard 864672
+git reset --hard @
+git reset --hard @~
+git reset --hard HEAD
+git reset --hard HEAD~
+git reset --hard HEAD~2
+git reset --hard a0a813
+git reset --hard af98d1
+git reset --hard b12538
+git reset --hard b9e73b
+git reset --hard backup
+git reset --hard bfdc
+git reset --hard debug
+git reset --hard debug --
+git reset --hard dev/env
+git reset --hard env/env
+git reset --hard env/master 
+git reset --hard env/team
+git reset --hard env/team 
+git reset --hard guild/master 
+git reset --hard origin/master 
+git reset --hard origin/protocol 
+git reset --hard origin/trunk 
+git reset --hard team/master
+git reset --hard team/master 
+git reset --hard x
+git reset --soft HEAD~
+git reset @
+git reset @@
+git reset @~
+git reset HEAD~
+git reset HeAD~
+git reset MHXJ/CommonUI/
+git reset MHXJ/android-fanti-1/AndroidManifest.xml
+git reset extensions/
+git reset libs/
+git reset list.txt
+git reset sanguo.mac/
+git rest --hard test
+git reste
+git revert
+git revert --abort
+git revert 05e095
+git revert 108c9c
+git revert 13e069
+git revert 2ac297
+git revert 2adb57
+git revert 4228ce
+git revert 655964
+git revert 97431a
+git revert @
+git revert HEAD
+git revert HeAD
+git revert a1add4
+git revert a3267
+git revert a3267b
+git revert a3267d
+git rm MHXJ/android-fanti-1-libs/GoogleGameLogin/.d
+git rm MHXJ/android-fanti-1-libs/GoogleGameLogin/.d -f
+git rm MHXJ/android-fanti-libs/GoogleGameLogin/local.properties
+git rm MHXJ/android-fanti-libs/GoogleGameLogin/local.properties -f
+git rm decode
+git rm decode -f
+git s
+git set
+git show
+git show 
+git show -- *.cpp
+git show -- *.mm
+git show --atat
+git show --sat
+git show --stat
+git show --stat 
+git show --stat  HEAD~
+git show --stat -- *.cpp
+git show --stat -- *.h
+git show --stat 1d7ed9
+git show --stat 1dda83
+git show --stat 1dda83 | sort -k 3
+git show --stat 4228ce
+git show --stat HEAD~
+git show --stat a3efcf -- *LuaCocos2d.cpp
+git show --stat e922c 
+git show 03a6a1b -- MHXJ/ui/GuildTabPanel.cpp
+git show 05e095
+git show 062aa0
+git show 0ebf67
+git show 108c9c
+git show 16ce54
+git show 1a4d1f
+git show 1a4d1f --stat
+git show 1ad384
+git show 1d7ed9
+git show 1dda83
+git show 1dda83 -- *DepotPanel*
+git show 1dda83 -- *DepotPanel.h
+git show 1dda83 -- MHXJ/ui
+git show 1dda83 -- MHXJ/ui | grep public
+git show 1dda83 -- MHXJ/ui | grep public | pbcopy
+git show 1dda83 -- MHXJ/ui/**/*.cpp
+git show 1dda83 --stat
+git show 1dda83 --stat -- MHXJ/ui
+git show 1dda83 --stat -- MHXJ/ui/**.cpp
+git show 1dda83 --stat -- MHXJ/ui/**/*.cpp
+git show 1dda83 --stat -- MHXJ/ui/**/*.cpp MHXJ/ui/*.cpp 
+git show 1dda83 --stat -- MHXJ/ui/*.cpp
+git show 1eb257
+git show 2448fe
+git show 24d4d4 --stat
+git show 2541b3
+git show 25ca5f
+git show 2a5863
+git show 2d5873
+git show 2f9b66
+git show 316474
+git show 3a663f
+git show 3b8f5b
+git show 4228ce
+git show 47e63a
+git show 510cca
+git show 53d5c5
+git show 582d
+git show 604eb5
+git show 622a
+git show 655483
+git show 6724fa
+git show 69c49f
+git show 69e4bb
+git show 6a0c47
+git show 6a0c47 --stat
+git show 6a47fb
+git show 6f12a1
+git show 723210
+git show 74bd44
+git show 757b99
+git show 76ef
+git show 79e54a
+git show 7af9
+git show 7f2496
+git show 7f2496 --stat
+git show 94b63c
+git show 953e93
+git show 9d71 --stat
+git show 9e59ff
+git show @
+git show @~
+git show HEAD
+git show HEAD~
+git show HEAD~ -- *logger.cpp
+git show HEAD~ -- *logger.h
+git show HEAD~ --stat
+git show HEAD~2
+git show HEAD~2 --stat
+git show HEAD~3
+git show HEAD~4
+git show MHXJ/ui/GuildTabPanel.cpp
+git show a3267
+git show a3267bd
+git show a3efcf
+git show aa366b
+git show ab409d
+git show b14837
+git show b7e8ea
+git show bd32c2
+git show bde76
+git show bf6d
+git show bf6d19
+git show bff16a
+git show c06354
+git show c4011c
+git show cae1b1
+git show cd2db3 --stat
+git show d581fd
+git show dbb681
+git show dbb681 --stat
+git show debug-battle 
+git show e6833c1
+git show ecd5e1
+git show env/master -- MHXJ/Classes/LogoScene.cpp
+git show f03994
+git show f148d5 
+git show f148d5 -- MHXJ/ui/GuildTabPanel.cpp
+git show f148d5 --?? ??????MHXJ/ui/GuildTabPanel.cpp
+git show f148d5 --stat
+git show f6d557
+git show fc3c5d
+git show master
+git show team/master 
+git show582d
+git st
+git st -
+git st --stat
+git st -a
+git stash
+git stash clear
+git stash list
+git stash pop
+git stat
+git st~
+git svn clone 0066928f
+git svn clone 1 #00 pc 000e6c28 /system/lib/libskia.so
+git svn clone https://192.168.0.201:8443/svn/sanguo/branches/20170111/client -r HEAD 0111
+git svn clone https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 81022 .
+git svn clone https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_korea/client/config -r 81022 .
+git svn clone https://192.168.0.201:8443/svn/sanguo/branches/20170302/client -r HEAD .
+git svn clone https://192.168.0.201:8443/svn/sanguo/branches/20170408/client -r HEAD 0408
+git svn clone https://192.168.0.201:8443/svn/sanguo/branches/20170408/cproto -r HEAD protocol
+git svn clone https://192.168.0.201:8443/svn/sanguo/project/program/autobuild/project -r HEAD .
+git svn clone https://192.168.0.201:8443/svn/sanguo/trunk/cfg_korea/client/config -r 81022 .
+git svn clone https://192.168.0.201:8443/svn/sanguo/trunk/cfg_korea/client/config -r 81061 .
+git svn clone https://192.168.0.201:8443/svn/sanguo/trunk/client -r HEAD 0111
+git svn clone https://192.168.0.201:8443/svn/sanguo/trunk/cproto -r HEAD protocol
+git svn dcommimt
+git svn dcommit
+git svn rebase
+git t
+git worktree add ../env --no-checkout
+git worktree add ../team
+git worktree add MHXJ/protocol team/protocol
+git worktree add env-master env/master
+git worktree prune
+git wst
+git wt
+gitg st
+gits t
+gitst
+help
+help set
+http://106.75.70.167/cpadmin/android_jituo_timestamp
+ifconfig
+irb
+it st
+java -jar ~/Downloads/buglySymboliOS2.4.4/buglySymboliOS.jar -i ~/Desktop/fanti-online-release-1.1.0-20170113172322-clientr83645-resr83615-configr83648-luar83465.app.dSYM/
+java -jar ~/Downloads/buglySymboliOS2.4.4/buglySymboliOS.jar -i ~/Desktop/hydra.dSYM/
+jobs
+kill -9 16652
+kill -9 2725
+kill -o 16652
+kill -s 9 15921
+kill -s 9 8357
+kill 15921
+kill 8245
+kill 8357
+kill 8357\
+la -la
+lgit st
+llf
+ln -s /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-axcxmgiyshyjjlftclgjrccsjfyv/Build/Products/Debug/sanguo.app/Contents/Resources/res ~/Documents/project/sanguo/dev/branches/0302/MHXJ/Resources/res
+ln -s ~/Documents/project/sanguo/dev/branches/0111/MHXJ/Resources/res /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-bwnwmqbkzlnbnhbvbicfypgecynn/Build/Products/Debug/sanguo.app/Contents/Resources/res
+ln -s ~/Documents/project/sanguo/dev/branches/0302/MHXJ/Resources/res /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-axcxmgiyshyjjlftclgjrccsjfyv/Build/Products/Debug/sanguo.app/Contents/Resources/res
+ln -s ~/Documents/project/sanguo/dev/team/MHXJ/Resources/res /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-gtiohpgzgxqsnegzabphfkpapnxv/Build/Products/Debug/sanguo.app/Contents/Resources/res
+ln -s ~/Documents/project/sanguo/dev/team/MHXJ/Resources/res /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-gtiohpgzgxqsnegzabphfkpapnxv/Build/Products/Release/sanguo.app/Contents/Resources/res
+lreset
+ls
+ls 
+ls -.la
+ls -=la
+ls -a
+ls -al
+ls -al /Users/xcj/Documents/misc/
+ls -al config/
+ls -l
+ls -la
+ls -la --stat
+ls -la -la
+ls -la ..
+ls -la ../
+ls -la ../..
+ls -la ../../../..
+ls -la ../../../../misc/
+ls -la ../../../../misc/cdn/android/default/patch.zip
+ls -la ../../../../misc/cdn/ios/default/patch.zip
+ls -la ../../misc/cdn/android/default/patch.zip
+ls -la ../../misc/cdn/ios/default/patch.zip 
+ls -la ../../project/
+ls -la ../../project/sanguo/
+ls -la ../branches/
+ls -la ../framework/
+ls -la ../music/
+ls -la ../windows/
+ls -la ./bin
+ls -la ./bin/
+ls -la ./bin/external/
+ls -la ./bin/win32/
+ls -la ./bin/win32/build
+ls -la ./build_native.sh
+ls -la .git
+ls -la .git/
+ls -la .git/config 
+ls -la .git/info/
+ls -la .git/logs/
+ls -la .git/logs/refs/
+ls -la .git/logs/refs/heads/
+ls -la .git/objects/
+ls -la .git/objects/info/
+ls -la .git/refs
+ls -la .git/refs/
+ls -la .git/refs/heads/
+ls -la .git/refs/remotes/
+ls -la .git/refs/remotes/dev/
+ls -la .git/refs/remotes/team/
+ls -la .git/svn
+ls -la .git/svn/.caches/
+ls -la .git/svn/.metadata 
+ls -la .git/svn/refs
+ls -la .git/svn/refs/remotes/
+ls -la .git/svn/refs/remotes/git-svn/
+ls -la .git/worktrees/
+ls -la /Library/
+ls -la /Library/EFI
+ls -la /Library/Extensions
+ls -la /Library/Extensions/
+ls -la /Library/Extensions/FakeSMC.kext/
+ls -la /Library/Extensions/FakeSMC.kext/Contents/MacOS/
+ls -la /Library/Extensions/RealtekRTL8111.kext
+ls -la /Library/Extensions/RealtekRTL8111.kext/
+ls -la /Library/Extensions/RealtekRTL8111.kext/Contents/
+ls -la /Library/Extensions/RealtekRTL8111.kext/Contents/MacOS/RealtekRTL8111 
+ls -la /Library/Extensions/realtekALC.kext
+ls -la /Library/Extensions/realtekALC.kext/Contents/
+ls -la /Users/xcj/Documents/misc/
+ls -la /Users/xcj/Documents/misc/*.swp
+ls -la /Users/xcj/Downloads/
+ls -la /Volumes/
+ls -la /Volumes/Backup/Virtual\ Machines/
+ls -la /Volumes/Backup/Virtual\ Machines/x
+ls -la /Volumes/Backup/Virtual\ Machines/y
+ls -la /Volumes/Cache/
+ls -la /Volumes/Cache/project/
+ls -la /Volumes/Cache/project/sanguo
+ls -la /Volumes/Cache/project/sanguo/dev/
+ls -la /Volumes/Cache/project/sanguo/dev/branches/
+ls -la /Volumes/Cache/project/sanguo/dev/branches/0111
+ls -la /Volumes/Cache/project/sanguo/dev/debug/
+ls -la /Volumes/Cache/project/sanguo/dev/trunk/MHXJ
+ls -la /Volumes/Cache/project/sanguo/dev/trunk/MHXJ/MHXJ.win32.vcxproj
+ls -la /Volumes/Cache/project/sanguo/git
+ls -la /Volumes/Cache/project/sanguo/git/
+ls -la /Volumes/Cache/project/sanguo/git/branches/
+ls -la /Volumes/Cache/project/sanguo/git/trunk/
+ls -la /Volumes/Cache/project/sanguo/misc/
+ls -la /Volumes/Cache/project/sanguo/svn
+ls -la /Volumes/Cache/project/sanguo/svn/branches/
+ls -la /Volumes/Data/
+ls -la /Volumes/Data/Archives/windows/
+ls -la /Volumes/Data/Archives/windows/os/
+ls -la /Volumes/Data/Hackintosh/
+ls -la /Volumes/Data/Hackintosh/clover/
+ls -la /Volumes/Data/Hackintosh/clover/efi/
+ls -la /Volumes/Data/Hackintosh/clover/efi/EFI
+ls -la /Volumes/Data/Hackintosh/clover/efi/EFI/
+ls -la /Volumes/Data/Virtual\ Machines.localized/
+ls -la /Volumes/Data/Virtual\ Machines.localized/.localized/
+ls -la /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/
+ls -la /Volumes/Data/Virtual\ Machines.localized/l
+ls -la /Volumes/Data/backup/
+ls -la /Volumes/Data/backup/brew
+ls -la /Volumes/Data/swap
+ls -la /Volumes/Data/swap/
+ls -la /Volumes/Data/swap/ubuntu/
+ls -la /Volumes/Data/swap/文档
+ls -la /Volumes/Data/swap/其它/
+ls -la /Volumes/Data/swap/文档/
+ls -la /Volumes/Data/swap/其它/Win10_1703_English_x64.zip
+ls -la /Volumes/Data/swap/文档/估时.txt
+ls -la /Volumes/EFI
+ls -la /Volumes/EFI/EFI
+ls -la /Volumes/EFI/EFI/APPLE/
+ls -la /Volumes/EFI/EFI/APPLE/EXTENSIONS/
+ls -la /Volumes/EFI/EFI/CLOVER/
+ls -la /Volumes/EFI/EFI/CLOVER/kexts/
+ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.11/
+ls -la /Volumes/EFI/EFI/CLOVER/kexts/10.11/O
+ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other
+ls -la /Volumes/EFI/EFI/CLOVER/kexts/Other/
+ls -la /Volumes/Install\ macOS\ Sierra/
+ls -la /Volumes/Swap/
+ls -la /Volumes/Swap/Users/
+ls -la /Volumes/Swap/Users/xcj/
+ls -la /Volumes/Swap/Users/xcj/Library/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-advxjikdavjalcbpomwyavbiixhu/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-axcxmgiyshyjjlftclgjrccsjfyv/Build/Products/Debug/sanguo.app/Contents/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-axcxmgiyshyjjlftclgjrccsjfyv/Build/Products/Debug/sanguo.app/Contents/Resources/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-axcxmgiyshyjjlftclgjrccsjfyv/Build/Products/Debug/sanguo.app/Contents/Resources/res
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-axcxmgiyshyjjlftclgjrccsjfyv/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-bhdxnqthyuvujiehirfcrghuteol/Build/Products/Debug/sanguo.app/Contents/Resources/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-bwnwmqbkzlnbnhbvbicfypgecynn/Build/Products/Debug/sanguo.app
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-bwnwmqbkzlnbnhbvbicfypgecynn/Build/Products/Debug/sanguo.app/Contents/Resources/res
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-bwnwmqbkzlnbnhbvbicfypgecynn/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-gtiohpgzgxqsnegzabphfkpapnxv/Build/Products
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-gtiohpgzgxqsnegzabphfkpapnxv/Build/Products/Debug/sanguo.app/Contents/Resources/res
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-gtiohpgzgxqsnegzabphfkpapnxv/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-gtiohpgzgxqsnegzabphfkpapnxv/Build/Products/Release/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-gtiohpgzgxqsnegzabphfkpapnxv/Build/Products/Release/sanguo.app/Contents/Resources/
+ls -la /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-gtiohpgzgxqsnegzabphfkpapnxv/Build/Products/Release/sanguo.app/Contents/Resources/res
+ls -la /Volumes/Teclast/
+ls -la /Volumes/Teclast/backup/
+ls -la /Volumes/Teclast/hackintosh/
+ls -la /Volumes/Teclast/hackintosh/clover/
+ls -la /Volumes/Teclast/win10/
+ls -la /Volumes/Teclast/win10/Win10_1703_English_x64/
+ls -la /Volumes/Teclast/win10/Win10_1703_English_x64/sources/
+ls -la /Volumes/efi
+ls -la /Volumes/efi/
+ls -la /Volumes/efi/EFI
+ls -la /Volumes/samba/
+ls -la /Volumes/samba/sym_libs/ios/ | grep 20170116222237
+ls -la /Volumes/samba/sym_libs/ios/*20170116222237
+ls -la /Volumes/samba/sym_libs/ios/*20170116222237*
+ls -la /Volumes/samba2/sanguo_autobuild/packages/android
+ls -la /Volumes/samba2/sanguo_autobuild/resources/Resource_part_20170323172749.zip 
+ls -la /Volumes/samba2/sanguo_autobuild/symlibs/android_symbs
+ls -la /Volumes/samba2/sanguo_autobuild/symlibs/android_symbs/*170645*
+ls -la /Volumes/samba2/sanguo_autobuild/symlibs/ios_symbs/*20170322190305*
+ls -la EFI/APPLE/
+ls -la MHXJ/Resources/
+ls -la MHXJ/Resources/res/sound/
+ls -la MHXJ/protocol/
+ls -la `brew --cache`
+ls -la bin
+ls -la bin/
+ls -la bugly/
+ls -la client/
+ls -la database/
+ls -la database/ | sort -k 5
+ls -la database/ | sort -k 5 -r
+ls -la extensions/
+ls -la libs
+ls -la libs/armeabi-v7a/
+ls -la libs/armeabi-v7a/libgame.1.so
+ls -la libs/armeabi-v7a/libgame.so 
+ls -la libs/mac/
+ls -la libs/mac/Debug/
+ls -la molokai/
+ls -la programming/
+ls -la pwd
+ls -la res/
+ls -la res/so/
+ls -la sanguo.mac/
+ls -la sanguo.mac/sanguo.xcodeproj/
+ls -la src/
+ls -la st
+ls -la team/sanguo.env.git
+ls -la temp
+ls -la ubuntu/
+ls -la xcj
+ls -la | pbcopy
+ls -la ~
+ls -la ~/.ssh/
+ls -la ~/Desktop/apk/lib/armeabi-v7a/libgame.so 
+ls -la ~/Desktop/bugly/
+ls -la ~/Desktop/bugly/ *1.3.5*
+ls -la ~/Desktop/bugly/ *korea*1.3.5*
+ls -la ~/Desktop/bugly/ libgame-korea-online-release-1.3.5-20170322144826-clientr86374-resr86408-configr86406-luar86181.so
+ls -la ~/Desktop/bugly/libgame-korea-online-release-1.3.5-20170322144826-clientr86374-resr86408-configr86406-luar86181.so
+ls -la ~/Desktop/patch/res/config/
+ls -la ~/Desktop/patch/res/config/StringConfig.lua
+ls -la ~/Desktop/patch/res/configure/
+ls -la ~/Desktop/patch/res/so
+ls -la ~/Desktop/patch/res/so/
+ls -la ~/Desktop/patch/res/so/libgame
+ls -la ~/Desktop/patch/res/so/libgame.patch
+ls -la ~/Desktop/test
+ls -la ~/Desktop/test/
+ls -la ~/Desktop/test/bin/
+ls -la ~/Documents/misc/sanguo/guild-war-issues.txt
+ls -la ~/Documents/project
+ls -la ~/Documents/project/
+ls -la ~/Documents/project/sanguo/dev/branches/0302/MHXJ/Resources/res
+ls -la ~/Documents/project/sanguo/dev/branches/0302/MHXJ/Resources/res/res
+ls -la ~/Documents/project/sanguo/dev/trunk/.git
+ls -la ~/Documents/project/sanguo/dev/trunk/MHXJ/MHXJ.win32.vcxproj
+ls -la ~/Documents/project/sanguo/misc/cdn/android/default/patch.korea.zip
+ls -la ~/Documents/project/sanguo/misc/cdn/android/default/patch.sea.zip
+ls -la ~/Documents/project/sanguo/misc/cdn/android/default/patch.zip
+ls -la ~/Documents/project/test/
+ls -la ~/Documents/project/tool/bugly/ios/
+ls -la ~/Documents/project/version-diff
+ls -la ~/Downloads/
+ls -la ~/Downloads/buglySymboliOS2.4.4/
+ls -la ~/Downloads/套装.txt 
+ls -la ~/Library/Caches/
+ls -la ~/Library/Caches/chat_*
+ls -la ~/Public/
+ls -lah
+ls -lah /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/
+ls -lah MHXJ/Resources/res/font/
+ls -lah MHXJ/Resources/res/sound/
+ls -lah bugly/
+ls -lah database | sort -k 5 -r
+ls -lah database/
+ls -lah libgame-korea-online-release-1.3.5-20170322144826-clientr86374-resr86408-configr86406-luar86181.so 
+ls -lah libs/armeabi-v7a/
+ls -lah libs/armeabi-v7a/libgame.so 
+ls -lah ubuntu
+ls -lah ~/Desktop/apk/lib/armeabi-v7a/libgame.so
+ls -lah ~/Desktop/apk/lib/armeabi-v7a/libgame.so libs/armeabi-v7a/libgame.so libgame.patch
+ls -lah ~/Downloads/
+ls -la~/Downloads/buglySymboliOS2.4.4/
+ls -loa
+ls -ola
+ls ../sanguo.git/
+ls ./bin/
+ls .git
+ls .git/refs/
+ls .git/refs/heads/
+ls .git/refs/sv
+ls .git/svn
+ls .git/svn/.metadata 
+ls .git/svn/refs/
+ls .git/svn/refs/remotes/
+ls .git/svn/refs/remotes/yingzheng-git-svn/
+ls .ssh
+ls /Volumes/
+ls /Volumes/Data/swap
+ls /Volumes/Data/swap/文档/
+ls /Volumes/Data/swap/文档/估时.txt
+ls /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-axcxmgiyshyjjlftclgjrccsjfyv/Build/Products/Debug/sanguo.app/Contents/Resources/res 
+ls /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/sanguo-axcxmgiyshyjjlftclgjrccsjfyv/Build/Products/Debug/sanguo.app/Contents/Resources/res/
+ls /Volumes/Teclast/new/clover/efi/
+ls /Volumes/samba-1/
+ls /Volumes/samba/apk/fanti-online-release-1.1.3-20170104101302-clientr82705-resr82695-configr82683-luar82687.apk ~/Desktop/
+ls archives/
+ls bin/
+ls bugly/
+ls bugly_tools/
+ls database
+ls database/
+ls hs
+ls la
+ls protocol/
+ls qxd
+ls src/
+ls team
+ls team/env.git
+ls xcj
+ls xx
+ls ~/.ssh
+ls ~/Desktop/libgame-fanti-1-online-release-1.1.0-20161225183518-clientr82054-resr82048-configr82041-luar81857.so 
+ls-la
+lua
+lua MHXJ/Resources/res/config/SkillLogicConfig.lua 
+luajit MHXJ/Resources/res/config/SkillLogicConfig.lua 
+luajit SkillLogicConfig.lua 
+man brew
+man chmod
+man curl
+man curl 
+man kill
+man mount
+man pmset
+man ps
+man sort
+man sum
+man svn
+man tcpdump
+man time
+man unzip
+man vim
+man zip
+md5 ../../../../misc/cdn/android/default/patch.zip
+md5 ../../../../misc/cdn/ios/default/patch.zip
+md5 ../../misc/cdn/android/default/patch.zip
+md5 ../../misc/cdn/ios/default/patch.zip
+md5 /Volumes/samba2/sanguo_autobuild/resources/Resource_part_20170323172749.zip 
+md5 16.4.1-server-cloudimg-amd64-root.tar.gz 
+md5 libgame.patch
+md5 libs/armeabi-v7a/libgame.so 
+md5 ~/Desktop/1.jpg 
+md5 ~/Desktop/2.jpg 
+md5 ~/Desktop/patch/patch.zip
+md5 ~/Desktop/patch/patch.zip ../../../../misc/cdn/android/default/patch.zip 
+md5 ~/Desktop/patch/res/so/libgame.patch
+md5 ~/Desktop/patch/res/so/libgame.patch 
+md5 ~/Documents/project/sanguo/misc/cdn/android/default/patch.korea.zip
+md5 ~/Documents/project/sanguo/misc/cdn/android/default/patch.sea.zip
+md5 ~/Documents/project/sanguo/misc/cdn/android/default/patch.zip
+md5 ~/Downloads/1.jpg 
+md5 ~/Downloads/2.jpg 
+md5 ~/Downloads/Resource_part_20170323172749.zip 
+mkdir -p ../../../../misc/cdn/ios/default
+mkdir -p ../../misc/build
+mkdir -p bin/klc_kl
+mkdir -p ~/Desktop/patch/res/so
+mkdir -p ~/Desktop/test
+mkdir -p ~/Desktop/test/bin
+mkdir -p ~/Documents/project/project-update
+mkdir -p ~/Documents/project/stock
+mkdir -p ~/Documents/project/version-diff
+mkdir ../../../../misc/cdn/ios/default
+mkdir ../android-fanti-1-libs/facebook-android-sdk-4.14.1/src
+mkdir ../android-fanti-1-libs/helpshift-android-sdk/src
+mkdir ../android-fanti-1-libs/recyclerview/src
+mkdir ./bin/external
+mkdir /Volumes/efi
+mkdir 0111
+mkdir 0302
+mkdir archive
+mkdir bin
+mkdir bugly
+mkdir config
+mkdir crash
+mkdir data
+mkdir database
+mkdir dev
+mkdir extensions
+mkdir hs
+mkdir protocol
+mkdir qxd
+mkdir sanguo.git
+mkdir sanguo.guild.git
+mkdir src
+mkdir team
+mkdir temp
+mkdir tmp
+mkdir ubuntu
+mkdir win10
+mkdir x
+mkdir xcj
+mkdir xx
+mkdir ~/Desktop/client
+mkdir ~/Desktop/patch/res/config
+mkdir ~/Desktop/patch/res/configure/
+mkdir ~/Desktop/server
+mount -t msdos /dev/disk3s1 /Volumes/efi
+mv "/Volumes/Data/Windows 7 x64.vmwarevm/" /Volumes/Data/Virtual\ Machines.localized/
+mv ../../svn/branches/client/ ../../svn/branches/0111/
+mv ../EFI- EFI
+mv ./bin/*externals ./bin/external
+mv ./bin/build.win32 ./bin/win32/
+mv .vimrc.local .vimrc
+mv /Volumes/Data/Virtual\ Machines.localized/Windows\ 7\ x64.vmwarevm/ /Volumes/Data/
+mv /Volumes/Data/Windows 7 x64.vmwarevm/ /Volumes/Data/Virtual\ Machines.localized/
+mv 359e78891e618ed2a86b991f6ed0b57dsn2n.log MotoG3.log
+mv 8c45bdc47ab54cfacc3421226dca2267fnre.log Pixel.log
+mv 9bb0f9d32713142723d8b4d667aa0b9aszd7.log P7mini.log
+mv EFI ../EFI+
+mv EFI ../EFI-
+mv MHXJ/android-fanti-1/log.txt ~/Desktop/
+mv c0dfe70901c556263c11f7ac25ad497ean4g.log SM-J200GU.log
+mv client/ ..
+mv cocos2d-2.1rc0-x-2.1.2.git/ archive/
+mv database/ database-bak/
+mv get* bin/klc_kl/
+mv git-daemon-export git-daemon-export-ok
+mv lasted/ lastest
+mv lastest/ pro
+mv lastest/ protocol/
+mv libgame.patch ~/Desktop/patch/res/so/
+mv log.txt analyse
+mv log.txt log1.txt 
+mv mh_protocol-.h mh_protocol.h 
+mv mh_protocol.h mh_protocol-.h 
+mv mh_protocol.h mh_protocol.h.bak
+mv mh_protocol.h.bak mh_protocol.new.h
+mv mh_protocol.new.h mh_protocol.old.h 
+mv mh_protocol.old.h mh_protocol-.h 
+mv mh_protocol.old.h mh_protocol.old.h 
+mv patch.zip patch+.zip
+mv patch.zip patch-.zip 
+mv pro lastest
+mv protocol lasted
+mv sanguo.dev.git team/env.git
+mv sanguo.git sanguo.xcj.git
+mv sanguo.git team/sanguo.git
+mv sanguo.guild.git sanguo.git 
+mv sanguo.mac.git/ archive/
+mv sanguo.xcj.git/ xcj/sanguo.git
+mv src/version-diff src/version-diff.rb
+mv sz000963.txt sz000963.log
+mv team/env.git team/sanguo.env.git 
+mv test ~/Desktop/test
+mv test.sh test
+mv u/ubuntu/ .
+mv ubuntu/ /Volumes/Data/Archives/windows/
+mv ubuntu/ u
+mv version-diff src/
+mv version-diff.rb version-diff
+mv win10/ /Volumes/Cache
+mv xxx.log sz002353.log
+mv ~/Desktop/fanti-* ~/Desktop/client/
+mv ~/Desktop/fanti-* ~/Desktop/server
+mv ~/Desktop/ubuntu.ico .
+mv ~/Downloads/未处理问题.txt ~/Documents/misc/sanguo/guild-war-issues.txt
+mysql -uroot
+mysql.server start
+node
+nodejs
+noh
+open
+open 
+open .
+open /Volumes/Data/swap/2.\ 怒破千军版本计划.xlsx
+open 2.\ 怒破千军版本计划.xlsx 
+open MHXJ_IOS/MHXJIOS.xcodeproj
+open MHXJ_IOS/MHXJIOS.xcodeproj/
+open MHXJ_IOS/MHXJ_IOS/
+open sanguo.mac/sanguo.xcodeproj
+open solarized_dark_patched.png 
+open ~/Documents/project/test/test.xcodeproj/
+open ~/Downloads/K-跨服天梯竞技.docx 
+open 程序版本计划+.xlsx 
+open 程序版本计划.xlsx 
+p
+p[wd
+p[wd; pwd
+pbpaste 
+pd
+pdw
+ping 106.185.35.84
+ping 139.162.111.64
+ping 192.168.0.203
+ping 192.168.0.49
+ping 192.168.1.181
+pit st
+pmset
+pmset displaysleepnow #lock
+ps
+ps -A
+ps -A | grep bash
+ps -A | grep tcpdump
+ps -A | grep tmux
+ps -a
+pw
+pwd
+pwde
+pwdreset
+pwdwd
+pwe
+pwed
+pwwd
+python
+qgit log
+qgit reset --6d0703
+qgit reset --hard 6d0703
+qgit st
+rdgrte
+reset
+rm "-.txt"
+rm '*'
+rm '?'
+rm *.cpp
+rm *.h
+rm *.lua
+rm *.txt
+rm *.zip
+rm -r *Battle*.cpp
+rm -r ../../svn/branches/0111/
+rm -r bin
+rm -r patch.zip 
+rm -rf *Battle*.cpp
+rm -rf *Battle*.h
+rm -rf ../../../../misc/
+rm -rf ../branches/1104
+rm -rf ../branches/1125
+rm -rf ../branches/1209
+rm -rf ../branches/sea
+rm -rf ../branches/snzzt/
+rm -rf ../env/
+rm -rf .git/
+rm -rf .git/svn/refs/remotes/southease_english-git-svn/
+rm -rf .git/svn/refs/remotes/yingzheng-git-svn/
+rm -rf .tmp
+rm -rf .tmp/
+rm -rf /Volumes/Cache/project/sanguo/git/branches/1104/
+rm -rf /Volumes/Cache/project/sanguo/svn/branches/1209/
+rm -rf /Volumes/Data/project/sanguo/svn/branches/0111
+rm -rf /Volumes/Data/project/sanguo/svn/branches/1104/
+rm -rf /Volumes/EFI/EFI/CLOVER/kexts/Other/FakeSMC.kext
+rm -rf /Volumes/Swap/Users/xcj/Library/Developer/Xcode/DerivedData/MHXJIOS*
+rm -rf /Volumes/Teclast/win10/
+rm -rf /Volumes/efi/*
+rm -rf 1/
+rm -rf Bugly_v2/
+rm -rf EFI/APPLE/
+rm -rf MHXJ/Resources/
+rm -rf MHXJ/android*
+rm -rf MHXJ/android-fanti-1
+rm -rf MHXJ/android/assets/
+rm -rf MHXJ/battle/
+rm -rf MHXJ/configure/
+rm -rf MHXJ/model
+rm -rf MHXJ/protocol
+rm -rf MHXJ/protocol MHXJ/configure MHXJ/Resources
+rm -rf MHXJ/protocol/
+rm -rf MHXJ/ui
+rm -rf MHXJ/view
+rm -rf MHXJ_IOS/MHXJ_IOS/Bugly.framework
+rm -rf apk/
+rm -rf bash/
+rm -rf config/
+rm -rf database/
+rm -rf dev
+rm -rf env-master/
+rm -rf libs/armeabi-v7a/
+rm -rf programming/
+rm -rf reload/
+rm -rf res/config/.git/svn/refs/remotes/southease_english-git-svn/
+rm -rf temp
+rm -rf u
+rm -rf x
+rm -rf xxx
+rm -rf ~/Desktop/patch/res/configure/
+rm -rf ~/Desktop/patch/res/so
+rm -rf ~/Desktop/test/bin
+rm -rf ~/Downloads/工会战*
+rm -rf ~/Library/Caches/expansion
+rm ../../misc/cdn/android/default/patch.zip
+rm ../android-fanti-1-libs/GoogleGameLogin/local.properties 
+rm ../android-fanti-1-libs/appcompat/local.properties 
+rm ../android-fanti-1-libs/cardview/local.properties 
+rm ../android-fanti-1-libs/design/local.properties 
+rm ../android-fanti-1-libs/facebook-android-sdk-4.14.1/local.properties 
+rm ../android-fanti-1-libs/helpshift-android-sdk/local.properties 
+rm ../android-fanti-1-libs/recyclerview/local.properties 
+rm ../android-fanti-libs/*/build.xml
+rm ./-.txt 
+rm .DS_Store 
+rm .tmp
+rm /Users/xcj/Documents/misc/*.swp
+rm /Users/xcj/Documents/misc/.note.txt.swp 
+rm EFI/CLOVER/config-backup.plist 
+rm EFI/CLOVER/kexts/Other/FakeSMC.kext/Contents/MacOS/FakeSMC 
+rm MHXJ/ui/*Battle*
+rm MHXJ/ui/*Battle*.cpp
+rm Modal\ and\ modeless\ dialogs\ in\ MFC\ \(MFCDialog\).zip 
+rm Resource_part_20170323172749.zip 
+rm Win10_1607_English_x64.iso
+rm Win10_1607_English_x64.iso\?t\=530ee11c-5671-43e5-99e9-bd37a0a3ee84 
+rm \-.txt 
+rm bin/.*
+rm bin/.*swp
+rm bin/win32/build.win32 
+rm config.tar.gz 
+rm cproto10018*
+rm database/sh600008.json 
+rm dev
+rm diff.txt 
+rm fanti-1-inline-release-1.1.3-20170104141854-clientr82729-resr82695-configr82722-luar82687.apk 
+rm fanti-1-online-release-1.1.3-20170104150704-clientr82729-resr82695-configr82722-luar82687.apk 
+rm fanti-online-release-1.1.3-20170104101302-clientr82705-resr82695-configr82683-luar82687.apk 
+rm ios_73*
+rm korea-online-release-1.1.1-20170104151034-clientr82729-resr82696-configr82728-luar82687.apk 
+rm libgame-korea-online-release-1.3.5-20170322144826-clientr86374-resr86408-configr86406-luar86181.so 
+rm libs/armeabi-v7a/libgame.1.so 
+rm local.properties
+rm log.txt 
+rm log.txt ls -la
+rm mac.txt 
+rm mh_*
+rm patch.zip 
+rm protocol.tar.gz 
+rm res/so/libgame.patch 
+rm sz002353.log 
+rm total.txt 
+rm x*
+rm ~/Documents/project/sanguo/dev/branches/0302/MHXJ/Resources/res/res
+rm ~/Downloads/套装.txt 
+rm ~/Library/Caches/chat_*
+rm ~/Library/Caches/expansion.zip 
+rm ~/dump.txt 
+rsync 106.185.35.84:temp/ubuntu . -avh
+ruby
+ruby test.rb
+scp -r /Volumes/Data/Archives/windows/os/ poetao@192.168.0.20:~/Documents/win7/
+scp -r /Volumes/Data/Virtual\ Machines.localized/ xx@192.168.0.174:/Volumes/Data/
+scp -r /Volumes/Data/backup/brew xx@192.168.0.174:/Volumes/Data/brew/
+scp -r Command_Line_Tools_macOS_10.12_for_Xcode_8.1.dmg xx@192.168.0.174:/Volumes/Data/Archives/xcode/
+scp -r Microsoft-Office/ xx@192.168.0.174:/Volumes/Data/Archives/mac
+scp -r Xcode_8.1.xip xx@192.168.0.174:/Volumes/Data/Archives/xcode/
+scp -r xuanyi@192.168.0.49:project/hello/bash .
+scp -r ~/Documents/Monokai.terminal xx@192.168.0.174:/Volumes/Data/Archives/mac/
+scp .ssh/id_rsa.pub xuanyi@192.168.0.49:
+scp /Users/xcj/.ssh/id_rsa.pub xuanyi@192.168.0.49:
+scp /Users/xcj/.ssh/id_rsa.pub xy@192.168.0.49:
+scp /Users/xcj/Downloads/K-跨服天梯竞技.pdf xx@192.168.0.174:Downloads
+scp /Users/xcj/Downloads/KMSPico\ 10.2.1\ Final.iso xuanyi@192.168.0.49:
+scp /Volumes/Backup/Virtual\ Machines/Virtual\ Disk.vmdk xx@192.168.0.174:/Volumes/Backup/VM/
+scp /Volumes/Backup/Virtual\ Machines/Windows\ 7\ x64.zip xx@192.168.0.174:/Volumes/Backup/VM
+scp /Volumes/Data/Archives/mac/VMware-Fusion-8.5.0-4352717.dmg xx@192.168.0.174:/Volumes/Data/Archives/mac/
+scp Firefox\ 49.0.dmg   xx@192.168.0.174:/Volumes/Data/Archives/mac
+scp Monokai.terminal xx@192.168.0.174:/Volumes/Data/Archives/mac
+scp QQ_V5.2.0.dmg  xx@192.168.0.174:/Volumes/Data/Archives/mac
+scp protocol.tar.gz hs@192.168.0.131:/Users/hs/Documents/project/sanguo/
+scp ubuntu-font-family-0.83.zip    xx@192.168.0.174:/Volumes/Data/Archives/mac
+scp ubuntu-font-family-0.83.zip xuanyi@192.168.0.49:
+ssh 106.185.35.84
+ssh 192.168.0.174
+ssh 192.168.0.49
+ssh hs@192.168.0.113
+ssh hs@192.168.0.131
+ssh xuanyi@192.168.0.49
+ssh xx@192.168.0.174
+ssh xy@192.168.0.49
+sudo chmod 644 /Volumes/Data/swap/2.\ 怒破千军版本计划.xlsx 
+sudo chmod 644 /Volumes/Data/swap/其它/Win10_1703_English_x64.zip 
+sudo chmod 644 /Volumes/Data/swap/其它/install.wim 
+sudo chmod 644 /Volumes/Data/swap/文档/估时.txt 
+sudo chmod 755 /Volumes/Data/swap/文档
+sudo chmod 755 /Volumes/Data/swap/其它/
+sudo cp -r /Volumes/EFI/EFI/CLOVER/kexts/Other/RealtekRTL8111.kext /Library/Extensions
+sudo cp -r /Volumes/EFI/EFI/CLOVER/kexts/Other/realtekALC.kext /Library/Extensions
+sudo mkdir /Volumes/EFI
+sudo mkdir /Volumes/efi
+sudo mount -t msdos /dev/disk0s1 /Volumes/EFI
+sudo mount -t msdos /dev/disk3s1 /Volumes/efi
+sudo mysql -uroot
+sudo python -m SimpleHTTPServer 80
+sudo rm -rf /Volumes/samba/
+sudo tcpdump
+sudo tcpdump host bugly.qq.com -d -w dump.dat
+sudo tcpdump host software-download.microsoft.com
+sudo tcpdump host software-download.microsoft.com -d -w dump.dat
+sudo tcpdump host software-download.microsoft.com -f -
+sudo tcpdump host software-download.microsoft.com -w -
+sudo tcpdump software-download.microsoft.com
+sudo umount /Volumes/efi
+svn --diff -r 29403
+svn blame MHXJ/Classes/CfgBackgroundLoader.cpp 
+svn blame MHXJ/Classes/ExpansionManager.cpp 
+svn blame MHXJ/Resources/res/config/MonsterGeneralConfig.lua 
+svn blame MonsterGeneralConfig.lua 
+svn blame cocos2dx/support/zip_support/ZipUtils.cpp
+svn ci
+svn co https://192.168.0.201:8443/svn/sanguo/branches/20170111/client
+svn co https://192.168.0.201:8443/svn/sanguo/branches/20170302/Resources_fanti
+svn co https://192.168.0.201:8443/svn/sanguo/branches/20170302/client 0302
+svn di
+svn diff
+svn diff https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD
+svn diff https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --summarize
+svn diff https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --summarize | sort
+svn diff https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --summarized
+svn diff https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --xml
+svn diff https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD > diff.txt
+svn diff https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config -r 85718:HEAD
+svn diff https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config -r 85718:HEAD --summarize
+svn diff https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config -r 85718:HEAD --summarize | pbcopy
+svn diff https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config -r 85718:HEAD --xml
+svn diff https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config -r 85718:HEAD --xml --summarize
+svn diff https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config -r 85718:HEAD | less
+svn help blame
+svn help diff
+svn help export
+svn help log
+svn list https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/configure | grep DungeonRewardDropConfigure.cpp
+svn list https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_main/client/configure | grep DungeonRewardDropConfigure.cpp
+svn list https://192.168.0.201:8443/svn/sanguo/trunk/cfg_fanti/client/configure | grep DungeonRewardDropConfigure.cpp
+svn log
+svn log --diff -r 29403
+svn log --diff -r 29403 | less
+svn log --diff -r 29428 | less
+svn log --diff -r 31413 | less
+svn log --diff -r 31820
+svn log --diff -r 31820 | less
+svn log --diff -r 34418 | less
+svn log --diff -r 4900 | less
+svn log -c 10
+svn log -l 10
+svn log -l 128 | grep "Merge"
+svn log -l 128 | less
+svn log -l 256
+svn log -l 3
+svn log -l 4
+svn log -l 64 | grep Merge
+svn log -l 8
+svn log -r 52859
+svn log -r 52859 --diff
+svn log -r 52859 --diff MHXJ/Resources/res/config/MonsterGeneralConfig.lua 
+svn log -r 52859 --diff MHXJ/Resources/res/config/MonsterGeneralConfig.lua | less
+svn log 52859
+svn log MHXJ/Classes/CfgBackgroundLoader.cpp
+svn log MHXJ/Classes/ExpansionManager.cpp 
+svn log MHXJ/Resources/res/config/MonsterGeneralConfig.lua 
+svn log MHXJ/Resources/res/config/MonsterGeneralConfig.lua | grep feng
+svn log MHXJ/Resources/res/config/MonsterGeneralConfig.lua | grep feng 
+svn log cocos2dx/support/zip_support/ZipUtils.cpp
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config --stop-on-copy
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config --stop-on-copy --xml
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -l 1
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --diff
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --diff -c
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --stop-on-copy
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --with-all-revprops
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --with-all-revprops --xml
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD --xml
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config -r 85718:HEAD -c
+svn log https://192.168.0.201:8443/svn/sanguo/branches/20170302/cfg_fanti/client/config | less
+svn log https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config -r 85718:HEAD
+svn log https://192.168.0.201:8443/svn/sanguo/trunk/cfg/cfg_fanti/client/config -r 85718:HEAD --stop-on-copy
+svn merge -c 83640 ^/trunk/client
+svn merge -c 83640 ^trunk/client
+svn merge -c 83666 ^/trunk/client
+svn merge -c 85366 ^/trunk/Resources_fanti
+svn merge -c 86468 /trunk/client
+svn merge -c 86468 ^/trunk/client
+svn st
+svn up
+svn up 
+tar caf database.tar.gz database
+tar cf stock.tar .git
+tar czf config.tar.gz config/
+tar czf database.tar.gz database
+tar czf efi.tar.gz efi
+tar czf extensions.tar.gz extensions
+tar czf protocol.tar.gz protocol
+tar zcf .git.tar.gz .git
+tar zcf config.tar.gz config/
+tar zcf config.tar.gz ~/Desktop/config
+tar zcf config.tar.gz ~/Desktop/config/
+tar zcf stock.tar.gz .git
+tar zcvf database.tar.gz database
+tcpdump
+tcpdump https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=c8ac5355-e6ce-45ac-9002-97711ee956d7&e=1490254876&h=91883ffc809d78d433e9c278d34e5e9e
+tcpdump software-download.microsoft.com
+tgit st
+tiem calc
+time ./calc
+time ./calc 
+time ./calc > total.txt
+time ./calc | pbcopy
+time calc
+time cat
+time curl http://cdn.mbzj.9377.cn/cpadmin/ios_7395AC21-834B7E6B_timestamp
+time curl http://cdn.mbzj.9377.cn/cpadmin/ios_7395AC21-834B7E6B_timestamp -vos
+time curl http://cdn.mbzj.9377.cn/cpadmin/ios_7395AC21-834B7E6B_timestamp[C
+time curl http://mbzj.files.ucloud.cn/cpadmin/android_qingmulin_timestamp
+time curl http://mbzj.ufile.ucloud.com.cn/cpadmin/android_qingmulin_timestamp 
+time curl http://mbzj.ufile.ucloud.com.cn/cpadmin/ios_qingmulin_timestamp 
+time curl http://mbzj.ufile.ucloud.com.cn/cpadmin/ios_qingmulin_timestamp -vos
+time wget http://cdn.mbzj.9377.cn/cpadmin/ios_7395AC21-834B7E6B_timestamp
+tmux
+tmux a
+tmux new -c ~/Desktop
+tmux new -c ~/Documents/project/sanguo/dev/branches/0302
+tmux new -c ~/Documents/project/sanguo/dev/debug
+tmux new -c ~/Documents/project/sanguo/dev/trunk
+tmux new -c ~/Documents/project/stock
+tmxu a
+top
+top -o CPU
+touch .git/git-daemon-export
+touch .git/git-daemon-export-ok
+touch MHXJ/protocol/mh_protocol.dev.h
+touch \*
+touch \?
+touch git-daemon-export
+touch git-daemon-export-ok
+tree
+unrar x cproto.rar 
+unrar x cproto10018.rar 
+unrar x cproto10018\(1\).rar 
+unrar x os.rar 
+unrar x ~/Downloads/backup.rar 
+unrar x ~/Downloads/cproto.rar
+unzip ../../../../misc/cdn/android/default/patch.zip -d xxx
+unzip ../Bugly_v2.4.0.zip 
+unzip ../Modal\ and\ modeless\ dialogs\ in\ MFC\ \(MFCDialog\).zip 
+unzip ../trunk/patch.zip 
+unzip /Users/xcj/Desktop/fanti-online-release-1.1.3-20170104101302-clientr82705-resr82695-configr82683-luar82687.apk -d /Users/xcj/Desktop/apk
+unzip /Users/xcj/Documents/misc/documents/archives/articles.zip 
+unzip /Users/xcj/Downloads/Resource_part_20170323172749.zip -d x
+unzip /Volumes/Data/swap/其它/Win10_1703_English_x64.zip
+unzip Resource_part_20170323172749.zip 
+unzip \(4.3\)华为P7miniandroidLOG日志-Testin云测.zip 
+unzip \(5.1.1\)三星SM-J200GUandroidLOG日志-Testin云测.zip 
+unzip \(6.0\)摩托罗拉MotoG3androidLOG日志-Testin云测.zip 
+unzip \(7.1\)谷歌PixelandroidLOG日志-Testin云测.zip 
+unzip fanti-1-inline-release-1.1.3-20170104141854-clientr82729-resr82695-configr82722-luar82687.apk -d apk
+unzip fanti-1-online-release-1.1.3-20170104150704-clientr82729-resr82695-configr82722-luar82687.apk -d apk
+unzip fanti-en-fanti-en-release-1.0.0-20170323172749-clientr86532-resr86163-configr86409-luar86181.apk -d apk
+unzip korea-online-release-1.1.1-20170104151034-clientr82729-resr82696-configr82728-luar82687.apk -d apk
+unzip patch.zip -d xxx
+unzip southease_asia-online-release-1.3.1-20170104151436-clientr82729-resr82699-configr82692-luar82687.apk -d apk
+vi
+vim
+vim 
+vim ../../../../misc/cdn/
+vim ../../misc/cdn
+vim ../../misc/cdn/
+vim ../branches/1209/MHXJ/android-fanti-1/log.txt
+vim ../sanguo.git/config 
+vim ./bin/external/update 
+vim ./bin/init-externals 
+vim ./bin/switch-externals 
+vim ./bin/switch-externals main
+vim ./bin/update-externals
+vim ./bin/update-externals 
+vim ./build_native.sh 
+vim .git/config 
+vim .git/svn/.metadata 
+vim .gitignore 
+vim .vimrc
+vim .vimrc.local
+vim /Users/xcj/.profile
+vim /Users/xcj/.ssh/id_rsa.pub 
+vim /Users/xcj/.ssh/known_hosts
+vim /Users/xcj/.vim/vimrc 
+vim /Users/xcj/Desktop/archive/crash/ZTE-GEEK.log 
+vim /Users/xcj/Desktop/archive/crash/black.log 
+vim /Users/xcj/Desktop/fanti-fanti_en.txt 
+vim /Users/xcj/Desktop/history.txt 
+vim /Users/xcj/Desktop/log.txt 
+vim /Users/xcj/Desktop/server/
+vim /Users/xcj/Documents/misc/note.txt 
+vim /Users/xcj/Documents/misc/sanguo/G-GM指令.txt 
+vim /Users/xcj/Documents/misc/sanguo/crash.txt 
+vim /Users/xcj/Documents/misc/sanguo/modules.txt 
+vim /Users/xcj/Documents/misc/sanguo/note.txt 
+vim /Users/xcj/Documents/project/archive/cocos2d-2.1rc0-x-2.1.2/
+vim /Users/xcj/Documents/project/sanguo/misc/cdn/
+vim /Users/xcj/Documents/project/test/
+vim /Users/xcj/Documents/project/tool/bugly/android/gen 
+vim /Users/xcj/Documents/project/tool/bugly/ios/gen
+vim /Users/xcj/Documents/project/tool/bugly/ios/gen 
+vim /Users/xcj/Documents/project/tool/bugly/ios/gen/gen 
+vim /Users/xcj/Downloads/Bugly_v2/
+vim /Users/xcj/Downloads/Qxd版本总结.txt 
+vim /Users/xcj/Downloads/套装
+vim /Users/xcj/Downloads/套装.txt 
+vim /Users/xcj/Downloads/套装\(1\).txt 
+vim /Users/xcj/Downloads/工会战/未处理问题.txt 
+vim /Users/xcj/Downloads/版本总结.txt 
+vim /Users/xcj/Downloads/未处理问题.txt 
+vim /Users/xcj/Public/版本总结.txt 
+vim /Volumes/Data/Archives/windows/os/setup/setup.bat
+vim /Volumes/Data/swap/win10.txt
+vim /Volumes/Data/swap/文档/
+vim /Volumes/Data/swap/文档/估时.txt
+vim /Volumes/Data/swap/文档/估时.txt 
+vim /Volumes/Data/swap/前端总结.txt
+vim /Volumes/EFI/EFI/CLOVER/config.plist 
+vim /Volumes/Teclast/backup/note.txt 
+vim MHXJ/Classes/LogoScene.cpp
+vim MHXJ/Resources/res/config/StringConfig.lua 
+vim SkillTextConfig.lua 
+vim Win10_1607_English_x64.iso
+vim activity/gameGlobalVar.lua 
+vim analyse 
+vim apk/assets/res/cfg/gameConfigTemplate.lua 
+vim build.xml 
+vim build_native.sh 
+vim config 
+vim data.txt 
+vim database/sh600000.json 
+vim database/sh600023.json 
+vim database/sh601225.json 
+vim diff.txt 
+vim dump.dat 
+vim dump.txt 
+vim gameConfigTemplate.lua 
+vim header.h 
+vim history.txt 
+vim hosts 
+vim init_project.sh 
+vim list.txt 
+vim log.txst
+vim log.txt
+vim log.txt 
+vim log2.txt 
+vim log3.txt 
+vim logReceiver
+vim mac.txt 
+vim mh_const.h 
+vim mh_header.h
+vim mh_protocol.patch.h 
+vim mh_protocol_const.h 
+vim output.txt 
+vim patch.txt 
+vim patch/res/so/libgame.patch 
+vim patch/res/so/libgamemd5 
+vim pre_sdk.sh 
+vim programming/Lua\ vs\ C++.txt 
+vim programming/Quick\ Lua\ Tour.txt 
+vim protocol/
+vim res/so/libgamemd5 
+vim server
+vim server 
+vim split 
+vim stack.txt 
+vim sz002353.log 
+vim test
+vim test 
+vim test.rb
+vim test.sh
+vim test.txt 
+vim total.txt 
+vim update 
+vim version-diff 
+vim x.log 
+vim x.txt 
+vim xxx.log 
+vim xxx.log sz002353.log 
+vim xxx/res/so/libgamemd5 
+vim ~/.vim/vimrc
+vim ~/Desktop/patch/res/so/libgamemd5
+vim ~/Documents/misc/sanguo/crash/cocos2d::BitmapDC::getBitmapFromJavaShadowStroke.txt
+vim ~/Documents/project/tool/bugly/android/gen 
+vim ~/Documents/project/tool/bugly/ios/gen 
+vim./bin/init-externals 
+vim\
+vimdiff 0.txt 1.txt
+vimdiff 0.txt 1.txt 
+vimdiff 1.txt "-.txt"
+vimdiff 1.txt -.txt 
+vimdiff 1.txt 2.txt 
+vimdiff 1.txt \-.txt 
+vimdiff mh_protocol-.h mh_protocol+.h 
+vimdiff mh_protocol-.h mh_protocol.h 
+vimdiff mh_protocol.h mh_protocol.h.bak 
+vimdiff mh_protocol.h mh_protocol.new.h 
+vimdiff mh_protocol.old.h mh_protocol.h
+vimdiff mh_protocol.old.h output.txt 
+vimdiff mh_protocol.old.h output.txt mh_protocol.old.h output.txt 
+vimdiff mh_protocol.patch.h mh_protocol.h 
+vimdiff sh600079.log sh600633.log 
+vimdiff sh600079.log sz000963.log 
+vimdiff xxx.log sz002353.log 
+vimtutor 
+wd
+wget
+wget http://cdn.hydragamez.com/package/Resource_part_20170323172749.zip
+wget https://software-download.microsoft.com/pr/Win10_1607_English_x64.iso?t=c8ac5355-e6ce-45ac-9002-97711ee956d7&e=1490254876&h=91883ffc809d78d433e9c278d34e5e9e
+wget https://wsldownload.azureedge.net/ubuntu.ico
+which jump
+which luajit
+zip -r patch.zip res
+zip -r patch.zip res/
+~
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e libgame-fanti-1-online-release-1.1.0-20161225183518-clientr82054-resr82048-configr82041-luar81857.so 0068f61a 0068beb2 0026f69e 0026f798 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e libgame-fanti-1-online-release-1.1.0-20161228214341-clientr82365-resr82338-configr82370-luar81857.so 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e libgame-fanti-1-online-release-1.1.0-20161228214341-clientr82365-resr82338-configr82370-luar81857.so 000009cc
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e libgame-fanti-1-online-release-1.1.0-20161228214341-clientr82365-resr82338-configr82370-luar81857.so 004bfa31 00303cc3 0054519b 00545071 003ee7f9 003eeeb7 003ef4d7 003ef869 0067d389 00690677 006906fd 006ad9cb
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e libgame-fanti-1-online-release-1.1.0-20161228214341-clientr82365-resr82338-configr82370-luar81857.so 007c179b
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-1-fanti-1-release-1.1.6-20170309105447-clientr85697-resr85657-configr85667-luar85308.so 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-1-fanti-1-release-1.1.6-20170309105447-clientr85697-resr85657-configr85667-luar85308.so 00435336 0048bbd2 0044b810
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-1-fanti-1-release-1.1.8-20170411183451-clientr87807-resr87689-configr87702-luar87689.so 00022220  0066928f  005c6edd  005c2cff  00450ba5  004512bf  00451947  00451cd9  0070b3d5  0071e6c7  0071e74d  0073ba1b  000204cc  00051157  00029960  00030dec  0002e484  000635b9  000635dd  000582bb  0000d2c8  0000d460  
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-1-fanti-1-release-1.1.8-20170411183451-clientr87807-resr87689-configr87702-luar87689.so 00345c6a 00346ec1 003449b9 0029546d 002954a1 00711981 007115e3 0071268f 0071261b 007163fb 0070b399 0071e6c7 0071e74d 0073ba1b
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-1-fanti-1-release-1.1.8-20170411183451-clientr87807-resr87689-configr87702-luar87689.so 00451cd9 0070b3d5 0071e6c7 0071e74d 0073ba1b
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-1-fanti-1-release-1.1.8-20170411183451-clientr87807-resr87689-configr87702-luar87689.so 004f680a 0050ca0f 003466b7 00346ec1 003449b9 0029546d 002954a1 00711981 007115e3 0071268f 0071261b 007163fb 0070b399 0071e6c7 0071e74d 0073ba1b
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-1-fanti-1-release-1.1.8-20170411183451-clientr87807-resr87689-configr87702-luar87689.so 0066928f 005c6edd 005c2cff 00450ba5 004512bf 00451947 00451cd9 0070b3d5 0071e6c7 0071e74d 0073ba1b
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-en-fanti-en-release-1.0.0-20170322151135-clientr86374-resr86163-configr86409-luar86181.so 0033465e 00335889 003333ad 00284e51 00284e85 006ce1f1
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-fanti-en-fanti-en-release-1.0.0-20170322151135-clientr86374-resr86163-configr86409-luar86181.so 006d6798 00492057 00492e63 00491ae5 0058f05b 0058f09f
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-huawei-yingzheng-huawei-yingzheng-release-1.0.0-20170316202048-clientr86172-resr85842-configr85813-luar84106.so
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-korea-online-release-1.3.4-20170221181002-clientr84763-resr84690-configr84812-luar84106.so 006d9eda 006d6772 0031b4c4
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/bugly/libgame-korea-online-release-1.3.5-20170322144826-clientr86374-resr86408-configr86406-luar86181.so 004fef16 004ff21b 005a3cf3 0037b9d7 0037d6cd 0037d73b 0037ad67 0037a67d 0037ade9 00284e51 00284e85 006ce1f1 006cde53 006ceeff 006cee8b
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.1.4-20170210155605-clientr84365-resr84392-configr84397-luar84106.so 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.1.4-20170210155605-clientr84365-resr84392-configr84397-luar84106.so 00260f33 0026e6df
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.1.4-20170210155605-clientr84365-resr84392-configr84397-luar84106.so 00275942 006d25c8 006d2632 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.1.4-20170210155605-clientr84365-resr84392-configr84397-luar84106.so 003e1d5b 003de277 00642ae7 006eab38
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.1.4-20170210155605-clientr84365-resr84392-configr84397-luar84106.so 0041976a 00470474 0042fc3c 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.1.4-20170210155605-clientr84365-resr84392-configr84397-luar84106.so 006b3f42 006b07da 003e1d5a 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.1.6-20170309105447-clientr85697-resr85657-configr85667-luar85308.so 00281c02 006f8538 006f85a2
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.2.0-20170304170645-clientr85461-resr85367-configr85448-luar85308.so 0022e4e6 0092ea6c
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.2.0-20170304170645-clientr85461-resr85367-configr85448-luar85308.so 00334696 00334693
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.2.0-20170304170645-clientr85461-resr85367-configr85448-luar85308.so 006d9eea 006d6783 00492067 00492e73 00491af5 0058f06b 0058f0af 006c7c37 006daf47
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.2.0-20170304170645-clientr85461-resr85367-configr85448-luar85308.so CE18F000 CE18F180 CE18F300 CE18F480 CE18F600 CE18F780 CE18F900 CE18FA80 CE18FC00 CE18FD80 CE18FF00
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-fanti-1-release-1.2.0-20170304170645-clientr85461-resr85367-configr85448-luar85308.so D207F000 D207F180 D207F300 D207F480 D207F600 D207F780 D207F900 D207FA80 D207FC00 D207FD80 D207FF00
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-online-release-1.1.0-20161225183518-clientr82054-resr82048-configr82041-luar81857.so 003c584c 003c4945
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-online-release-1.1.0-20161225183518-clientr82054-resr82048-configr82041-luar81857.so 0068f61a 0068beb2 0026f69e 0026f798 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-online-release-1.1.0-20161225183518-clientr82054-resr82048-configr82041-luar81857.so 0068f61a 0068beb2 0026f69e 0026f798 004b8200 004bac4e 0024be60 00574b2c
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-online-release-1.1.0-20161225183518-clientr82054-resr82048-configr82041-luar81857.so 006c54b8 64fc1c72
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-online-release-1.1.2-20170117193726-clientr83781-resr83772-configr83791-luar83683.so 00275932 006d2288 006d22f2
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-online-release-1.1.2-20170117193726-clientr83781-resr83772-configr83791-luar83683.so 006b3c02 006b049a 0027a6ce 0027a7c8
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-fanti-1-online-release-1.1.2-20170117193726-clientr83781-resr83772-configr83791-luar83683.so 006e99c4
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-huawei-yingzheng-huawei-yingzheng-release-1.0.0-20170316202048-clientr86172-resr85842-configr85813-luar84106.so 006b4482 006b0d1a 0030f0d0 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-huawei-yingzheng-huawei-yingzheng-release-1.0.0-20170316202048-clientr86172-resr85842-configr85813-luar84106.so 006b4482 006b0d1b 0030f0d1 003106eb
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-korea-online-release-1.3.0-20161222214409-clientr81893-resr81840-configr81799-luar81857.so 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-korea-online-release-1.3.0-20161222214409-clientr81893-resr81840-configr81799-luar81857.so  0068f61a 0068beb2 0026f69e 0026f798
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-korea-online-release-1.3.0-20161222214409-clientr81893-resr81840-configr81799-luar81857.so 002565ff 00263b47
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-korea-online-release-1.3.0-20161222214409-clientr81893-resr81840-configr81799-luar81857.so 002565ff 00263b47 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-korea-online-release-1.3.0-20161222214409-clientr81893-resr81840-configr81799-luar81857.so 003c587c 003c4975
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-korea-online-release-1.3.0-20161222214409-clientr81893-resr81840-configr81799-luar81857.so 0068f61a 0068beb2 0026f69e 0026f798
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-korea-online-release-1.3.0-20161222214409-clientr81893-resr81840-configr81799-luar81857.so 0068f61a 0068beb3 0026f69f 0026f799 004bfa31 
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-southease_asia_english-online-release-1.2.0-20170118142311-clientr83844-resr83848-configr83834-luar83683.so 006ef9e0 006f6748
+~/Documents/project/android/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -e ~/Desktop/libgame-yijie-yingzheng-yijie-yingzheng-release-1.0.0-20170309150143-clientr85606-resr84780-configr85632-luar84106.so 006b4462 006b0cfb 0030f0b9 003106d3 
+~/Documents/project/tool/bs/diff 
+~/Documents/project/tool/bs/diff libgame.1.so libs/armeabi-v7a/libgame.so 
+~/Documents/project/tool/bs/diff libgame.1.so libs/armeabi-v7a/libgame.so libgame.patch
+~/Documents/project/tool/bs/diff ~/Desktop/apk/lib/armeabi-v7a/libgame.so libs/armeabi-v7a/libgame.so libgame.patch
+~/Documents/project/tool/bs/diff ~/Desktop/apk/lib/armeabi-v7a/libgame.so libs/armeabi-v7a/libgame.so ~/Desktop/patch/res/so/libgame.patch 
+~/Documents/project/tool/bugly/android/gen 20170117193726
+~/Documents/project/tool/bugly/android/gen 20170210155605
+~/Documents/project/tool/bugly/android/gen 20170221181002
+~/Documents/project/tool/bugly/android/gen 20170304170645
+~/Documents/project/tool/bugly/android/gen 20170309105447
+~/Documents/project/tool/bugly/android/gen 20170309150143
+~/Documents/project/tool/bugly/android/gen 20170316202048
+~/Documents/project/tool/bugly/android/gen 20170322144826
+~/Documents/project/tool/bugly/android/gen 20170322151135
+~/Documents/project/tool/bugly/android/gen 20170411183451
+~/Documents/project/tool/bugly/gen 20161028105113
+~/Documents/project/tool/bugly/gen 20161222214409
+~/Documents/project/tool/bugly/gen 20161225183518
+~/Documents/project/tool/bugly/gen 20161228214341
+~/Documents/project/tool/bugly/gen 20170116153551
+~/Documents/project/tool/bugly/gen 20170117193726
+~/Documents/project/tool/bugly/gen 20170118142311
+~/Documents/project/tool/bugly/ios/gen 20170117162210
+~/Documents/project/tool/bugly/ios/gen 20170209170936
+~/Documents/project/tool/bugly/ios/gen 20170322190305

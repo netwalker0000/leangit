@@ -195,6 +195,8 @@ git commit
 git rm --cached <file>
 重用提交说明
 git commit -C commitId
+生成空提交
+git commit --allow-empty -m
 
 恢复删除的文件恢复到本地
 git checkout HEAD~1 -- filename
@@ -241,3 +243,19 @@ git rebase -i --onto <newbase> <since> <till>
 
 删除里程碑
 git tag -d <name>
+
+反向提交
+重新做一次提交，相当于用错误的历史提交的反向提交，来修正错误的历史提交
+git revert
+
+版本库克隆
+git clone <repository> <directory>
+git clone --bare <reepository> <directory.git>
+git clone --mirror <repository> <directory.git>
+
+git push [<remote-repos> [<refspec>]]
+git pull [<remote-repos> [<refspec>]]
+
+卖主分支
+就是在版本库中创建一个专门和上游代码进行同步的分支，一旦有上游代码发布就检入到卖主分支中。
+
